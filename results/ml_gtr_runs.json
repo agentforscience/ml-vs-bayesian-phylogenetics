@@ -1,0 +1,42 @@
+[
+ {
+  "dataset": "fmdv_uk_2001",
+  "ok": true,
+  "seconds": 9.4
+ },
+ {
+  "dataset": "fmdv_uk_2007",
+  "ok": true,
+  "seconds": 14.2
+ },
+ {
+  "dataset": "ebov_sierraleone_2014",
+  "ok": true,
+  "seconds": 55.9
+ },
+ {
+  "dataset": "ebov_westafrica_makona",
+  "ok": true,
+  "seconds": 99.9
+ },
+ {
+  "dataset": "mers_korea_2015",
+  "ok": true,
+  "seconds": 62.1
+ },
+ {
+  "dataset": "zika_americas_2015_2016",
+  "ok": true,
+  "seconds": 62.5
+ },
+ {
+  "dataset": "sarscov2_usa_early2020",
+  "ok": true,
+  "seconds": 57.3
+ },
+ {
+  "dataset": "h5n1_dairy_cattle_2024",
+  "ok": true,
+  "seconds": 67.6
+ }
+]

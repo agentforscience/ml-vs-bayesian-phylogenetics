@@ -1,0 +1,24 @@
+{
+ "dataset": "sarscov2_usa_early2020",
+ "seconds": 355.3,
+ "cmd": [
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2",
+  "-s",
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/sarscov2_usa_early2020/analysis.fasta",
+  "-m",
+  "MFP",
+  "--prefix",
+  "results/sarscov2_usa_early2020/sarscov2_usa_early2020_ml",
+  "-T",
+  "4",
+  "-redo",
+  "--quiet",
+  "-B",
+  "1000",
+  "--wbtl",
+  "-alrt",
+  "1000",
+  "-seed",
+  "1"
+ ]
+}

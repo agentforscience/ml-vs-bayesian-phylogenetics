@@ -1,0 +1,19 @@
+{
+ "dataset": "mers_korea_2015",
+ "seconds": 3.4,
+ "cmd": [
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2",
+  "-s",
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta",
+  "-m",
+  "MFP",
+  "--prefix",
+  "results/mers_korea_2015/mers_korea_2015_mlrep3",
+  "-T",
+  "2",
+  "-redo",
+  "--quiet",
+  "-seed",
+  "90210"
+ ]
+}

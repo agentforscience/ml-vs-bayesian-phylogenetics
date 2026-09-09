@@ -1,0 +1,16 @@
+#NEXUS
+begin mrbayes;
+    set autoclose=yes nowarn=yes;
+    set seed=42 swapseed=42;
+    execute datasets/mers_korea_2015/analysis.nex;
+    lset nst=6 rates=invgamma;
+    prset statefreqpr=dirichlet(1,1,1,1) revmatpr=dirichlet(1,1,1,1,1,1)
+          shapepr=exponential(1.0) pinvarpr=uniform(0,1)
+          brlenspr=unconstrained:gammadir(1,1000,1,1);
+    mcmcp ngen=3000000 nruns=2 nchains=4 samplefreq=300
+          printfreq=150000 diagnfreq=150000
+          filename=results/mers_korea_2015/mers_korea_2015_mb;
+    mcmc;
+    sumt relburnin=yes burninfrac=0.25 conformat=simple contype=allcompat;
+    sump relburnin=yes burninfrac=0.25;
+end;

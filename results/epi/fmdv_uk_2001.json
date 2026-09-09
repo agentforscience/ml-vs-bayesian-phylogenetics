@@ -1,0 +1,1043 @@
+{
+ "dataset": "fmdv_uk_2001",
+ "primary_trait": "host",
+ "trait_cleaning": {
+  "applied": true,
+  "n_levels_before": 5,
+  "n_levels_after": 3,
+  "n_changed": 23,
+  "levels_after": {
+   "cattle": 25,
+   "sheep": 14,
+   "pig": 4
+  }
+ },
+ "n_trait_levels": 3,
+ "traits_available": [
+  "geo_country",
+  "host"
+ ],
+ "rooting": {
+  "ml": {
+   "r2": 0.6864,
+   "rate": "7.808e-03",
+   "n_dated": 43
+  },
+  "mlrep2": {
+   "r2": 0.6864,
+   "rate": "7.810e-03",
+   "n_dated": 43
+  },
+  "mlrep3": {
+   "r2": 0.6866,
+   "rate": "7.813e-03",
+   "n_dated": 43
+  },
+  "mlrep4": {
+   "r2": 0.6864,
+   "rate": "7.811e-03",
+   "n_dated": 43
+  },
+  "mlrep5": {
+   "r2": 0.6866,
+   "rate": "7.811e-03",
+   "n_dated": 43
+  },
+  "mb": {
+   "r2": 0.6725,
+   "rate": "6.043e-03",
+   "n_dated": 43
+  },
+  "mlgtr": {
+   "r2": 0.6865,
+   "rate": "7.834e-03",
+   "n_dated": 43
+  },
+  "mbrun1": {
+   "r2": 0.6525,
+   "rate": "6.533e-03",
+   "n_dated": 43
+  },
+  "mbrun2": {
+   "r2": 0.6698,
+   "rate": "6.250e-03",
+   "n_dated": 43
+  }
+ },
+ "earliest_group": {
+  "group": "pig",
+  "first_sampled": {
+   "pig": 2001.1352,
+   "cattle": 2001.1462,
+   "sheep": 2001.1599
+  },
+  "gap_to_second": 0.011
+ },
+ "ml_root_clade_size": 1,
+ "index_matches_earliest_group": {
+  "ml": true,
+  "mlrep2": true,
+  "mlrep3": true,
+  "mlrep4": true,
+  "mlrep5": true,
+  "mb": true,
+  "mlgtr": true,
+  "mbrun1": true,
+  "mbrun2": true
+ },
+ "point_readouts": {
+  "ml": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 2,
+    "sheep": 6
+   },
+   "parsimony_score": 13,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "cattle->pig",
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 13,
+   "n_clusters_loose": 9,
+   "n_clustered_loose": 19
+  },
+  "mlrep2": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 2,
+    "sheep": 6
+   },
+   "parsimony_score": 13,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "cattle->pig",
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 13,
+   "n_clusters_loose": 8,
+   "n_clustered_loose": 17
+  },
+  "mlrep3": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 1,
+    "sheep": 7
+   },
+   "parsimony_score": 13,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 5,
+   "n_clustered_standard": 11,
+   "n_clusters_loose": 6,
+   "n_clustered_loose": 13
+  },
+  "mlrep4": {
+   "intro_total": 15,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 2,
+    "sheep": 7
+   },
+   "parsimony_score": 14,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 14,
+   "edge_set": [
+    "cattle->pig",
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 5,
+   "n_clustered_standard": 11,
+   "n_clusters_loose": 7,
+   "n_clustered_loose": 15
+  },
+  "mlrep5": {
+   "intro_total": 13,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 1,
+    "sheep": 6
+   },
+   "parsimony_score": 12,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 12,
+   "edge_set": [
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 13,
+   "n_clusters_loose": 8,
+   "n_clustered_loose": 17
+  },
+  "mb": {
+   "intro_total": 15,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 2,
+    "sheep": 7
+   },
+   "parsimony_score": 14,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 14,
+   "edge_set": [
+    "cattle->pig",
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 12,
+   "n_clusters_loose": 9,
+   "n_clustered_loose": 20
+  },
+  "mlgtr": {
+   "intro_total": 15,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 2,
+    "sheep": 7
+   },
+   "parsimony_score": 14,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 14,
+   "edge_set": [
+    "cattle->pig",
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 13,
+   "n_clusters_loose": 10,
+   "n_clustered_loose": 21
+  },
+  "mbrun1": {
+   "intro_total": 15,
+   "intro_per_region": {
+    "cattle": 6,
+    "pig": 2,
+    "sheep": 7
+   },
+   "parsimony_score": 14,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 14,
+   "edge_set": [
+    "cattle->pig",
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 12,
+   "n_clusters_loose": 8,
+   "n_clustered_loose": 17
+  },
+  "mbrun2": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "cattle": 5,
+    "pig": 1,
+    "sheep": 8
+   },
+   "parsimony_score": 13,
+   "index": "pig",
+   "index_ambiguous": false,
+   "index_states": [
+    "pig"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "cattle->sheep",
+    "pig->cattle",
+    "sheep->cattle"
+   ],
+   "n_clusters_tight": 0,
+   "n_clustered_tight": 0,
+   "n_clusters_standard": 6,
+   "n_clustered_standard": 12,
+   "n_clusters_loose": 9,
+   "n_clustered_loose": 21
+  }
+ },
+ "comparisons": {
+  "BETWEEN_ml_vs_bayes": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": false,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.694323,
+   "d_n_clusters_loose": 0,
+   "ari_loose": 0.651625
+  },
+  "NULL_mcmc_replicate": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "cattle->pig"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 3,
+   "n_regions_differing": 3,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.819444,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.674991
+  },
+  "BETWEEN_mlGTR_vs_bayes_PARADIGM_ONLY": {
+   "introduction_count_differs": false,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 0,
+   "d_intro_L1": 0,
+   "n_regions_differing": 0,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": false,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.694323,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.707846
+  },
+  "MODEL_ml_modelfinder_vs_mlGTR": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 1.0,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.862024
+  },
+  "NULL_ml_reseed_ml_vs_mlrep2": {
+   "introduction_count_differs": false,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 0,
+   "d_intro_L1": 0,
+   "n_regions_differing": 0,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": false,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 1.0,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.949273
+  },
+  "NULL_ml_reseed_ml_vs_mlrep3": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "cattle->pig"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 0,
+   "d_intro_L1": 2,
+   "n_regions_differing": 2,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.926276,
+   "d_n_clusters_loose": 3,
+   "ari_loose": 0.833062
+  },
+  "NULL_ml_reseed_ml_vs_mlrep4": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.926276,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.789006
+  },
+  "NULL_ml_reseed_ml_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "cattle->pig"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 1.0,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.949273
+  },
+  "NULL_ml_reseed_mlrep2_vs_mlrep3": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "cattle->pig"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 0,
+   "d_intro_L1": 2,
+   "n_regions_differing": 2,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.926276,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.881119
+  },
+  "NULL_ml_reseed_mlrep2_vs_mlrep4": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.926276,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.831683
+  },
+  "NULL_ml_reseed_mlrep2_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "cattle->pig"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 1,
+   "cluster_count_differs": false,
+   "cluster_partition_differs": false,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": false,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 1.0,
+   "d_n_clusters_loose": 0,
+   "ari_loose": 1.0
+  },
+  "NULL_ml_reseed_mlrep3_vs_mlrep4": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [
+    "cattle->pig"
+   ],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 1.0,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.936015
+  },
+  "NULL_ml_reseed_mlrep3_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.926276,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.881119
+  },
+  "NULL_ml_reseed_mlrep4_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "cattle->pig"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 2,
+   "d_intro_L1": 2,
+   "n_regions_differing": 2,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.926276,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.831683
+  }
+ },
+ "null_ml_reseed_change_rate": 1.0,
+ "null_ml_reseed_tier1_rate": 0.0,
+ "rooting_sensitivity": {
+  "common_root_applied": {
+   "ml": true,
+   "mb": true
+  },
+  "under_common_root": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": false,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.694323,
+   "d_n_clusters_loose": 0,
+   "ari_loose": 0.651625
+  },
+  "under_midpoint_root": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.828897,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.671584
+  }
+ },
+ "distributions": {
+  "intro_total": {
+   "ufboot": {
+    "n": 1000,
+    "mean": 14.65,
+    "median": 15,
+    "sd": 0.6193,
+    "lo95": 13,
+    "hi95": 16,
+    "mode": 15,
+    "pmf": {
+     "13": 0.027,
+     "14": 0.342,
+     "15": 0.59,
+     "16": 0.036,
+     "17": 0.005
+    }
+   },
+   "posterior": {
+    "n": 1000,
+    "mean": 14.77,
+    "median": 15,
+    "sd": 0.4484,
+    "lo95": 14,
+    "hi95": 15,
+    "mode": 15,
+    "pmf": {
+     "13": 0.011,
+     "14": 0.209,
+     "15": 0.779,
+     "16": 0.001
+    }
+   },
+   "test": {
+    "U": 440236.5,
+    "p": 1.1713618111994917e-08,
+    "effect": -0.1195,
+    "median_diff": 0.0
+   },
+   "overlap": 0.811,
+   "tv": 0.189
+  },
+  "n_transitions": {
+   "ufboot": {
+    "n": 1000,
+    "mean": 13.65,
+    "median": 14,
+    "sd": 0.6193,
+    "lo95": 12,
+    "hi95": 15,
+    "mode": 14,
+    "pmf": {
+     "12": 0.027,
+     "13": 0.342,
+     "14": 0.59,
+     "15": 0.036,
+     "16": 0.005
+    }
+   },
+   "posterior": {
+    "n": 1000,
+    "mean": 13.77,
+    "median": 14,
+    "sd": 0.4484,
+    "lo95": 13,
+    "hi95": 14,
+    "mode": 14,
+    "pmf": {
+     "12": 0.011,
+     "13": 0.209,
+     "14": 0.779,
+     "15": 0.001
+    }
+   },
+   "test": {
+    "U": 440236.5,
+    "p": 1.1713618111994917e-08,
+    "effect": -0.1195,
+    "median_diff": 0.0
+   },
+   "overlap": 0.811,
+   "tv": 0.189
+  },
+  "parsimony_score": {
+   "ufboot": {
+    "n": 1000,
+    "mean": 13.65,
+    "median": 14,
+    "sd": 0.6193,
+    "lo95": 12,
+    "hi95": 15,
+    "mode": 14,
+    "pmf": {
+     "12": 0.027,
+     "13": 0.342,
+     "14": 0.59,
+     "15": 0.036,
+     "16": 0.005
+    }
+   },
+   "posterior": {
+    "n": 1000,
+    "mean": 13.77,
+    "median": 14,
+    "sd": 0.4484,
+    "lo95": 13,
+    "hi95": 14,
+    "mode": 14,
+    "pmf": {
+     "12": 0.011,
+     "13": 0.209,
+     "14": 0.779,
+     "15": 0.001
+    }
+   },
+   "test": {
+    "U": 440236.5,
+    "p": 1.1713618111994917e-08,
+    "effect": -0.1195,
+    "median_diff": 0.0
+   },
+   "overlap": 0.811,
+   "tv": 0.189
+  },
+  "index_group": {
+   "earliest_sampled_group": "pig",
+   "ufboot_prob_of_earliest": 0.818,
+   "posterior_prob_of_earliest": 0.467,
+   "ufboot_pmf": {
+    "pig": 0.818,
+    "cattle": 0.182
+   },
+   "posterior_pmf": {
+    "cattle": 0.528,
+    "pig": 0.467,
+    "sheep": 0.005
+   },
+   "tv": 0.351,
+   "overlap": 0.649,
+   "ufboot_top": "pig",
+   "posterior_top": "cattle",
+   "ufboot_top_prob": 0.818,
+   "posterior_top_prob": 0.528
+  },
+  "edge_support": {
+   "n_edges": 6,
+   "n_ufboot": 1000,
+   "n_posterior": 1000,
+   "table": {
+    "cattle->pig": [
+     0.962,
+     0.915
+    ],
+    "cattle->sheep": [
+     1.0,
+     1.0
+    ],
+    "pig->cattle": [
+     0.863,
+     0.598
+    ],
+    "pig->sheep": [
+     0.0,
+     0.001
+    ],
+    "sheep->cattle": [
+     1.0,
+     1.0
+    ],
+    "sheep->pig": [
+     0.0,
+     0.001
+    ]
+   },
+   "max_abs_diff": 0.265,
+   "n_edges_diff_gt_0_5": 0,
+   "n_confident_both": 2,
+   "n_confident_conflict": 1
+  },
+  "n_clusters_tight": {
+   "ufboot": {
+    "n": 300,
+    "mean": 0.0,
+    "median": 0,
+    "sd": 0.0,
+    "lo95": 0,
+    "hi95": 0,
+    "mode": 0,
+    "pmf": {
+     "0": 1.0
+    }
+   },
+   "posterior": {
+    "n": 300,
+    "mean": 0.4167,
+    "median": 0,
+    "sd": 0.6555,
+    "lo95": 0,
+    "hi95": 2,
+    "mode": 0,
+    "pmf": {
+     "0": 0.66667,
+     "1": 0.26,
+     "2": 0.06333,
+     "3": 0.01
+    }
+   },
+   "test": {
+    "U": 30000.0,
+    "p": 9.929238932235416e-28,
+    "effect": -0.3333,
+    "median_diff": 0.0
+   },
+   "overlap": 0.66667
+  },
+  "n_clusters_standard": {
+   "ufboot": {
+    "n": 300,
+    "mean": 6.18,
+    "median": 6,
+    "sd": 0.703,
+    "lo95": 5,
+    "hi95": 8,
+    "mode": 6,
+    "pmf": {
+     "4": 0.01667,
+     "5": 0.09333,
+     "6": 0.61333,
+     "7": 0.24667,
+     "8": 0.03
+    }
+   },
+   "posterior": {
+    "n": 300,
+    "mean": 5.7733,
+    "median": 6,
+    "sd": 1.3046,
+    "lo95": 3,
+    "hi95": 8,
+    "mode": 6,
+    "pmf": {
+     "2": 0.00333,
+     "3": 0.03,
+     "4": 0.13667,
+     "5": 0.24667,
+     "6": 0.29667,
+     "7": 0.18667,
+     "8": 0.09,
+     "9": 0.01
+    }
+   },
+   "test": {
+    "U": 54264.0,
+    "p": 3.748315011794082e-06,
+    "effect": 0.2059,
+    "median_diff": 0.0
+   },
+   "overlap": 0.62334
+  },
+  "n_clusters_loose": {
+   "ufboot": {
+    "n": 300,
+    "mean": 8.59,
+    "median": 9,
+    "sd": 0.8992,
+    "lo95": 7,
+    "hi95": 10,
+    "mode": 8,
+    "pmf": {
+     "6": 0.00667,
+     "7": 0.08333,
+     "8": 0.39,
+     "9": 0.36667,
+     "10": 0.14,
+     "11": 0.01333
+    }
+   },
+   "posterior": {
+    "n": 300,
+    "mean": 8.3533,
+    "median": 8,
+    "sd": 1.1641,
+    "lo95": 6,
+    "hi95": 11,
+    "mode": 8,
+    "pmf": {
+     "5": 0.00333,
+     "6": 0.04667,
+     "7": 0.18667,
+     "8": 0.30667,
+     "9": 0.3,
+     "10": 0.12667,
+     "11": 0.03
+    }
+   },
+   "test": {
+    "U": 50266.0,
+    "p": 0.009554083998942383,
+    "effect": 0.117,
+    "median_diff": 1.0
+   },
+   "overlap": 0.83667
+  }
+ },
+ "analysis_seconds": 77.5
+}

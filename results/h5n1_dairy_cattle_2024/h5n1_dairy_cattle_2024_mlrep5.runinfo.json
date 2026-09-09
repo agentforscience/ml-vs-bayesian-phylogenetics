@@ -1,0 +1,19 @@
+{
+ "dataset": "h5n1_dairy_cattle_2024",
+ "seconds": 19.9,
+ "cmd": [
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2",
+  "-s",
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/h5n1_dairy_cattle_2024/analysis.fasta",
+  "-m",
+  "MFP",
+  "--prefix",
+  "results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlrep5",
+  "-T",
+  "2",
+  "-redo",
+  "--quiet",
+  "-seed",
+  "777"
+ ]
+}

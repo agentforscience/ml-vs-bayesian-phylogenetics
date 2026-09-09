@@ -1,0 +1,466 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_westafrica_makona/analysis.fasta -m MFP --prefix results/ebov_westafrica_makona/ebov_westafrica_makona_mlrep2 -T 2 -redo --quiet -seed 2024
+Seed:    2024 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:24:45 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_westafrica_makona/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.058086 secs using 65.11% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 150 sequences with 18979 columns, 1105 distinct patterns
+205 parsimony-informative, 358 singleton sites, 18416 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000329605 secs using 265.2% CPU
+   1  KP096421    0.12%    passed     99.79%
+   2  KX000400    0.15%    passed     99.30%
+   3  KY425654    0.34%    passed     99.72%
+   4  KT013256    0.11%    passed     99.82%
+   5  KY425648    0.36%    passed     99.86%
+   6  KU978801    0.31%    passed     99.70%
+   7  KR817189    0.24%    passed     99.58%
+   8  KR817179    0.11%    passed     99.66%
+   9  KR817180    0.25%    passed     99.49%
+  10  KR817194    0.11%    passed     99.72%
+  11  KR817190    0.22%    passed     99.72%
+  12  KR817191    0.24%    passed     99.71%
+  13  KR817205    0.11%    passed     99.50%
+  14  KR817208    0.24%    passed     99.37%
+  15  KR817209    0.11%    passed     99.41%
+  16  KR817214    0.11%    passed     99.57%
+  17  KR817216    0.11%    passed     99.65%
+  18  KM233049    0.17%    passed     99.45%
+  19  KM233035    0.35%    passed     99.86%
+  20  KM233038    0.34%    passed     99.86%
+  21  KR817220    0.24%    passed     99.70%
+  22  KR817224    0.11%    passed     99.81%
+  23  KM233064    0.93%    passed     99.94%
+  24  KM233073    0.35%    passed     99.84%
+  25  KM233097    0.14%    passed     99.74%
+  26  KM233101    0.54%    passed    100.00%
+  27  KM233105    0.34%    passed     99.88%
+  28  KR817231    0.24%    passed     99.70%
+  29  KR817232    0.11%    passed     99.86%
+  30  KR817233    0.11%    passed     99.74%
+  31  KT725320    1.50%    passed     99.71%
+  32  KT725262    0.71%    passed     99.98%
+  33  KT725336    2.99%    passed     88.87%
+  34  KR817239    0.11%    passed     99.86%
+  35  KU143821    0.11%    passed     99.88%
+  36  KR817240    0.11%    passed     99.55%
+  37  KR817115    0.26%    passed     99.83%
+  38  KR105273    1.06%    passed     99.64%
+  39  KR105274    0.60%    passed    100.00%
+  40  KR534512    0.35%    passed     99.86%
+  41  KR534513    0.11%    passed     99.65%
+  42  KR105290    1.01%    passed     91.56%
+  43  KR534514    0.13%    passed     99.73%
+  44  KT725278    1.04%    passed     99.87%
+  45  KR817128    0.11%    passed     99.69%
+  46  KT725377    0.65%    passed     99.96%
+  47  KR105298    0.27%    passed     99.91%
+  48  KT725390    1.45%    passed     99.58%
+  49  KR817130    0.11%    passed     99.66%
+  50  KR534520    0.13%    passed     99.70%
+  51  KR105309    3.44%    passed     60.07%
+  52  KX009899    0.57%    passed     99.94%
+  53  KR817072    0.17%    passed     99.73%
+  54  KR817075    0.12%    passed     99.64%
+  55  KR534527    0.14%    passed     99.76%
+  56  KT725321    3.28%    passed     91.48%
+  57  KR105339    0.72%    passed     99.86%
+  58  KP759734    0.52%    passed     99.99%
+  59  KR817082    0.11%    passed     99.95%
+  60  KT725361    2.11%    passed     98.70%
+  61  KP759717    0.52%    passed     99.99%
+  62  KR817136    0.12%    passed     99.54%
+  63  KX009904    0.67%    passed     99.99%
+  64  KT633510    0.62%    passed     99.99%
+  65  KP759750    0.52%    passed    100.00%
+  66  KR817145    0.51%    passed    100.00%
+  67  KR534571    0.12%    passed     99.32%
+  68  KR006940    8.73%    passed     75.73%
+  69  KP759614    0.90%    passed     99.95%
+  70  KP759701    0.52%    passed    100.00%
+  71  KR817156    0.91%    passed     99.74%
+  72  KR006948    2.22%    passed     96.31%
+  73  KR653271    0.28%    passed     99.49%
+  74  KT725327    2.68%    passed     92.62%
+  75  KR653259    0.34%    passed     99.89%
+  76  KX009909    0.66%    passed     99.98%
+  77  KR817160    1.19%    passed     99.82%
+  78  KX009911    0.57%    passed     99.80%
+  79  KR817162    0.11%    passed     99.93%
+  80  KU296735    3.04%    passed     88.48%
+  81  KR817177    0.11%    passed     99.68%
+  82  KT633509    1.27%    passed     99.62%
+  83  KU296606    0.50%    passed     99.99%
+  84  KU220283    1.48%    passed     99.48%
+  85  KR817097    0.48%    passed     99.97%
+  86  KR817098    0.11%    passed     99.72%
+  87  KU296387    0.50%    passed     99.83%
+  88  KU296582    0.50%    passed     99.97%
+  89  KT357825    3.07%    passed     99.42%
+  90  KU220284    0.37%    passed     99.91%
+  91  KR006960    3.63%    passed     94.97%
+  92  KU296354    1.16%    passed     99.67%
+  93  KR817103    0.30%    passed     99.81%
+  94  KU296637    0.49%    passed     99.99%
+  95  KT725384    0.66%    passed     99.98%
+  96  LC152433    0.24%    passed     99.88%
+  97  KU296336    1.23%    passed     99.74%
+  98  KU296680    0.54%    passed     99.97%
+  99  KU296451    0.50%    passed     99.85%
+ 100  LT630494    7.42%    passed     97.73%
+ 101  KT587343    3.18%    passed     88.57%
+ 102  LT630498    7.38%    passed     97.90%
+ 103  LT630499    7.50%    passed     98.13%
+ 104  LT630537    7.89%    passed     97.20%
+ 105  KU296768    0.50%    passed     99.84%
+ 106  KU296550    2.85%    passed     89.46%
+ 107  KY366416    0.71%    passed     99.95%
+ 108  KU296769    0.95%    passed     99.86%
+ 109  LT630509    7.38%    passed     96.61%
+ 110  LT630513    7.44%    passed     98.85%
+ 111  LT630521    7.60%    passed     98.72%
+ 112  LT630587    7.37%    passed     98.02%
+ 113  KU296322    0.56%    passed     99.96%
+ 114  LT630576    7.47%    passed     95.95%
+ 115  KU296793    0.52%    passed     99.96%
+ 116  LT630543    7.48%    passed     98.10%
+ 117  LT630544    7.41%    passed     95.03%
+ 118  LT630594    7.45%    passed     98.49%
+ 119  KU296618    0.56%    passed     99.94%
+ 120  KU296603    1.59%    passed     98.32%
+ 121  KU220269    0.24%    passed     99.49%
+ 122  KU220270    0.90%    passed     99.73%
+ 123  KR074997    0.11%    passed     99.77%
+ 124  KR074998    0.11%    passed     99.72%
+ 125  KR075000    0.11%    passed     99.89%
+ 126  KY426689    0.11%    passed     99.55%
+ 127  KY426707    0.11%    passed     99.93%
+ 128  KY426710    0.11%    passed     99.78%
+ 129  KY426717    0.11%    passed     99.98%
+ 130  KY426720    0.11%    passed     99.97%
+ 131  KU220271    0.37%    passed     99.89%
+ 132  LT630555    8.17%    passed     98.70%
+ 133  KU220272    0.29%    passed     99.81%
+ 134  KU220273    0.92%    passed     99.82%
+ 135  KU220274    1.53%    passed     99.88%
+ 136  KU220275    1.22%    passed     99.53%
+ 137  KU296357    0.51%    passed     99.90%
+ 138  KU296566    1.32%    passed     96.94%
+ 139  LT630559    7.47%    passed     96.56%
+ 140  KU296522    0.50%    passed     99.94%
+ 141  LT630598    7.40%    passed     97.65%
+ 142  LT630600    7.81%    passed     94.45%
+ 143  LT630601    7.58%    passed     98.24%
+ 144  LT630602    7.41%    passed     97.71%
+ 145  LT630604    8.57%    passed     98.57%
+ 146  LT630579    7.41%    passed     98.28%
+ 147  LT630563    7.65%    passed     97.60%
+ 148  KX121193    1.23%    passed     99.41%
+ 149  KX121194    0.87%    passed     99.97%
+ 150  KY007525    0.43%    passed     99.99%
+****  TOTAL       1.70%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.017 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -31959.097
+Optimal log-likelihood: -31958.977
+Rate parameters:  A-C: 1.49521  A-G: 7.24681  A-T: 0.76151  C-G: 0.73142  C-T: 10.64148  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.268
+Proportion of invariable sites: 0.486
+Gamma shape alpha: 0.357
+Parameters optimization took 1 rounds (0.184 sec)
+Time for fast ML tree search: 1.807 seconds
+
+NOTE: ModelFinder requires 54 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 18979 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         32008.047    305 64626.095    64636.091    67020.677
+  2  GTR+F+I       31962.093    306 64536.185    64546.248    66938.618
+  3  GTR+F+G4      31964.917    306 64541.834    64551.896    66944.267
+  4  GTR+F+I+G4    31958.945    307 64531.890    64542.018    66942.174
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+Pattern 197 likelihood is underflown
+Pattern 704 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+Pattern 197 likelihood is underflown
+Pattern 704 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+Pattern 197 likelihood is underflown
+Pattern 704 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+Pattern 197 likelihood is underflown
+Pattern 704 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+Pattern 197 likelihood is underflown
+Pattern 704 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+Pattern 197 likelihood is underflown
+Pattern 704 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 141 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 254 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 254 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 254 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 254 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 254 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 254 likelihood is underflown
+  5  GTR+F+R2      31970.377    307 64554.753    64564.882    66965.037
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 873 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 197 likelihood is underflown
+  6  GTR+F+R3      31961.368    309 64540.735    64550.997    66966.722
+ 14  GTR+F+I+R2    31965.128    308 64546.257    64556.452    66964.392
+ 15  GTR+F+I+R3    31960.249    310 64540.498    64550.827    66974.335
+ 24  SYM+I         32293.971    303 65193.942    65203.807    67572.822
+ 25  SYM+G4        32296.066    303 65198.132    65207.997    67577.012
+ 26  SYM+I+G4      32290.499    304 65188.999    65198.929    67575.730
+ 46  TVM+F+I       31970.579    305 64551.158    64561.154    66945.740
+ 47  TVM+F+G4      31973.660    305 64557.320    64567.316    66951.902
+ 48  TVM+F+I+G4    31967.558    306 64547.116    64557.178    66949.549
+ 68  TVMe+I        32301.576    302 65207.151    65216.951    67578.180
+ 69  TVMe+G4       32303.854    302 65211.709    65221.508    67582.737
+ 70  TVMe+I+G4     32298.205    303 65202.409    65212.274    67581.289
+ 90  TIM3+F+I      31966.179    304 64540.359    64550.289    66927.090
+ 91  TIM3+F+G4     31969.019    304 64546.038    64555.968    66932.769
+ 92  TIM3+F+I+G4   31963.034    305 64536.067    64546.063    66930.649
+112  TIM3e+I       32299.796    301 65201.591    65211.326    67564.769
+113  TIM3e+G4      32301.957    301 65205.914    65215.648    67569.091
+114  TIM3e+I+G4    32296.368    302 65196.737    65206.536    67567.766
+134  TIM2+F+I      31967.304    304 64542.608    64552.539    66929.339
+135  TIM2+F+G4     31970.017    304 64548.034    64557.964    66934.764
+136  TIM2+F+I+G4   31964.101    305 64538.203    64548.199    66932.785
+156  TIM2e+I       32298.140    301 65198.281    65208.015    67561.458
+157  TIM2e+G4      32300.189    301 65202.379    65212.113    67565.556
+158  TIM2e+I+G4    32294.627    302 65193.255    65203.054    67564.283
+178  TIM+F+I       31962.825    304 64533.649    64543.580    66920.380
+179  TIM+F+G4      31965.644    304 64539.288    64549.219    66926.019
+180  TIM+F+I+G4    31959.666    305 64529.331    64539.327    66923.913
+200  TIMe+I        32296.593    301 65195.186    65204.920    67558.364
+201  TIMe+G4       32298.709    301 65199.417    65209.152    67562.595
+202  TIMe+I+G4     32293.118    302 65190.235    65200.035    67561.264
+222  TPM3u+F+I     31974.754    303 64555.507    64565.372    66934.387
+223  TPM3u+F+G4    31977.864    303 64561.728    64571.593    66940.608
+224  TPM3u+F+I+G4  31971.726    304 64551.452    64561.382    66938.182
+244  TPM3+I        32307.438    300 65214.876    65224.545    67570.203
+245  TPM3+G4       32309.767    300 65219.535    65229.204    67574.861
+246  TPM3+I+G4     32304.094    301 65210.188    65219.922    67573.365
+266  TPM2u+F+I     31975.948    303 64557.896    64567.761    66936.776
+267  TPM2u+F+G4    31978.919    303 64563.837    64573.702    66942.717
+268  TPM2u+F+I+G4  31972.868    304 64553.735    64563.666    66940.466
+288  TPM2+I        32305.666    300 65211.332    65221.001    67566.659
+289  TPM2+G4       32307.920    300 65215.839    65225.508    67571.166
+290  TPM2+I+G4     32302.270    301 65206.539    65216.274    67569.717
+310  K3Pu+F+I      31971.446    303 64548.893    64558.758    66927.773
+311  K3Pu+F+G4     31974.536    303 64555.073    64564.938    66933.953
+312  K3Pu+F+I+G4   31968.412    304 64544.823    64554.754    66931.554
+332  K3P+I         32304.238    300 65208.477    65218.146    67563.803
+333  K3P+G4        32306.524    300 65213.047    65222.717    67568.374
+334  K3P+I+G4      32300.866    301 65203.733    65213.467    67566.910
+354  TN+F+I        31967.562    303 64541.124    64550.989    66920.004
+355  TN+F+G4       31970.310    303 64546.621    64556.485    66925.500
+356  TN+F+I+G4     31964.362    304 64536.725    64546.655    66923.455
+376  TNe+I         32300.317    300 65200.635    65210.304    67555.961
+377  TNe+G4        32302.414    300 65204.829    65214.498    67560.155
+378  TNe+I+G4      32296.816    301 65195.632    65205.366    67558.809
+398  HKY+F+I       31976.184    302 64556.368    64566.168    66927.397
+399  HKY+F+G4      31979.201    302 64562.403    64572.202    66933.431
+400  HKY+F+I+G4    31973.118    303 64552.236    64562.101    66931.116
+420  K2P+I         32307.947    299 65213.894    65223.499    67561.370
+421  K2P+G4        32310.231    299 65218.463    65228.067    67565.938
+422  K2P+I+G4      32304.572    300 65209.144    65218.813    67564.470
+442  F81+F+I       32277.721    301 65157.442    65167.177    67520.620
+443  F81+F+G4      32280.140    301 65162.280    65172.014    67525.457
+444  F81+F+I+G4    32274.410    302 65152.821    65162.620    67523.849
+464  JC+I          32597.996    298 65791.991    65801.531    68131.616
+465  JC+G4         32600.258    298 65796.516    65806.056    68136.140
+466  JC+I+G4       32594.610    299 65787.220    65796.825    68134.696
+Akaike Information Criterion:           TIM+F+I+G4
+Corrected Akaike Information Criterion: TIM+F+I+G4
+Bayesian Information Criterion:         TN+F+I
+Best-fit model: TN+F+I chosen according to BIC
+
+All model information printed to results/ebov_westafrica_makona/ebov_westafrica_makona_mlrep2.model.gz
+CPU time for ModelFinder: 59.616 seconds (0h:0m:59s)
+Wall-clock time for ModelFinder: 30.168 seconds (0h:0m:30s)
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -32277.727
+2. Current log-likelihood: -32106.479
+3. Current log-likelihood: -31967.675
+Optimal log-likelihood: -31967.615
+Rate parameters:  A-C: 1.00000  A-G: 7.16385  A-T: 1.00000  C-G: 1.00000  C-T: 10.71604  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.268
+Proportion of invariable sites: 0.822
+Parameters optimization took 3 rounds (0.340 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0462317 secs using 200.3% CPU
+Computing ML distances took 0.046822 sec (of wall-clock time) 0.097207 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000772887 secs using 99.76% CPU
+Computing RapidNJ tree took 0.004060 sec (of wall-clock time) 0.004131 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -31991.117
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.026 second
+Computing log-likelihood of 98 initial trees ... 1.704 seconds
+Current best score: -31960.072
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31959.769
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -31958.738
+BETTER TREE FOUND at iteration 4: -31958.737
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -31958.706
+Iteration 10 / LogL: -31958.706 / Time: 0h:0m:40s
+Iteration 20 / LogL: -31960.297 / Time: 0h:0m:48s
+Finish initializing candidate tree set (20)
+Current best tree score: -31958.706 / CPU time: 18.046
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -31959.307 / Time: 0h:0m:54s (0h:1m:7s left)
+Iteration 40 / LogL: -31962.179 / Time: 0h:1m:5s (0h:1m:3s left)
+Iteration 50 / LogL: -31959.039 / Time: 0h:1m:12s (0h:0m:52s left)
+Iteration 60 / LogL: -31962.183 / Time: 0h:1m:23s (0h:0m:44s left)
+Iteration 70 / LogL: -31972.797 / Time: 0h:1m:32s (0h:0m:36s left)
+Iteration 80 / LogL: -31959.297 / Time: 0h:1m:39s (0h:0m:26s left)
+Iteration 90 / LogL: -31967.657 / Time: 0h:1m:44s (0h:0m:16s left)
+Iteration 100 / LogL: -31971.304 / Time: 0h:1m:48s (0h:0m:7s left)
+Iteration 110 / LogL: -31959.217 / Time: 0h:1m:55s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 111 ITERATIONS / Time: 0h:1m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31958.706
+Optimal log-likelihood: -31958.706
+Rate parameters:  A-C: 1.00000  A-G: 7.17146  A-T: 1.00000  C-G: 1.00000  C-T: 10.72605  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.268
+Proportion of invariable sites: 0.822
+Parameters optimization took 1 rounds (0.058 sec)
+BEST SCORE FOUND : -31958.706
+Total tree length: 0.033
+
+Total number of iterations: 111
+CPU time used for tree search: 100.010 sec (0h:1m:40s)
+Wall-clock time used for tree search: 86.171 sec (0h:1m:26s)
+Total CPU time used: 160.710 sec (0h:2m:40s)
+Total wall-clock time used: 116.898 sec (0h:1m:56s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/ebov_westafrica_makona/ebov_westafrica_makona_mlrep2.iqtree
+  Maximum-likelihood tree:       results/ebov_westafrica_makona/ebov_westafrica_makona_mlrep2.treefile
+  Likelihood distances:          results/ebov_westafrica_makona/ebov_westafrica_makona_mlrep2.mldist
+  Screen log file:               results/ebov_westafrica_makona/ebov_westafrica_makona_mlrep2.log
+
+Date and Time: Wed Sep  9 00:26:42 2026

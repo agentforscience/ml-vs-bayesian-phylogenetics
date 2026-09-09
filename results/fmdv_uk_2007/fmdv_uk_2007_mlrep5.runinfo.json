@@ -1,0 +1,19 @@
+{
+ "dataset": "fmdv_uk_2007",
+ "seconds": 2.3,
+ "cmd": [
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2",
+  "-s",
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/fmdv_uk_2007/analysis.fasta",
+  "-m",
+  "MFP",
+  "--prefix",
+  "results/fmdv_uk_2007/fmdv_uk_2007_mlrep5",
+  "-T",
+  "2",
+  "-redo",
+  "--quiet",
+  "-seed",
+  "777"
+ ]
+}

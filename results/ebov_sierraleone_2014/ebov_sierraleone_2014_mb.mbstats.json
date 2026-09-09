@@ -1,0 +1,16 @@
+{
+ "asdsf_final": 0.005707,
+ "asdsf_trace": [
+  0.005707
+ ],
+ "max_psrf": 1.009,
+ "min_ess": 925.49,
+ "dataset": "ebov_sierraleone_2014",
+ "seconds": 2178.7,
+ "ngen": 1500000,
+ "nruns": 2,
+ "nchains": 4,
+ "samplefreq": 150,
+ "burninfrac": 0.25,
+ "tag": "mb"
+}

@@ -1,0 +1,359 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta -m GTR+F+I+G4 --prefix results/mers_korea_2015/mers_korea_2015_mlgtr -T 2 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:42:03 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0244636 secs using 80.24% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 34 sequences with 30119 columns, 75 distinct patterns
+20 parsimony-informative, 14 singleton sites, 30085 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.94959e-05 secs
+   1  KT029139    0.04%    passed    100.00%
+   2  MK796425    0.04%    passed     99.99%
+   3  MT387202    0.04%    passed     99.99%
+   4  KT326819    0.41%    passed     99.71%
+   5  KX034093    1.36%    passed     99.72%
+   6  KT374052    0.96%    passed     99.84%
+   7  KT374054    0.96%    passed     99.80%
+   8  KX034095    0.00%    passed     99.93%
+   9  KT868867    0.17%    passed    100.00%
+  10  KT868868    0.17%    passed    100.00%
+  11  KU308549    0.00%    passed     99.92%
+  12  KT868871    0.17%    passed    100.00%
+  13  KT868870    0.18%    passed    100.00%
+  14  KT868872    0.17%    passed    100.00%
+  15  KT868873    0.17%    passed    100.00%
+  16  KT868875    0.17%    passed    100.00%
+  17  KT868876    0.17%    passed    100.00%
+  18  KT868865    0.17%    passed    100.00%
+  19  KT868866    0.17%    passed    100.00%
+  20  KT868869    0.17%    passed    100.00%
+  21  KT868874    0.17%    passed    100.00%
+  22  KX034094    0.03%    passed     99.99%
+  23  KT374053    0.96%    passed     99.87%
+  24  KX034096    0.12%    passed     99.85%
+  25  KX034097    0.00%    passed     99.92%
+  26  KT374055    0.96%    passed     99.80%
+  27  KT374051    0.96%    passed     99.84%
+  28  KT374056    0.96%    passed     99.76%
+  29  KT868877    0.18%    passed    100.00%
+  30  KX034098    0.04%    passed    100.00%
+  31  KT374057    0.96%    passed     99.75%
+  32  KX034099    0.03%    passed     99.99%
+  33  KT374050    0.96%    passed     99.84%
+  34  KX034100    0.00%    passed     99.91%
+****  TOTAL       0.35%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MT387202 is identical to MK796425 but kept for subsequent analysis
+NOTE: KT374055 is identical to KT374054 but kept for subsequent analysis
+NOTE: KT868873 is identical to KT868868 but kept for subsequent analysis
+NOTE: KT868876 is identical to KT868872 but kept for subsequent analysis
+NOTE: KT374050 is identical to KT374051 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KT868865 (identical to KT868868) is ignored but added at the end
+NOTE: KT868866 (identical to KT868868) is ignored but added at the end
+Alignment was printed to results/mers_korea_2015/mers_korea_2015_mlgtr.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/mers_korea_2015/mers_korea_2015_mlgtr.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.020 / LogL: -41592.541
+Init pinv, alpha: 0.111, 1.000 / Estimate: 0.111, 0.020 / LogL: -41591.228
+Init pinv, alpha: 0.222, 1.000 / Estimate: 0.222, 0.020 / LogL: -41590.531
+Init pinv, alpha: 0.333, 1.000 / Estimate: 0.333, 0.020 / LogL: -41589.747
+Init pinv, alpha: 0.444, 1.000 / Estimate: 0.444, 0.020 / LogL: -41588.824
+Init pinv, alpha: 0.555, 1.000 / Estimate: 0.555, 0.020 / LogL: -41587.716
+Init pinv, alpha: 0.666, 1.000 / Estimate: 0.666, 0.020 / LogL: -41586.315
+Init pinv, alpha: 0.777, 1.000 / Estimate: 0.777, 0.020 / LogL: -41584.391
+Init pinv, alpha: 0.888, 1.000 / Estimate: 0.888, 0.020 / LogL: -41581.281
+Init pinv, alpha: 0.999, 1.000 / Estimate: 0.997, 998.445 / LogL: -41579.597
+Optimal pinv,alpha: 0.997, 998.445 / LogL: -41579.597
+
+Parameters optimization took 0.278 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00637119 secs using 247.4% CPU
+Computing ML distances took 0.006527 sec (of wall-clock time) 0.015917 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 9.26158e-05 secs using 98.26% CPU
+Computing RapidNJ tree took 0.000554 sec (of wall-clock time) 0.002622 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -41572.481
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.106 second
+Computing log-likelihood of 98 initial trees ... 0.179 seconds
+Current best score: -41571.083
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -41570.402
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -41569.971
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -41569.815
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -41569.722
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -41569.640
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -41569.570
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -41569.507
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -41569.452
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -41569.402
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -41569.357
+Iteration 10 / LogL: -41569.357 / Time: 0h:0m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -41569.316
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -41569.280
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -41569.247
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -41569.216
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -41569.186
+BETTER TREE FOUND at iteration 16: -41569.176
+BETTER TREE FOUND at iteration 18: -41569.175
+Iteration 20 / LogL: -41569.176 / Time: 0h:0m:1s
+Finish initializing candidate tree set (20)
+Current best tree score: -41569.175 / CPU time: 1.242
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -41569.322 / Time: 0h:0m:2s (0h:0m:6s left)
+Iteration 40 / LogL: -41569.449 / Time: 0h:0m:2s (0h:0m:5s left)
+Iteration 50 / LogL: -41569.294 / Time: 0h:0m:3s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -41603.321
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -41566.180
+Iteration 60 / LogL: -41566.388 / Time: 0h:0m:4s (0h:0m:6s left)
+Iteration 70 / LogL: -41566.342 / Time: 0h:0m:4s (0h:0m:5s left)
+BETTER TREE FOUND at iteration 80: -41566.180
+Iteration 80 / LogL: -41566.180 / Time: 0h:0m:5s (0h:0m:6s left)
+Iteration 90 / LogL: -41566.476 / Time: 0h:0m:5s (0h:0m:6s left)
+Iteration 100 / LogL: -41566.413 / Time: 0h:0m:6s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -41603.401
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.805
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 110 / LogL: -41566.476 / Time: 0h:0m:7s (0h:0m:6s left)
+Iteration 120 / LogL: -41566.383 / Time: 0h:0m:7s (0h:0m:5s left)
+Iteration 130 / LogL: -41566.361 / Time: 0h:0m:8s (0h:0m:4s left)
+Iteration 140 / LogL: -41566.401 / Time: 0h:0m:9s (0h:0m:3s left)
+Iteration 150 / LogL: -41566.484 / Time: 0h:0m:9s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41603.401
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+BETTER TREE FOUND at iteration 156: -41566.179
+Iteration 160 / LogL: -41566.519 / Time: 0h:0m:10s (0h:0m:6s left)
+Iteration 170 / LogL: -41566.337 / Time: 0h:0m:11s (0h:0m:5s left)
+Iteration 180 / LogL: -41566.239 / Time: 0h:0m:11s (0h:0m:5s left)
+Iteration 190 / LogL: -41566.324 / Time: 0h:0m:12s (0h:0m:4s left)
+Iteration 200 / LogL: -41568.839 / Time: 0h:0m:13s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41603.401
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.979
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 210 / LogL: -41566.314 / Time: 0h:0m:13s (0h:0m:5s left)
+Iteration 220 / LogL: -41566.340 / Time: 0h:0m:14s (0h:0m:5s left)
+Iteration 230 / LogL: -41566.373 / Time: 0h:0m:15s (0h:0m:4s left)
+Iteration 240 / LogL: -41566.425 / Time: 0h:0m:15s (0h:0m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 248: -41566.148
+Iteration 250 / LogL: -41566.315 / Time: 0h:0m:16s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -41603.401
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 260 / LogL: -41566.245 / Time: 0h:0m:17s (0h:0m:5s left)
+Iteration 270 / LogL: -41566.457 / Time: 0h:0m:17s (0h:0m:5s left)
+Iteration 280 / LogL: -41566.268 / Time: 0h:0m:18s (0h:0m:4s left)
+Iteration 290 / LogL: -41566.267 / Time: 0h:0m:19s (0h:0m:3s left)
+Iteration 300 / LogL: -41566.250 / Time: 0h:0m:19s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41603.321
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 310 / LogL: -41566.365 / Time: 0h:0m:20s (0h:0m:5s left)
+Iteration 320 / LogL: -41566.396 / Time: 0h:0m:20s (0h:0m:5s left)
+Iteration 330 / LogL: -41566.354 / Time: 0h:0m:21s (0h:0m:4s left)
+Iteration 340 / LogL: -41566.479 / Time: 0h:0m:21s (0h:0m:3s left)
+Iteration 350 / LogL: -41566.434 / Time: 0h:0m:21s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41603.321
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 360 / LogL: -41566.242 / Time: 0h:0m:22s (0h:0m:2s left)
+Iteration 370 / LogL: -41566.270 / Time: 0h:0m:22s (0h:0m:1s left)
+Iteration 380 / LogL: -41566.213 / Time: 0h:0m:23s (0h:0m:1s left)
+Iteration 390 / LogL: -41566.388 / Time: 0h:0m:23s (0h:0m:0s left)
+Iteration 400 / LogL: -41566.400 / Time: 0h:0m:23s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -41603.321
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.965
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 410 / LogL: -41566.245 / Time: 0h:0m:24s (0h:0m:5s left)
+Iteration 420 / LogL: -41566.317 / Time: 0h:0m:24s (0h:0m:4s left)
+Iteration 430 / LogL: -41566.235 / Time: 0h:0m:25s (0h:0m:4s left)
+Iteration 440 / LogL: -41566.390 / Time: 0h:0m:25s (0h:0m:3s left)
+Iteration 450 / LogL: -41566.441 / Time: 0h:0m:26s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41603.969
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 460 / LogL: -41566.370 / Time: 0h:0m:26s (0h:0m:2s left)
+Iteration 470 / LogL: -41570.026 / Time: 0h:0m:27s (0h:0m:1s left)
+Iteration 480 / LogL: -41566.200 / Time: 0h:0m:27s (0h:0m:1s left)
+Iteration 490 / LogL: -41566.266 / Time: 0h:0m:28s (0h:0m:0s left)
+Iteration 500 / LogL: -41566.236 / Time: 0h:0m:28s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -41604.153
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.965
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 510 / LogL: -41566.448 / Time: 0h:0m:29s (0h:0m:5s left)
+Iteration 520 / LogL: -41566.359 / Time: 0h:0m:29s (0h:0m:4s left)
+Iteration 530 / LogL: -41566.299 / Time: 0h:0m:30s (0h:0m:3s left)
+Iteration 540 / LogL: -41566.418 / Time: 0h:0m:30s (0h:0m:3s left)
+Iteration 550 / LogL: -41566.416 / Time: 0h:0m:31s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41604.153
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 560 / LogL: -41566.295 / Time: 0h:0m:31s (0h:0m:2s left)
+Iteration 570 / LogL: -41566.390 / Time: 0h:0m:32s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 574: -41566.147
+Iteration 580 / LogL: -41566.150 / Time: 0h:0m:32s (0h:0m:5s left)
+BETTER TREE FOUND at iteration 589: -41566.145
+Iteration 590 / LogL: -41566.533 / Time: 0h:0m:33s (0h:0m:5s left)
+Iteration 600 / LogL: -41566.388 / Time: 0h:0m:33s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -41603.969
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.969
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 610 / LogL: -41566.218 / Time: 0h:0m:34s (0h:0m:5s left)
+Iteration 620 / LogL: -41566.316 / Time: 0h:0m:34s (0h:0m:4s left)
+Iteration 630 / LogL: -41566.273 / Time: 0h:0m:35s (0h:0m:3s left)
+Iteration 640 / LogL: -41566.379 / Time: 0h:0m:35s (0h:0m:3s left)
+BETTER TREE FOUND at iteration 649: -41566.143
+Iteration 650 / LogL: -41566.376 / Time: 0h:0m:36s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -41603.969
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 660 / LogL: -41566.330 / Time: 0h:0m:36s (0h:0m:4s left)
+Iteration 670 / LogL: -41566.203 / Time: 0h:0m:37s (0h:0m:4s left)
+Iteration 680 / LogL: -41566.273 / Time: 0h:0m:37s (0h:0m:3s left)
+Iteration 690 / LogL: -41566.231 / Time: 0h:0m:38s (0h:0m:3s left)
+Iteration 700 / LogL: -41566.233 / Time: 0h:0m:39s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41603.969
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 710 / LogL: -41566.308 / Time: 0h:0m:40s (0h:0m:5s left)
+Iteration 720 / LogL: -41570.349 / Time: 0h:0m:40s (0h:0m:4s left)
+Iteration 730 / LogL: -41566.407 / Time: 0h:0m:41s (0h:0m:3s left)
+Iteration 740 / LogL: -41566.418 / Time: 0h:0m:41s (0h:0m:3s left)
+Iteration 750 / LogL: -41571.005 / Time: 0h:0m:42s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41604.423
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 760 / LogL: -41566.363 / Time: 0h:0m:43s (0h:0m:2s left)
+Iteration 770 / LogL: -41566.236 / Time: 0h:0m:44s (0h:0m:1s left)
+Iteration 780 / LogL: -41566.418 / Time: 0h:0m:44s (0h:0m:1s left)
+Iteration 790 / LogL: -41566.431 / Time: 0h:0m:45s (0h:0m:0s left)
+Iteration 800 / LogL: -41566.394 / Time: 0h:0m:46s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -41604.423
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 810 / LogL: -41566.410 / Time: 0h:0m:47s (0h:0m:5s left)
+Iteration 820 / LogL: -41566.298 / Time: 0h:0m:47s (0h:0m:4s left)
+Iteration 830 / LogL: -41566.424 / Time: 0h:0m:48s (0h:0m:4s left)
+Iteration 840 / LogL: -41566.335 / Time: 0h:0m:49s (0h:0m:3s left)
+Iteration 850 / LogL: -41566.312 / Time: 0h:0m:49s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41604.423
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 860 / LogL: -41566.235 / Time: 0h:0m:50s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 863: -41566.143
+Iteration 870 / LogL: -41566.317 / Time: 0h:0m:51s (0h:0m:5s left)
+Iteration 880 / LogL: -41566.393 / Time: 0h:0m:52s (0h:0m:4s left)
+Iteration 890 / LogL: -41566.202 / Time: 0h:0m:52s (0h:0m:4s left)
+Iteration 900 / LogL: -41566.190 / Time: 0h:0m:53s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41604.887
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.969
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 910 / LogL: -41570.351 / Time: 0h:0m:54s (0h:0m:5s left)
+BETTER TREE FOUND at iteration 918: -41566.143
+Iteration 920 / LogL: -41566.203 / Time: 0h:0m:55s (0h:0m:5s left)
+Iteration 930 / LogL: -41572.320 / Time: 0h:0m:55s (0h:0m:5s left)
+Iteration 940 / LogL: -41566.264 / Time: 0h:0m:56s (0h:0m:4s left)
+Iteration 950 / LogL: -41566.385 / Time: 0h:0m:56s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -41605.231
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+Iteration 960 / LogL: -41566.329 / Time: 0h:0m:57s (0h:0m:3s left)
+Iteration 970 / LogL: -41566.198 / Time: 0h:0m:58s (0h:0m:2s left)
+Iteration 980 / LogL: -41566.351 / Time: 0h:0m:59s (0h:0m:2s left)
+Iteration 990 / LogL: -41566.229 / Time: 0h:1m:0s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 1000: -41566.143
+Iteration 1000 / LogL: -41566.143 / Time: 0h:1m:1s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -41604.887
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.959
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 0h:1m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -41566.143
+2. Current log-likelihood: -41566.132
+Optimal log-likelihood: -41566.124
+Rate parameters:  A-C: 2.39619  A-G: 9.89571  A-T: 1.11192  C-G: 0.97713  C-T: 13.96062  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.202  G: 0.209  T: 0.326
+Proportion of invariable sites: 0.996
+Gamma shape alpha: 998.445
+Parameters optimization took 2 rounds (0.011 sec)
+BEST SCORE FOUND : -41566.124
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.091 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/mers_korea_2015/mers_korea_2015_mlgtr.splits.nex
+Total tree length: 0.001
+
+Total number of iterations: 1001
+CPU time used for tree search: 94.959 sec (0h:1m:34s)
+Wall-clock time used for tree search: 61.166 sec (0h:1m:1s)
+Total CPU time used: 95.881 sec (0h:1m:35s)
+Total wall-clock time used: 61.707 sec (0h:1m:1s)
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/mers_korea_2015/mers_korea_2015_mlgtr.splits.nex...
+32 taxa and 904 splits.
+Consensus tree written to results/mers_korea_2015/mers_korea_2015_mlgtr.contree
+Reading input trees file results/mers_korea_2015/mers_korea_2015_mlgtr.contree
+Log-likelihood of consensus tree: -41567.346
+
+Analysis results written to: 
+  IQ-TREE report:                results/mers_korea_2015/mers_korea_2015_mlgtr.iqtree
+  Maximum-likelihood tree:       results/mers_korea_2015/mers_korea_2015_mlgtr.treefile
+  Likelihood distances:          results/mers_korea_2015/mers_korea_2015_mlgtr.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/mers_korea_2015/mers_korea_2015_mlgtr.splits.nex
+  Consensus tree:                results/mers_korea_2015/mers_korea_2015_mlgtr.contree
+  UFBoot trees:                  results/mers_korea_2015/mers_korea_2015_mlgtr.ufboot
+  Screen log file:               results/mers_korea_2015/mers_korea_2015_mlgtr.log
+
+Date and Time: Wed Sep  9 00:43:05 2026

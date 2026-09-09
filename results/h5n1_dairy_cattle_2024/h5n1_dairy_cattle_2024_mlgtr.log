@@ -1,0 +1,316 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/h5n1_dairy_cattle_2024/analysis.fasta -m GTR+F+I+G4 --prefix results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr -T 2 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:42:03 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/h5n1_dairy_cattle_2024/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.00430089 secs using 99.93% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 110 sequences with 1754 columns, 118 distinct patterns
+95 parsimony-informative, 57 singleton sites, 1602 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.87339e-05 secs using 2757% CPU
+   1  PP748207    2.85%    passed     99.93%
+   2  PP748223    2.85%    passed     99.67%
+   3  PQ106997    2.85%    passed     99.98%
+   4  PQ241100    2.85%    passed     99.98%
+   5  PP756045    2.85%    passed     99.94%
+   6  PP755997    2.85%    passed     99.98%
+   7  PV839281    0.17%    passed     99.84%
+   8  PP753021    2.85%    passed     99.97%
+   9  PP752608    2.85%    passed     99.98%
+  10  PV459280    2.85%    passed    100.00%
+  11  PV459288    2.85%    passed     99.98%
+  12  PV459304    2.85%    passed     99.98%
+  13  PV643554    2.85%    passed     99.98%
+  14  PQ011795    2.85%    passed     99.90%
+  15  PQ011811    2.85%    passed     99.90%
+  16  PP755813    2.85%    passed     99.98%
+  17  PQ832381    2.85%    passed     99.99%
+  18  PQ274814    2.85%    passed     99.94%
+  19  PP799563    2.85%    passed     99.90%
+  20  PQ168164    2.85%    passed     99.98%
+  21  PV459240    2.85%    passed     99.97%
+  22  PQ011243    2.85%    passed     99.98%
+  23  PQ832213    2.85%    passed     99.98%
+  24  PV459528    2.85%    passed     99.98%
+  25  PQ832557    2.85%    passed     99.99%
+  26  PQ168084    2.85%    passed     99.98%
+  27  PQ377639    2.85%    passed     99.98%
+  28  PQ379135    2.85%    passed     99.98%
+  29  PQ379527    2.85%    passed     99.86%
+  30  PQ379543    2.85%    passed     99.96%
+  31  PQ379375    2.85%    passed     99.95%
+  32  PV132430    2.85%    passed     99.98%
+  33  PQ378839    2.85%    passed     99.98%
+  34  PQ423562    2.85%    passed     99.98%
+  35  PQ482153    2.85%    passed     99.70%
+  36  PV572609    2.85%    passed    100.00%
+  37  PQ828205    2.85%    passed    100.00%
+  38  PQ843590    2.85%    passed    100.00%
+  39  PQ843622    2.85%    passed    100.00%
+  40  PV792141    2.85%    passed    100.00%
+  41  PV845829    2.85%    passed    100.00%
+  42  PQ843678    2.85%    passed     99.98%
+  43  PQ828509    2.85%    passed    100.00%
+  44  PQ828909    2.85%    passed     99.99%
+  45  PQ843790    2.85%    passed     99.98%
+  46  PV949431    2.85%    passed    100.00%
+  47  PV649171    2.85%    passed     99.95%
+  48  PV338836    2.85%    passed     99.99%
+  49  PV338556    2.85%    passed     99.84%
+  50  PV215215    2.85%    passed     99.95%
+  51  PV456568    2.85%    passed     99.99%
+  52  PQ831557    2.85%    passed     99.95%
+  53  PQ830245    2.85%    passed     99.95%
+  54  PQ829485    2.85%    passed     99.95%
+  55  PQ832805    2.85%    passed     99.74%
+  56  PV396299    2.85%    passed     99.74%
+  57  PV215751    2.85%    passed     99.98%
+  58  PV792197    2.85%    passed     99.99%
+  59  PV457088    2.85%    passed     99.96%
+  60  PV338932    2.85%    passed     99.95%
+  61  PV457168    2.85%    passed     99.97%
+  62  PV457240    2.85%    passed     99.95%
+  63  PV709421    2.85%    passed     99.97%
+  64  PX359352    2.85%    passed     96.92%
+  65  PX213389    2.85%    passed     99.98%
+  66  PV709501    2.85%    passed     99.97%
+  67  PV846173    2.85%    passed     99.95%
+  68  PV949551    2.85%    passed     99.98%
+  69  PV649539    2.85%    passed     99.89%
+  70  PV949575    2.85%    passed     99.98%
+  71  PV949583    2.85%    passed     99.98%
+  72  PX359384    2.85%    passed     97.68%
+  73  PV846533    2.85%    passed     99.83%
+  74  PX717956    2.85%    passed     99.62%
+  75  PV846317    2.85%    passed     99.85%
+  76  PV847157    2.85%    passed     99.94%
+  77  PV847165    2.85%    passed     99.83%
+  78  PV847197    2.85%    passed     99.83%
+  79  PX280002    2.85%    passed     99.83%
+  80  PV847333    2.85%    passed     99.83%
+  81  PV950095    2.85%    passed     99.94%
+  82  PX280018    2.85%    passed     99.98%
+  83  PX718068    2.85%    passed     99.98%
+  84  PV904637    2.85%    passed     99.83%
+  85  PX104576    2.85%    passed     99.98%
+  86  PX213013    2.85%    passed     99.98%
+  87  PX718236    2.85%    passed     99.77%
+  88  PX279778    2.85%    passed     99.98%
+  89  PX359576    2.68%    passed    100.00%
+  90  PX359592    2.68%    passed    100.00%
+  91  PX440439    2.85%    passed     99.99%
+  92  PX440775    2.85%    passed     99.99%
+  93  PX440847    2.85%    passed     99.98%
+  94  PX750103    2.85%    passed    100.00%
+  95  PX718412    2.85%    passed     99.82%
+  96  PX750135    2.85%    passed    100.00%
+  97  PX441119    2.85%    passed     99.94%
+  98  PX441183    2.85%    passed     99.89%
+  99  PX718436    2.85%    passed     99.96%
+ 100  PX750375    2.85%    passed     99.94%
+ 101  PX750319    2.85%    passed     99.89%
+ 102  PX750383    2.85%    passed     99.61%
+ 103  PX750391    2.85%    passed     99.61%
+ 104  PX750327    2.85%    passed    100.00%
+ 105  PX750335    2.85%    passed     99.94%
+ 106  PX750399    2.85%    passed     99.61%
+ 107  PX750407    2.85%    passed     99.61%
+ 108  PX750343    2.85%    passed    100.00%
+ 109  PX750351    2.85%    passed    100.00%
+ 110  PX750359    2.85%    passed    100.00%
+****  TOTAL       2.82%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PQ241100 is identical to PQ106997 but kept for subsequent analysis
+NOTE: PQ274814 is identical to PP756045 but kept for subsequent analysis
+NOTE: PQ011811 is identical to PQ011795 but kept for subsequent analysis
+NOTE: PQ377639 is identical to PQ168084 but kept for subsequent analysis
+NOTE: PQ828205 is identical to PV572609 but kept for subsequent analysis
+NOTE: PQ828509 is identical to PV845829 but kept for subsequent analysis
+NOTE: PV456568 is identical to PQ828909 but kept for subsequent analysis
+NOTE: PV215215 is identical to PV649171 but kept for subsequent analysis
+NOTE: PV396299 is identical to PQ832805 but kept for subsequent analysis
+NOTE: PV709501 is identical to PV709421 but kept for subsequent analysis
+NOTE: PX280018 is identical to PX213389 but kept for subsequent analysis
+NOTE: PV949575 is identical to PV949551 but kept for subsequent analysis
+NOTE: PV847197 is identical to PV846533 but kept for subsequent analysis
+NOTE: PX104576 is identical to PX718068 but kept for subsequent analysis
+NOTE: PX359592 is identical to PX359576 but kept for subsequent analysis
+NOTE: PX750135 is identical to PX750103 but kept for subsequent analysis
+NOTE: PX750319 is identical to PX441183 but kept for subsequent analysis
+NOTE: PX750391 is identical to PX750383 but kept for subsequent analysis
+NOTE: PX750343 is identical to PX750327 but kept for subsequent analysis
+NOTE: 26 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PP755997 (identical to PQ106997) is ignored but added at the end
+NOTE: PP752608 (identical to PQ106997) is ignored but added at the end
+NOTE: PV459288 (identical to PQ106997) is ignored but added at the end
+NOTE: PV459304 (identical to PQ106997) is ignored but added at the end
+NOTE: PV643554 (identical to PQ106997) is ignored but added at the end
+NOTE: PP755813 (identical to PQ106997) is ignored but added at the end
+NOTE: PQ832213 (identical to PQ106997) is ignored but added at the end
+NOTE: PV459528 (identical to PQ106997) is ignored but added at the end
+NOTE: PQ379135 (identical to PQ106997) is ignored but added at the end
+NOTE: PQ423562 (identical to PQ106997) is ignored but added at the end
+NOTE: PQ378839 (identical to PQ168084) is ignored but added at the end
+NOTE: PQ843590 (identical to PV572609) is ignored but added at the end
+NOTE: PV792141 (identical to PV572609) is ignored but added at the end
+NOTE: PV949431 (identical to PV845829) is ignored but added at the end
+NOTE: PQ831557 (identical to PV649171) is ignored but added at the end
+NOTE: PQ830245 (identical to PV649171) is ignored but added at the end
+NOTE: PQ829485 (identical to PV649171) is ignored but added at the end
+NOTE: PV338932 (identical to PV649171) is ignored but added at the end
+NOTE: PV949583 (identical to PV949551) is ignored but added at the end
+NOTE: PX280002 (identical to PV846533) is ignored but added at the end
+NOTE: PV847333 (identical to PV846533) is ignored but added at the end
+NOTE: PX440847 (identical to PX718068) is ignored but added at the end
+NOTE: PX750399 (identical to PX750383) is ignored but added at the end
+NOTE: PX750407 (identical to PX750383) is ignored but added at the end
+NOTE: PX750351 (identical to PX750327) is ignored but added at the end
+NOTE: PX750359 (identical to PX750327) is ignored but added at the end
+Alignment was printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.378 / LogL: -3649.196
+Init pinv, alpha: 0.101, 1.000 / Estimate: 0.102, 0.477 / LogL: -3649.131
+Init pinv, alpha: 0.203, 1.000 / Estimate: 0.203, 0.622 / LogL: -3649.078
+Init pinv, alpha: 0.304, 1.000 / Estimate: 0.305, 0.852 / LogL: -3649.048
+Init pinv, alpha: 0.406, 1.000 / Estimate: 0.406, 1.272 / LogL: -3649.059
+Init pinv, alpha: 0.507, 1.000 / Estimate: 0.507, 2.255 / LogL: -3649.157
+Init pinv, alpha: 0.609, 1.000 / Estimate: 0.607, 6.621 / LogL: -3649.488
+Init pinv, alpha: 0.710, 1.000 / Estimate: 0.700, 998.407 / LogL: -3650.544
+Init pinv, alpha: 0.812, 1.000 / Estimate: 0.713, 998.439 / LogL: -3650.946
+Init pinv, alpha: 0.913, 1.000 / Estimate: 0.713, 998.445 / LogL: -3651.232
+Optimal pinv,alpha: 0.305, 0.852 / LogL: -3649.048
+
+Parameters optimization took 1.529 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0267792 secs using 198.7% CPU
+Computing ML distances took 0.027267 sec (of wall-clock time) 0.053766 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000327953 secs using 96.97% CPU
+Computing RapidNJ tree took 0.001665 sec (of wall-clock time) 0.001732 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3647.958
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.479 second
+Computing log-likelihood of 98 initial trees ... 0.470 seconds
+Current best score: -3646.003
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3646.002
+Iteration 10 / LogL: -3646.410 / Time: 0h:0m:3s
+Iteration 20 / LogL: -3646.410 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -3646.002 / CPU time: 3.760
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3646.041 / Time: 0h:0m:7s (0h:0m:18s left)
+Iteration 40 / LogL: -3646.024 / Time: 0h:0m:10s (0h:0m:15s left)
+Iteration 50 / LogL: -3646.049 / Time: 0h:0m:12s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -3683.280
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+Iteration 60 / LogL: -3646.033 / Time: 0h:0m:15s (0h:0m:10s left)
+Iteration 70 / LogL: -3646.040 / Time: 0h:0m:18s (0h:0m:8s left)
+Iteration 80 / LogL: -3646.020 / Time: 0h:0m:20s (0h:0m:5s left)
+Iteration 90 / LogL: -3668.577 / Time: 0h:0m:22s (0h:0m:2s left)
+Iteration 100 / LogL: -3651.412 / Time: 0h:0m:24s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3683.944
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+Iteration 110 / LogL: -3651.406 / Time: 0h:0m:26s (0h:0m:21s left)
+Iteration 120 / LogL: -3646.037 / Time: 0h:0m:28s (0h:0m:19s left)
+Iteration 130 / LogL: -3646.035 / Time: 0h:0m:29s (0h:0m:16s left)
+Iteration 140 / LogL: -3646.045 / Time: 0h:0m:31s (0h:0m:13s left)
+Iteration 150 / LogL: -3652.956 / Time: 0h:0m:33s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -3683.851
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+Iteration 160 / LogL: -3651.146 / Time: 0h:0m:36s (0h:0m:9s left)
+Iteration 170 / LogL: -3646.038 / Time: 0h:0m:37s (0h:0m:6s left)
+Iteration 180 / LogL: -3665.342 / Time: 0h:0m:40s (0h:0m:4s left)
+Iteration 190 / LogL: -3646.040 / Time: 0h:0m:42s (0h:0m:2s left)
+Iteration 200 / LogL: -3646.030 / Time: 0h:0m:45s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3684.275
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+Iteration 210 / LogL: -3646.019 / Time: 0h:0m:48s (0h:0m:20s left)
+Iteration 220 / LogL: -3652.565 / Time: 0h:0m:50s (0h:0m:18s left)
+Iteration 230 / LogL: -3646.446 / Time: 0h:0m:52s (0h:0m:16s left)
+Iteration 240 / LogL: -3651.127 / Time: 0h:0m:54s (0h:0m:13s left)
+Iteration 250 / LogL: -3646.035 / Time: 0h:0m:56s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -3684.275
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+Iteration 260 / LogL: -3651.404 / Time: 0h:0m:59s (0h:0m:9s left)
+Iteration 270 / LogL: -3685.978 / Time: 0h:1m:1s (0h:0m:6s left)
+Iteration 280 / LogL: -3646.049 / Time: 0h:1m:3s (0h:0m:4s left)
+Iteration 290 / LogL: -3646.024 / Time: 0h:1m:4s (0h:0m:2s left)
+Iteration 300 / LogL: -3672.691 / Time: 0h:1m:5s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3685.156
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 0h:1m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3646.002
+Optimal log-likelihood: -3646.002
+Rate parameters:  A-C: 3.84687  A-G: 18.21437  A-T: 1.45620  C-G: 0.39227  C-T: 26.62552  G-T: 1.00000
+Base frequencies:  A: 0.347  C: 0.186  G: 0.231  T: 0.235
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.854
+Parameters optimization took 1 rounds (0.017 sec)
+BEST SCORE FOUND : -3646.002
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.290 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.splits.nex
+Total tree length: 0.102
+
+Total number of iterations: 300
+CPU time used for tree search: 112.264 sec (0h:1m:52s)
+Wall-clock time used for tree search: 64.866 sec (0h:1m:4s)
+Total CPU time used: 116.224 sec (0h:1m:56s)
+Total wall-clock time used: 67.053 sec (0h:1m:7s)
+UFBoot trees printed to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.splits.nex...
+84 taxa and 1894 splits.
+Consensus tree written to results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.contree
+Reading input trees file results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.contree
+Log-likelihood of consensus tree: -3646.247
+
+Analysis results written to: 
+  IQ-TREE report:                results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.iqtree
+  Maximum-likelihood tree:       results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.treefile
+  Likelihood distances:          results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.splits.nex
+  Consensus tree:                results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.contree
+  UFBoot trees:                  results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.ufboot
+  Screen log file:               results/h5n1_dairy_cattle_2024/h5n1_dairy_cattle_2024_mlgtr.log
+
+Date and Time: Wed Sep  9 00:43:11 2026

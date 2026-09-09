@@ -1,0 +1,169 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/fmdv_uk_2001/analysis.fasta -m GTR+F+I+G4 --prefix results/fmdv_uk_2001/fmdv_uk_2001_mlgtr -T 2 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:42:03 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/fmdv_uk_2001/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.00562465 secs using 65.73% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 43 sequences with 8196 columns, 181 distinct patterns
+93 parsimony-informative, 175 singleton sites, 7928 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.20421e-05 secs
+   1  DQ404180    0.07%    passed    100.00%
+   2  DQ404177    0.04%    passed    100.00%
+   3  DQ404178    0.04%    passed     99.98%
+   4  DQ404179    0.04%    passed    100.00%
+   5  DQ404176    0.04%    passed     99.99%
+   6  DQ404175    0.04%    passed     99.97%
+   7  DQ404173    0.01%    passed     99.98%
+   8  DQ404174    0.04%    passed     99.99%
+   9  DQ404172    0.04%    passed    100.00%
+  10  KM257061    0.17%    passed     99.69%
+  11  KM257062    0.16%    passed     99.88%
+  12  KM257063    0.17%    passed     99.73%
+  13  EF552688    0.04%    passed     99.98%
+  14  EF552693    0.04%    passed     99.93%
+  15  EF552689    0.04%    passed     99.91%
+  16  DQ404171    0.04%    passed     99.97%
+  17  KM257064    0.38%    passed     99.70%
+  18  EF552696    0.04%    passed     99.82%
+  19  EF552697    0.04%    passed    100.00%
+  20  DQ404169    0.04%    passed     99.99%
+  21  EF552690    0.04%    passed     99.97%
+  22  EF552692    0.01%    passed     99.90%
+  23  DQ404170    0.04%    passed     99.92%
+  24  EU214601    0.04%    passed     99.98%
+  25  DQ404168    0.04%    passed     99.59%
+  26  EF552691    0.04%    passed     99.86%
+  27  DQ404167    0.11%    passed     99.99%
+  28  EF552695    0.04%    passed     99.94%
+  29  DQ404166    0.04%    passed    100.00%
+  30  DQ404165    0.04%    passed    100.00%
+  31  FJ542365    0.04%    passed     99.98%
+  32  FJ542369    0.02%    passed     99.94%
+  33  FJ542370    0.04%    passed    100.00%
+  34  FJ542371    0.05%    passed     99.73%
+  35  FJ542372    0.05%    passed     99.80%
+  36  DQ404164    0.04%    passed     99.96%
+  37  DQ404163    0.06%    passed     99.81%
+  38  DQ404162    0.05%    passed     98.11%
+  39  DQ404161    0.09%    passed     99.98%
+  40  DQ404160    0.12%    passed     99.88%
+  41  KM257065    0.16%    passed     99.30%
+  42  DQ404159    0.10%    passed     99.72%
+  43  DQ404158    0.11%    passed    100.00%
+****  TOTAL       0.07%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.489 / LogL: -13631.127
+Init pinv, alpha: 0.107, 1.000 / Estimate: 0.107, 0.648 / LogL: -13631.127
+Init pinv, alpha: 0.215, 1.000 / Estimate: 0.215, 0.909 / LogL: -13631.130
+Init pinv, alpha: 0.322, 1.000 / Estimate: 0.322, 1.416 / LogL: -13631.125
+Init pinv, alpha: 0.430, 1.000 / Estimate: 0.430, 2.850 / LogL: -13631.108
+Init pinv, alpha: 0.537, 1.000 / Estimate: 0.537, 41.506 / LogL: -13631.057
+Init pinv, alpha: 0.645, 1.000 / Estimate: 0.644, 998.435 / LogL: -13631.335
+Init pinv, alpha: 0.752, 1.000 / Estimate: 0.751, 998.443 / LogL: -13633.413
+Init pinv, alpha: 0.860, 1.000 / Estimate: 0.796, 998.446 / LogL: -13635.861
+Init pinv, alpha: 0.967, 1.000 / Estimate: 0.806, 998.447 / LogL: -13637.539
+Optimal pinv,alpha: 0.537, 41.506 / LogL: -13631.057
+
+Parameters optimization took 1.080 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00662405 secs using 214.9% CPU
+Computing ML distances took 0.006722 sec (of wall-clock time) 0.014300 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000165774 secs
+Computing RapidNJ tree took 0.000774 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -13646.699
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.149 second
+Computing log-likelihood of 98 initial trees ... 0.249 seconds
+Current best score: -13631.057
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -13631.057
+BETTER TREE FOUND at iteration 8: -13631.057
+Iteration 10 / LogL: -13631.057 / Time: 0h:0m:1s
+Iteration 20 / LogL: -13631.057 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -13631.057 / CPU time: 0.917
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -13631.165 / Time: 0h:0m:2s (0h:0m:7s left)
+Iteration 40 / LogL: -13631.118 / Time: 0h:0m:3s (0h:0m:5s left)
+Iteration 50 / LogL: -13631.087 / Time: 0h:0m:3s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -13657.256
+UFBoot trees printed to results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.ufboot
+Iteration 60 / LogL: -13631.095 / Time: 0h:0m:4s (0h:0m:3s left)
+Iteration 70 / LogL: -13631.114 / Time: 0h:0m:5s (0h:0m:2s left)
+Iteration 80 / LogL: -13640.841 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 90 / LogL: -13631.105 / Time: 0h:0m:6s (0h:0m:1s left)
+Iteration 100 / LogL: -13631.118 / Time: 0h:0m:7s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -13658.701
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+UFBoot trees printed to results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.ufboot
+TREE SEARCH COMPLETED AFTER 109 ITERATIONS / Time: 0h:0m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -13631.057
+Optimal log-likelihood: -13631.056
+Rate parameters:  A-C: 1.58157  A-G: 18.01898  A-T: 2.30397  C-G: 1.51668  C-T: 37.78313  G-T: 1.00000
+Base frequencies:  A: 0.247  C: 0.279  G: 0.258  T: 0.215
+Proportion of invariable sites: 0.538
+Gamma shape alpha: 41.829
+Parameters optimization took 1 rounds (0.015 sec)
+BEST SCORE FOUND : -13631.056
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.299 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.splits.nex
+Total tree length: 0.034
+
+Total number of iterations: 109
+CPU time used for tree search: 12.700 sec (0h:0m:12s)
+Wall-clock time used for tree search: 7.467 sec (0h:0m:7s)
+Total CPU time used: 15.634 sec (0h:0m:15s)
+Total wall-clock time used: 9.069 sec (0h:0m:9s)
+UFBoot trees printed to results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.splits.nex...
+43 taxa and 430 splits.
+Consensus tree written to results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.contree
+Reading input trees file results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.contree
+Log-likelihood of consensus tree: -13631.442
+
+Analysis results written to: 
+  IQ-TREE report:                results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.iqtree
+  Maximum-likelihood tree:       results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.treefile
+  Likelihood distances:          results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.splits.nex
+  Consensus tree:                results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.contree
+  UFBoot trees:                  results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.ufboot
+  Screen log file:               results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.log
+
+Date and Time: Wed Sep  9 00:42:13 2026

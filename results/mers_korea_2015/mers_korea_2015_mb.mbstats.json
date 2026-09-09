@@ -1,0 +1,16 @@
+{
+ "asdsf_final": 0.006045,
+ "asdsf_trace": [
+  0.006045
+ ],
+ "max_psrf": 1.007,
+ "min_ess": 1289.73,
+ "dataset": "mers_korea_2015",
+ "seconds": 1199.0,
+ "ngen": 3000000,
+ "nruns": 2,
+ "nchains": 4,
+ "samplefreq": 300,
+ "burninfrac": 0.25,
+ "tag": "mb"
+}

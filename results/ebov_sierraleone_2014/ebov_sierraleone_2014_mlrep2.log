@@ -1,0 +1,430 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_sierraleone_2014/analysis.fasta -m MFP --prefix results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep2 -T 2 -redo --quiet -seed 2024
+Seed:    2024 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:24:42 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_sierraleone_2014/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0332595 secs using 86.05% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 110 sequences with 18959 columns, 284 distinct patterns
+78 parsimony-informative, 141 singleton sites, 18740 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.59569e-05 secs using 866.7% CPU
+   1  KM034549    0.82%    passed     99.99%
+   2  KM034551    0.17%    passed     99.89%
+   3  KM034554    0.06%    passed     99.66%
+   4  KM034562    0.01%    passed     99.78%
+   5  KM034563    2.60%    passed     98.33%
+   6  KM233049    0.07%    passed     99.62%
+   7  KM233039    0.03%    passed     99.74%
+   8  KM233116    0.17%    passed     99.83%
+   9  KM233053    0.01%    passed     99.74%
+  10  KM233054    0.06%    passed     99.75%
+  11  KM233056    0.01%    passed     99.80%
+  12  KM233047    0.20%    passed     99.80%
+  13  KM233048    0.69%    passed     99.99%
+  14  KM233050    0.02%    passed     99.70%
+  15  KM233057    0.03%    passed     99.77%
+  16  KM233058    0.57%    passed    100.00%
+  17  KM233061    0.36%    passed    100.00%
+  18  KM233065    0.18%    passed     99.91%
+  19  KM233069    0.01%    passed     99.78%
+  20  KM233060    1.31%    passed     99.80%
+  21  KM233073    0.25%    passed     99.91%
+  22  KM233074    0.36%    passed    100.00%
+  23  KM233075    0.15%    passed     99.71%
+  24  KM233067    0.26%    passed     99.93%
+  25  KM233077    0.33%    passed     99.99%
+  26  KM233080    0.07%    passed     99.70%
+  27  KM233086    0.68%    passed    100.00%
+  28  KM233092    0.06%    passed     99.67%
+  29  KM233093    0.42%    passed    100.00%
+  30  KM233068    0.18%    passed     99.91%
+  31  KM233100    0.14%    passed     99.66%
+  32  KM233105    0.24%    passed     99.93%
+  33  KM233106    0.07%    passed     99.75%
+  34  KM233108    0.23%    passed     99.90%
+  35  KM233110    0.02%    passed     99.83%
+  36  KM233112    0.19%    passed     99.88%
+  37  KM233115    0.65%    passed    100.00%
+  38  KM233083    0.98%    passed     99.85%
+  39  KP759747    0.41%    passed     99.99%
+  40  KP759640    1.30%    passed     99.89%
+  41  KP759630    1.17%    passed     98.99%
+  42  KP759642    1.18%    passed     99.55%
+  43  KP759688    0.41%    passed     99.99%
+  44  KP759608    0.69%    passed     99.98%
+  45  KP759644    1.18%    passed     99.54%
+  46  KP759652    1.16%    passed     99.44%
+  47  KP759666    0.41%    passed     99.99%
+  48  KP759670    0.41%    passed     99.99%
+  49  KP759683    0.41%    passed     99.97%
+  50  KP759620    1.18%    passed     99.56%
+  51  KP759694    0.41%    passed    100.00%
+  52  KP759629    1.18%    passed     99.45%
+  53  KP759712    0.41%    passed     99.99%
+  54  KP759635    1.22%    passed     99.35%
+  55  KP759714    0.41%    passed     99.99%
+  56  KP759719    0.41%    passed     99.98%
+  57  KP759723    0.41%    passed     99.99%
+  58  KP759633    1.17%    passed     99.83%
+  59  KP759717    0.41%    passed    100.00%
+  60  KP759634    1.18%    passed     99.30%
+  61  KP759725    0.41%    passed    100.00%
+  62  KP759728    0.41%    passed     99.99%
+  63  KP759729    0.41%    passed    100.00%
+  64  KP759731    0.41%    passed    100.00%
+  65  KP759732    0.41%    passed     99.99%
+  66  KP759737    0.41%    passed    100.00%
+  67  KP759638    1.17%    passed     99.55%
+  68  KP759730    0.41%    passed     99.98%
+  69  KP759739    0.41%    passed     99.99%
+  70  KP759750    0.41%    passed     99.99%
+  71  KP759751    0.41%    passed     99.98%
+  72  KP759753    0.41%    passed    100.00%
+  73  KP759645    1.34%    passed     99.77%
+  74  KP759744    0.41%    passed     99.97%
+  75  KP759752    0.41%    passed    100.00%
+  76  KP759648    1.22%    passed     99.76%
+  77  KP759649    1.18%    passed     99.78%
+  78  KP759760    0.41%    passed     99.97%
+  79  KP759653    1.18%    passed     99.26%
+  80  KP759657    1.19%    passed     99.91%
+  81  KP759761    0.41%    passed    100.00%
+  82  KP759764    0.41%    passed     99.99%
+  83  KP759767    0.41%    passed    100.00%
+  84  KP759597    1.22%    passed     99.72%
+  85  KP759656    1.18%    passed     99.67%
+  86  KP759669    0.41%    passed     99.98%
+  87  KP759765    0.41%    passed     99.98%
+  88  KP759766    0.41%    passed     99.97%
+  89  KP759595    0.69%    passed     99.97%
+  90  KP759599    0.69%    passed     99.95%
+  91  KP759603    0.69%    passed     99.99%
+  92  KP759664    0.41%    passed    100.00%
+  93  KP759676    0.41%    passed     99.96%
+  94  KP759594    1.18%    passed     99.55%
+  95  KP759682    0.41%    passed     99.98%
+  96  KP759684    0.41%    passed     99.99%
+  97  KP759686    0.41%    passed     99.99%
+  98  KP759600    0.69%    passed     99.99%
+  99  KP759679    0.41%    passed     99.99%
+ 100  KP759690    0.41%    passed     99.99%
+ 101  KP759689    0.41%    passed     99.99%
+ 102  KP759693    0.41%    passed     99.99%
+ 103  KP759616    1.30%    passed     99.86%
+ 104  KP759695    0.41%    passed     99.98%
+ 105  KP759702    0.41%    passed    100.00%
+ 106  KP759703    0.41%    passed     99.99%
+ 107  KP759626    1.18%    passed     99.60%
+ 108  KP759627    1.18%    passed     99.76%
+ 109  KP759705    0.41%    passed     99.97%
+ 110  KP759709    0.41%    passed     99.99%
+****  TOTAL       0.55%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KM233068 is identical to KM233065 but kept for subsequent analysis
+NOTE: KP759684 is identical to KP759712 but kept for subsequent analysis
+NOTE: KP759729 is identical to KP759725 but kept for subsequent analysis
+NOTE: KP759752 is identical to KP759753 but kept for subsequent analysis
+NOTE: KP759693 is identical to KP759686 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -28281.281
+Optimal log-likelihood: -28281.277
+Rate parameters:  A-C: 0.90970  A-G: 9.20385  A-T: 0.93026  C-G: 0.27656  C-T: 10.75975  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.269
+Proportion of invariable sites: 0.494
+Gamma shape alpha: 0.282
+Parameters optimization took 1 rounds (0.022 sec)
+Time for fast ML tree search: 0.175 seconds
+
+NOTE: ModelFinder requires 10 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 18959 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         28287.703    225 57025.406    57030.835    58791.663
+  2  GTR+F+I       28281.240    226 57014.480    57019.957    58788.588
+  3  GTR+F+G4      28281.612    226 57015.224    57020.702    58789.332
+  4  GTR+F+I+G4    28281.254    227 57016.507    57022.033    58798.465
+  5  GTR+F+R2      28284.010    227 57022.019    57027.546    58803.977
+  6  GTR+F+R3      28283.088    229 57024.177    57029.801    58821.835
+ 14  GTR+F+I+R2    28281.559    228 57019.118    57024.693    58808.926
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
+ 15  GTR+F+I+R3    28281.637    230 57023.274    57028.948    58828.782
+ 23  SYM           28624.033    222 57692.065    57697.350    59434.773
+ 24  SYM+I         28617.907    223 57681.814    57687.147    59432.372
+ 25  SYM+G4        28618.167    223 57682.333    57687.666    59432.891
+ 26  SYM+I+G4      28617.923    224 57683.846    57689.226    59442.253
+ 45  TVM+F         28288.111    224 57024.222    57029.603    58782.630
+ 46  TVM+F+I       28281.582    225 57013.165    57018.594    58779.422
+ 47  TVM+F+G4      28281.971    225 57013.942    57019.371    58780.199
+ 48  TVM+F+I+G4    28281.596    226 57015.193    57020.670    58789.301
+ 67  TVMe          28624.239    221 57690.479    57695.716    59425.336
+ 68  TVMe+I        28618.112    222 57680.224    57685.509    59422.932
+ 69  TVMe+G4       28618.376    222 57680.751    57686.036    59423.459
+ 70  TVMe+I+G4     28618.121    223 57682.243    57687.575    59432.801
+ 89  TIM3+F        28288.964    223 57023.927    57029.260    58774.485
+ 90  TIM3+F+I      28282.465    224 57012.930    57018.311    58771.338
+ 91  TIM3+F+G4     28282.848    224 57013.695    57019.076    58772.103
+ 92  TIM3+F+I+G4   28282.472    225 57014.945    57020.373    58781.202
+111  TIM3e         28626.175    220 57692.349    57697.538    59419.357
+112  TIM3e+I       28620.037    221 57682.074    57687.311    59416.931
+113  TIM3e+G4      28620.311    221 57682.623    57687.860    59417.480
+114  TIM3e+I+G4    28620.059    222 57684.119    57689.403    59426.826
+133  TIM2+F        28288.782    223 57023.564    57028.896    58774.121
+134  TIM2+F+I      28281.915    224 57011.831    57017.211    58770.238
+135  TIM2+F+G4     28282.301    224 57012.602    57017.983    58771.010
+136  TIM2+F+I+G4   28281.930    225 57013.860    57019.289    58780.118
+155  TIM2e         28625.231    220 57690.462    57695.652    59417.470
+156  TIM2e+I       28619.072    221 57680.145    57685.382    59415.002
+157  TIM2e+G4      28619.328    221 57680.656    57685.893    59415.514
+158  TIM2e+I+G4    28619.045    222 57682.090    57687.374    59424.797
+177  TIM+F         28288.981    223 57023.961    57029.294    58774.519
+178  TIM+F+I       28282.444    224 57012.888    57018.269    58771.296
+179  TIM+F+G4      28282.849    224 57013.698    57019.078    58772.105
+180  TIM+F+I+G4    28282.462    225 57014.924    57020.353    58781.182
+199  TIMe          28626.641    220 57693.283    57698.472    59420.290
+200  TIMe+I        28620.483    221 57682.965    57688.202    59417.823
+201  TIMe+G4       28620.759    221 57683.518    57688.755    59418.376
+202  TIMe+I+G4     28620.501    222 57685.002    57690.287    59427.710
+221  TPM3u+F       28289.336    222 57022.671    57027.956    58765.379
+222  TPM3u+F+I     28282.757    223 57011.513    57016.846    58762.071
+223  TPM3u+F+G4    28283.168    223 57012.337    57017.669    58762.895
+224  TPM3u+F+I+G4  28282.770    224 57013.540    57018.920    58771.947
+243  TPM3          28626.635    219 57691.271    57696.413    59410.428
+244  TPM3+I        28620.469    220 57680.939    57686.128    59407.946
+245  TPM3+G4       28620.750    220 57681.499    57686.689    59408.507
+246  TPM3+I+G4     28620.487    221 57682.975    57688.211    59417.832
+265  TPM2u+F       28288.704    222 57021.407    57026.692    58764.115
+266  TPM2u+F+I     28282.176    223 57010.352    57015.684    58760.909
+267  TPM2u+F+G4    28282.572    223 57011.145    57016.477    58761.702
+268  TPM2u+F+I+G4  28282.184    224 57012.367    57017.748    58770.775
+287  TPM2          28625.161    219 57688.322    57693.464    59407.479
+288  TPM2+I        28619.006    220 57678.012    57683.202    59405.020
+289  TPM2+G4       28619.277    220 57678.554    57683.743    59405.561
+290  TPM2+I+G4     28619.015    221 57680.029    57685.266    59414.887
+309  K3Pu+F        28289.514    222 57023.027    57028.312    58765.735
+310  K3Pu+F+I      28282.871    223 57011.743    57017.075    58762.300
+311  K3Pu+F+G4     28283.293    223 57012.586    57017.918    58763.143
+312  K3Pu+F+I+G4   28282.889    224 57013.778    57019.159    58772.186
+331  K3P           28626.963    219 57691.926    57697.068    59411.083
+332  K3P+I         28620.781    220 57681.563    57686.752    59408.570
+333  K3P+G4        28621.064    220 57682.128    57687.318    59409.136
+334  K3P+I+G4      28620.800    221 57683.600    57688.837    59418.458
+353  TN+F          28288.989    222 57021.978    57027.263    58764.686
+354  TN+F+I        28282.462    223 57010.925    57016.257    58761.482
+355  TN+F+G4       28282.864    223 57011.728    57017.060    58762.285
+356  TN+F+I+G4     28282.480    224 57012.961    57018.341    58771.368
+375  TNe           28626.612    219 57691.223    57696.365    59410.381
+376  TNe+I         28620.458    220 57680.916    57686.106    59407.924
+377  TNe+G4        28620.737    220 57681.475    57686.664    59408.482
+378  TNe+I+G4      28620.482    221 57682.964    57688.201    59417.822
+397  HKY+F         28289.501    221 57021.003    57026.240    58755.860
+398  HKY+F+I       28282.927    222 57009.855    57015.139    58752.562
+399  HKY+F+G4      28283.347    222 57010.694    57015.978    58753.401
+400  HKY+F+I+G4    28282.945    223 57011.890    57017.223    58762.448
+419  K2P           28626.967    218 57689.933    57695.028    59401.241
+420  K2P+I         28620.794    219 57679.588    57684.730    59398.745
+421  K2P+G4        28621.079    219 57680.158    57685.300    59399.315
+422  K2P+I+G4      28620.815    220 57681.631    57686.820    59408.638
+441  F81+F         28429.957    220 57299.915    57305.104    59026.922
+442  F81+F+I       28423.703    221 57289.406    57294.643    59024.264
+443  F81+F+G4      28424.015    221 57290.031    57295.268    59024.888
+444  F81+F+I+G4    28423.726    222 57291.453    57296.737    59034.160
+463  JC            28763.411    217 57960.822    57965.871    59664.280
+464  JC+I          28757.257    218 57950.513    57955.608    59661.821
+465  JC+G4         28757.537    218 57951.075    57956.170    59662.382
+466  JC+I+G4       28757.280    219 57952.560    57957.702    59671.718
+Akaike Information Criterion:           HKY+F+I
+Corrected Akaike Information Criterion: HKY+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep2.model.gz
+CPU time for ModelFinder: 6.181 seconds (0h:0m:6s)
+Wall-clock time for ModelFinder: 3.225 seconds (0h:0m:3s)
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -28423.704
+2. Current log-likelihood: -28317.262
+Optimal log-likelihood: -28317.192
+Rate parameters:  A-C: 1.00000  A-G: 99.52061  A-T: 1.00000  C-G: 1.00000  C-T: 99.52061  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.269
+Proportion of invariable sites: 0.829
+Parameters optimization took 2 rounds (0.022 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0168152 secs using 197.7% CPU
+Computing ML distances took 0.016975 sec (of wall-clock time) 0.033395 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000568459 secs using 95.87% CPU
+Computing RapidNJ tree took 0.002554 sec (of wall-clock time) 0.002456 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -28319.682
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.477 second
+Computing log-likelihood of 98 initial trees ... 0.543 seconds
+Current best score: -28317.192
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -28317.121
+Iteration 10 / LogL: -28317.134 / Time: 0h:0m:4s
+Iteration 20 / LogL: -28317.134 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -28317.121 / CPU time: 2.118
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -28317.478 / Time: 0h:0m:6s (0h:0m:8s left)
+Iteration 40 / LogL: -28339.393 / Time: 0h:0m:7s (0h:0m:7s left)
+Iteration 50 / LogL: -28332.502 / Time: 0h:0m:9s (0h:0m:6s left)
+Iteration 60 / LogL: -28317.507 / Time: 0h:0m:10s (0h:0m:4s left)
+Iteration 70 / LogL: -28324.968 / Time: 0h:0m:11s (0h:0m:3s left)
+Iteration 80 / LogL: -28317.353 / Time: 0h:0m:12s (0h:0m:2s left)
+Iteration 90 / LogL: -28320.466 / Time: 0h:0m:13s (0h:0m:1s left)
+Iteration 100 / LogL: -28327.397 / Time: 0h:0m:14s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -28317.121
+2. Current log-likelihood: -28317.050
+3. Current log-likelihood: -28316.979
+4. Current log-likelihood: -28316.908
+5. Current log-likelihood: -28316.836
+6. Current log-likelihood: -28316.765
+7. Current log-likelihood: -28316.692
+8. Current log-likelihood: -28316.620
+9. Current log-likelihood: -28316.547
+10. Current log-likelihood: -28316.474
+11. Current log-likelihood: -28316.400
+12. Current log-likelihood: -28316.326
+13. Current log-likelihood: -28316.252
+14. Current log-likelihood: -28316.177
+15. Current log-likelihood: -28316.102
+16. Current log-likelihood: -28316.027
+17. Current log-likelihood: -28315.951
+18. Current log-likelihood: -28315.875
+19. Current log-likelihood: -28315.799
+20. Current log-likelihood: -28315.722
+21. Current log-likelihood: -28315.645
+22. Current log-likelihood: -28315.568
+23. Current log-likelihood: -28315.490
+24. Current log-likelihood: -28315.411
+25. Current log-likelihood: -28315.333
+26. Current log-likelihood: -28315.254
+27. Current log-likelihood: -28315.174
+28. Current log-likelihood: -28315.095
+29. Current log-likelihood: -28315.014
+30. Current log-likelihood: -28314.934
+31. Current log-likelihood: -28314.853
+32. Current log-likelihood: -28314.771
+33. Current log-likelihood: -28314.689
+34. Current log-likelihood: -28314.607
+35. Current log-likelihood: -28314.524
+36. Current log-likelihood: -28314.441
+37. Current log-likelihood: -28314.358
+38. Current log-likelihood: -28314.274
+39. Current log-likelihood: -28314.189
+40. Current log-likelihood: -28314.104
+41. Current log-likelihood: -28314.019
+42. Current log-likelihood: -28313.933
+43. Current log-likelihood: -28313.847
+44. Current log-likelihood: -28313.760
+45. Current log-likelihood: -28313.673
+46. Current log-likelihood: -28313.586
+47. Current log-likelihood: -28313.497
+48. Current log-likelihood: -28313.409
+49. Current log-likelihood: -28313.320
+50. Current log-likelihood: -28313.230
+51. Current log-likelihood: -28313.140
+52. Current log-likelihood: -28313.049
+53. Current log-likelihood: -28312.958
+54. Current log-likelihood: -28312.867
+55. Current log-likelihood: -28312.774
+56. Current log-likelihood: -28312.682
+57. Current log-likelihood: -28312.589
+58. Current log-likelihood: -28312.495
+59. Current log-likelihood: -28312.401
+60. Current log-likelihood: -28312.306
+61. Current log-likelihood: -28312.210
+62. Current log-likelihood: -28312.114
+63. Current log-likelihood: -28312.018
+64. Current log-likelihood: -28311.921
+65. Current log-likelihood: -28311.823
+66. Current log-likelihood: -28311.724
+67. Current log-likelihood: -28311.626
+68. Current log-likelihood: -28311.526
+69. Current log-likelihood: -28311.426
+70. Current log-likelihood: -28311.325
+71. Current log-likelihood: -28311.224
+72. Current log-likelihood: -28311.122
+73. Current log-likelihood: -28311.019
+74. Current log-likelihood: -28310.916
+75. Current log-likelihood: -28310.812
+76. Current log-likelihood: -28310.707
+77. Current log-likelihood: -28310.602
+78. Current log-likelihood: -28310.496
+79. Current log-likelihood: -28310.389
+80. Current log-likelihood: -28310.282
+81. Current log-likelihood: -28310.174
+82. Current log-likelihood: -28310.065
+83. Current log-likelihood: -28309.955
+84. Current log-likelihood: -28309.845
+85. Current log-likelihood: -28309.734
+86. Current log-likelihood: -28309.622
+87. Current log-likelihood: -28309.510
+88. Current log-likelihood: -28309.396
+89. Current log-likelihood: -28309.282
+90. Current log-likelihood: -28309.167
+91. Current log-likelihood: -28309.051
+92. Current log-likelihood: -28308.935
+93. Current log-likelihood: -28308.817
+94. Current log-likelihood: -28308.699
+95. Current log-likelihood: -28308.580
+96. Current log-likelihood: -28308.460
+97. Current log-likelihood: -28308.339
+98. Current log-likelihood: -28308.218
+99. Current log-likelihood: -28308.095
+Optimal log-likelihood: -28308.095
+Rate parameters:  A-C: 1.00000  A-G: 69.63201  A-T: 1.00000  C-G: 1.00000  C-T: 69.63201  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.269
+Proportion of invariable sites: 0.828
+Parameters optimization took 99 rounds (1.497 sec)
+BEST SCORE FOUND : -28308.095
+Total tree length: 0.012
+
+Total number of iterations: 102
+CPU time used for tree search: 20.288 sec (0h:0m:20s)
+Wall-clock time used for tree search: 11.816 sec (0h:0m:11s)
+Total CPU time used: 29.485 sec (0h:0m:29s)
+Total wall-clock time used: 16.621 sec (0h:0m:16s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep2.iqtree
+  Maximum-likelihood tree:       results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep2.treefile
+  Likelihood distances:          results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep2.mldist
+  Screen log file:               results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep2.log
+
+Date and Time: Wed Sep  9 00:24:59 2026

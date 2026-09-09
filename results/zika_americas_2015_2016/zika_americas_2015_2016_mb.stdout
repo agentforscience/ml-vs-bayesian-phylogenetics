@@ -1,0 +1,350 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "results/zika_americas_2015_2016/zika_americas_2015_2016_mb.mb.nex"
+   UNIX line termination
+   Longest line length = 79
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting seed to 42
+      Setting swapseed to 42
+
+      Executing file "datasets/zika_americas_2015_2016/analysis.nex"...
+
+   UNIX line termination
+   Longest line length = 10892
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 100 taxa and 10877 characters
+      Data is Dna
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon   1 -> KU509998
+      Taxon   2 -> KX694534
+      Taxon   3 -> MF073359
+      Taxon   4 -> KU321639
+      Taxon   5 -> MF352141
+      Taxon   6 -> MF073358
+      Taxon   7 -> MH158237
+      Taxon   8 -> MK028857
+      Taxon   9 -> MK028858
+      Taxon  10 -> MK028861
+      Taxon  11 -> KU940228
+      Taxon  12 -> KU940224
+      Taxon  13 -> KX520666
+      Taxon  14 -> KU312312
+      Taxon  15 -> KY631493
+      Taxon  16 -> KY631494
+      Taxon  17 -> KU501217
+      Taxon  18 -> KU501216
+      Taxon  19 -> KX197205
+      Taxon  20 -> MH513598
+      Taxon  21 -> KX156775
+      Taxon  22 -> MH513599
+      Taxon  23 -> KU647676
+      Taxon  24 -> KU758877
+      Taxon  25 -> KX087101
+      Taxon  26 -> KX377337
+      Taxon  27 -> MF574557
+      Taxon  28 -> MF574562
+      Taxon  29 -> MF574574
+      Taxon  30 -> KX156776
+      Taxon  31 -> KX446951
+      Taxon  32 -> KX827268
+      Taxon  33 -> KX421194
+      Taxon  34 -> MH544701
+      Taxon  35 -> KX421195
+      Taxon  36 -> KY348640
+      Taxon  37 -> KU926310
+      Taxon  38 -> KU870645
+      Taxon  39 -> MF801384
+      Taxon  40 -> KU937936
+      Taxon  41 -> MK049245
+      Taxon  42 -> KY606271
+      Taxon  43 -> MK049246
+      Taxon  44 -> KX702400
+      Taxon  45 -> KX893855
+      Taxon  46 -> KY014307
+      Taxon  47 -> MF801387
+      Taxon  48 -> KY785479
+      Taxon  49 -> KY785426
+      Taxon  50 -> KY785469
+      Taxon  51 -> KY785465
+      Taxon  52 -> KY785464
+      Taxon  53 -> KX879604
+      Taxon  54 -> MH882527
+      Taxon  55 -> MH882528
+      Taxon  56 -> KY785466
+      Taxon  57 -> MF794971
+      Taxon  58 -> MF783073
+      Taxon  59 -> MF384325
+      Taxon  60 -> MF801401
+      Taxon  61 -> MF801402
+      Taxon  62 -> KY014315
+      Taxon  63 -> KY785484
+      Taxon  64 -> KY785448
+      Taxon  65 -> KY785419
+      Taxon  66 -> KX842449
+      Taxon  67 -> KY014295
+      Taxon  68 -> KY693678
+      Taxon  69 -> KY765322
+      Taxon  70 -> KY765323
+      Taxon  71 -> KX198135
+      Taxon  72 -> KY648934
+      Taxon  73 -> MF801381
+      Taxon  74 -> MH882537
+      Taxon  75 -> KY785435
+      Taxon  76 -> KY693679
+      Taxon  77 -> MH882538
+      Taxon  78 -> KY785445
+      Taxon  79 -> MF801378
+      Taxon  80 -> MH882540
+      Taxon  81 -> MK049248
+      Taxon  82 -> KY606272
+      Taxon  83 -> MF434516
+      Taxon  84 -> KY693676
+      Taxon  85 -> MF434522
+      Taxon  86 -> KY014299
+      Taxon  87 -> KY325477
+      Taxon  88 -> KY325476
+      Taxon  89 -> KY693680
+      Taxon  90 -> MH157204
+      Taxon  91 -> MG494697
+      Taxon  92 -> MF574578
+      Taxon  93 -> MF574582
+      Taxon  94 -> MF574586
+      Taxon  95 -> MF438286
+      Taxon  96 -> MG770184
+      Taxon  97 -> MG770186
+      Taxon  98 -> MF159531
+      Taxon  99 -> MH063262
+      Taxon 100 -> MH063264
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 42
+      Setting output file names to "datasets/zika_americas_2015_2016/analysis.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Setting Nst to 6
+      Setting Rates to Invgamma
+      Successfully set likelihood model parameters
+      Setting Statefreqpr to Dirichlet(1.00,1.00,1.00,1.00)
+      Setting Revmatpr to Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+      Setting Shapepr to Exponential(1.00)
+      Setting Pinvarpr to Uniform(0.00,1.00)
+      Setting Brlenspr to Unconstrained:GammaDir(1.00,1000.0000,1.00,1.00)
+      Successfully set prior model parameters
+      Setting number of generations to 800000
+      Setting number of runs to 2
+      Setting number of chains to 4
+      Setting sample frequency to 80
+      Setting print frequency to 40000
+      Setting diagnosing frequency to 40000
+      Setting chain output file names to "results/zika_americas_2015_2016/zika_americas_2015_2016_mb.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 7313498599
+      Seed = 1726625671
+      Swapseed = 42
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Invgamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+                        Proportion of invariable sites is uniformly dist-
+                        ributed on the interval (0.00,1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Revmat              1
+         Statefreq           2
+         Shape               3
+         Pinvar              4
+         Ratemultiplier      5
+         Topology            6
+         Brlens              7
+         ---------------------
+
+         1 --  Parameter  = Revmat
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+
+         2 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         3 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         4 --  Parameter  = Pinvar
+               Type       = Proportion of invariable sites
+               Prior      = Uniform(0.00,1.00)
+
+         5 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         6 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         7 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,1000.0000,1.0,1.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.93 %   Dirichlet(Revmat)
+            0.93 %   Slider(Revmat)
+            0.93 %   Dirichlet(Pi)
+            0.93 %   Slider(Pi)
+            1.85 %   Multiplier(Alpha)
+            1.85 %   Slider(Pinvar)
+            9.26 %   ExtSPR(Tau,V)
+            9.26 %   ExtTBR(Tau,V)
+            9.26 %   NNI(Tau,V)
+            9.26 %   ParsSPR(Tau,V)
+           37.04 %   Multiplier(V)
+           12.96 %   Nodeslider(V)
+            5.56 %   TLMultiplier(V)
+
+      Division 1 has 991 unique site patterns
+      Initializing conditional likelihoods
+      Using standard FMA likelihood calculator for division 1 (single-precision)
+      Initializing invariable-site conditional likelihoods
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -45315.620645 -- -3773.796906
+         Chain 2 -- -45267.865491 -- -3773.796906
+         Chain 3 -- -45263.670071 -- -3773.796906
+         Chain 4 -- -45221.777791 -- -3773.796906
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -45155.110728 -- -3773.796906
+         Chain 2 -- -45315.254488 -- -3773.796906
+         Chain 3 -- -45216.935016 -- -3773.796906
+         Chain 4 -- -45349.865393 -- -3773.796906
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (800000 generations requested):
+
+          0 -- [-45315.621] (-45267.865) (-45263.670) (-45221.778) * [-45155.111] (-45315.254) (-45216.935) (-45349.865) 
+      40000 -- [-23140.159] (-23162.337) (-23198.002) (-23173.405) * [-23141.425] (-23147.557) (-23202.092) (-23166.989) -- 0:44:20
+
+      Average standard deviation of split frequencies: 0.035086
+
+      80000 -- (-23158.034) [-23155.791] (-23164.787) (-23188.350) * (-23171.825) (-23176.535) [-23153.960] (-23147.327) -- 0:41:42
+
+      Average standard deviation of split frequencies: 0.024318
+
+      120000 -- (-23146.422) (-23195.552) [-23134.255] (-23160.482) * (-23202.327) [-23152.620] (-23161.995) (-23170.727) -- 0:39:28
+
+      Average standard deviation of split frequencies: 0.015566
+
+      160000 -- (-23158.203) [-23153.087] (-23157.569) (-23157.736) * (-23155.801) (-23149.852) (-23156.995) [-23149.549] -- 0:37:36
+
+      Average standard deviation of split frequencies: 0.012824
+
+      200000 -- (-23169.846) (-23168.049) (-23163.501) [-23127.571] * (-23196.101) (-23155.206) [-23154.461] (-23177.147) -- 0:34:54
+
+      Average standard deviation of split frequencies: 0.012510
+
+      240000 -- (-23180.506) (-23172.823) (-23137.126) [-23174.010] * [-23130.356] (-23157.429) (-23171.890) (-23167.297) -- 0:32:19
+
+      Average standard deviation of split frequencies: 0.011686
+
+      280000 -- (-23140.279) (-23194.507) (-23181.791) [-23154.721] * (-23156.159) [-23161.319] (-23162.601) (-23180.460) -- 0:29:54
+
+      Average standard deviation of split frequencies: 0.010071
+
+      320000 -- (-23167.173) (-23165.555) [-23134.064] (-23147.622) * [-23164.553] (-23164.636) (-23160.573) (-23178.042) -- 0:27:28
+
+      Average standard deviation of split frequencies: 0.009945
+
+      360000 -- [-23147.454] (-23187.180) (-23157.478) (-23184.733) * (-23144.701) (-23156.558) (-23169.860) [-23136.703] -- 0:25:07
+
+      Average standard deviation of split frequencies: 0.009834
+
+      400000 -- (-23149.465) [-23138.555] (-23181.944) (-23179.829) * (-23141.698) [-23154.864] (-23219.240) (-23146.384) -- 0:22:45
+
+      Average standard deviation of split frequencies: 0.009266
+
+      440000 -- (-23154.307) (-23152.946) (-23178.113) [-23158.138] * [-23156.695] (-23195.058) (-23157.230) (-23154.103) -- 0:20:26
+
+      Average standard deviation of split frequencies: 0.009485
+
+      480000 -- (-23167.533) [-23147.781] (-23186.429) (-23159.191) * (-23181.394) [-23139.518] (-23181.464) (-23160.627) -- 0:18:08
+
+      Average standard deviation of split frequencies: 0.009071
+
+      520000 -- (-23149.690) (-23162.280) (-23192.326) [-23144.183] * [-23145.028] (-23162.489) (-23219.990) (-23161.044) -- 0:15:50
+
+      Average standard deviation of split frequencies: 0.008752
+
+      560000 -- (-23177.348) (-23168.596) (-23163.144) [-23154.766] * [-23155.898] (-23145.675) (-23208.006) (-23172.733) -- 0:13:34
+
+      Average standard deviation of split frequencies: 0.008182
+
+      600000 -- (-23146.943) (-23163.223) [-23153.981] (-23167.879) * (-23165.545) (-23202.566) (-23155.524) [-23152.080] -- 0:11:18
+
+      Average standard deviation of split frequencies: 0.008115
+
+      640000 -- [-23159.505] (-23172.286) (-23140.330) (-23177.942) * (-23177.561) [-23155.651] (-23180.996) (-23171.012) -- 0:09:01
+
+      Average standard deviation of split frequencies: 0.007819
+
+      680000 -- (-23179.319) [-23134.605] (-23200.071) (-23147.891) * (-23178.230) (-23212.734) (-23160.911) [-23173.566] -- 0:06:45
+
+      Average standard deviation of split frequencies: 0.007199
+
+      720000 -- (-23159.501) (-23192.257) (-23166.179) [-23160.676] * [-23151.452] (-23165.494) (-23159.754) (-23210.438) -- 0:04:30
+
+      Average standard deviation of split frequencies: 0.007112
+
+      760000 -- (-23193.388) (-23155.549) [-23135.810] (-23152.842) * [-23132.892] (-23187.789) (-23173.938) (-23191.637) -- 0:02:14
+
+      Average standard deviation of split frequencies: 0.006667

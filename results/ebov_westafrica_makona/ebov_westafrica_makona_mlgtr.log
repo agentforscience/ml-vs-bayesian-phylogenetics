@@ -1,0 +1,276 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_westafrica_makona/analysis.fasta -m GTR+F+I+G4 --prefix results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr -T 2 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:42:03 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_westafrica_makona/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0681313 secs using 64.82% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 150 sequences with 18979 columns, 1105 distinct patterns
+205 parsimony-informative, 358 singleton sites, 18416 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000270403 secs using 738.5% CPU
+   1  KP096421    0.12%    passed     99.79%
+   2  KX000400    0.15%    passed     99.30%
+   3  KY425654    0.34%    passed     99.72%
+   4  KT013256    0.11%    passed     99.82%
+   5  KY425648    0.36%    passed     99.86%
+   6  KU978801    0.31%    passed     99.70%
+   7  KR817189    0.24%    passed     99.58%
+   8  KR817179    0.11%    passed     99.66%
+   9  KR817180    0.25%    passed     99.49%
+  10  KR817194    0.11%    passed     99.72%
+  11  KR817190    0.22%    passed     99.72%
+  12  KR817191    0.24%    passed     99.71%
+  13  KR817205    0.11%    passed     99.50%
+  14  KR817208    0.24%    passed     99.37%
+  15  KR817209    0.11%    passed     99.41%
+  16  KR817214    0.11%    passed     99.57%
+  17  KR817216    0.11%    passed     99.65%
+  18  KM233049    0.17%    passed     99.45%
+  19  KM233035    0.35%    passed     99.86%
+  20  KM233038    0.34%    passed     99.86%
+  21  KR817220    0.24%    passed     99.70%
+  22  KR817224    0.11%    passed     99.81%
+  23  KM233064    0.93%    passed     99.94%
+  24  KM233073    0.35%    passed     99.84%
+  25  KM233097    0.14%    passed     99.74%
+  26  KM233101    0.54%    passed    100.00%
+  27  KM233105    0.34%    passed     99.88%
+  28  KR817231    0.24%    passed     99.70%
+  29  KR817232    0.11%    passed     99.86%
+  30  KR817233    0.11%    passed     99.74%
+  31  KT725320    1.50%    passed     99.71%
+  32  KT725262    0.71%    passed     99.98%
+  33  KT725336    2.99%    passed     88.87%
+  34  KR817239    0.11%    passed     99.86%
+  35  KU143821    0.11%    passed     99.88%
+  36  KR817240    0.11%    passed     99.55%
+  37  KR817115    0.26%    passed     99.83%
+  38  KR105273    1.06%    passed     99.64%
+  39  KR105274    0.60%    passed    100.00%
+  40  KR534512    0.35%    passed     99.86%
+  41  KR534513    0.11%    passed     99.65%
+  42  KR105290    1.01%    passed     91.56%
+  43  KR534514    0.13%    passed     99.73%
+  44  KT725278    1.04%    passed     99.87%
+  45  KR817128    0.11%    passed     99.69%
+  46  KT725377    0.65%    passed     99.96%
+  47  KR105298    0.27%    passed     99.91%
+  48  KT725390    1.45%    passed     99.58%
+  49  KR817130    0.11%    passed     99.66%
+  50  KR534520    0.13%    passed     99.70%
+  51  KR105309    3.44%    passed     60.07%
+  52  KX009899    0.57%    passed     99.94%
+  53  KR817072    0.17%    passed     99.73%
+  54  KR817075    0.12%    passed     99.64%
+  55  KR534527    0.14%    passed     99.76%
+  56  KT725321    3.28%    passed     91.48%
+  57  KR105339    0.72%    passed     99.86%
+  58  KP759734    0.52%    passed     99.99%
+  59  KR817082    0.11%    passed     99.95%
+  60  KT725361    2.11%    passed     98.70%
+  61  KP759717    0.52%    passed     99.99%
+  62  KR817136    0.12%    passed     99.54%
+  63  KX009904    0.67%    passed     99.99%
+  64  KT633510    0.62%    passed     99.99%
+  65  KP759750    0.52%    passed    100.00%
+  66  KR817145    0.51%    passed    100.00%
+  67  KR534571    0.12%    passed     99.32%
+  68  KR006940    8.73%    passed     75.73%
+  69  KP759614    0.90%    passed     99.95%
+  70  KP759701    0.52%    passed    100.00%
+  71  KR817156    0.91%    passed     99.74%
+  72  KR006948    2.22%    passed     96.31%
+  73  KR653271    0.28%    passed     99.49%
+  74  KT725327    2.68%    passed     92.62%
+  75  KR653259    0.34%    passed     99.89%
+  76  KX009909    0.66%    passed     99.98%
+  77  KR817160    1.19%    passed     99.82%
+  78  KX009911    0.57%    passed     99.80%
+  79  KR817162    0.11%    passed     99.93%
+  80  KU296735    3.04%    passed     88.48%
+  81  KR817177    0.11%    passed     99.68%
+  82  KT633509    1.27%    passed     99.62%
+  83  KU296606    0.50%    passed     99.99%
+  84  KU220283    1.48%    passed     99.48%
+  85  KR817097    0.48%    passed     99.97%
+  86  KR817098    0.11%    passed     99.72%
+  87  KU296387    0.50%    passed     99.83%
+  88  KU296582    0.50%    passed     99.97%
+  89  KT357825    3.07%    passed     99.42%
+  90  KU220284    0.37%    passed     99.91%
+  91  KR006960    3.63%    passed     94.97%
+  92  KU296354    1.16%    passed     99.67%
+  93  KR817103    0.30%    passed     99.81%
+  94  KU296637    0.49%    passed     99.99%
+  95  KT725384    0.66%    passed     99.98%
+  96  LC152433    0.24%    passed     99.88%
+  97  KU296336    1.23%    passed     99.74%
+  98  KU296680    0.54%    passed     99.97%
+  99  KU296451    0.50%    passed     99.85%
+ 100  LT630494    7.42%    passed     97.73%
+ 101  KT587343    3.18%    passed     88.57%
+ 102  LT630498    7.38%    passed     97.90%
+ 103  LT630499    7.50%    passed     98.13%
+ 104  LT630537    7.89%    passed     97.20%
+ 105  KU296768    0.50%    passed     99.84%
+ 106  KU296550    2.85%    passed     89.46%
+ 107  KY366416    0.71%    passed     99.95%
+ 108  KU296769    0.95%    passed     99.86%
+ 109  LT630509    7.38%    passed     96.61%
+ 110  LT630513    7.44%    passed     98.85%
+ 111  LT630521    7.60%    passed     98.72%
+ 112  LT630587    7.37%    passed     98.02%
+ 113  KU296322    0.56%    passed     99.96%
+ 114  LT630576    7.47%    passed     95.95%
+ 115  KU296793    0.52%    passed     99.96%
+ 116  LT630543    7.48%    passed     98.10%
+ 117  LT630544    7.41%    passed     95.03%
+ 118  LT630594    7.45%    passed     98.49%
+ 119  KU296618    0.56%    passed     99.94%
+ 120  KU296603    1.59%    passed     98.32%
+ 121  KU220269    0.24%    passed     99.49%
+ 122  KU220270    0.90%    passed     99.73%
+ 123  KR074997    0.11%    passed     99.77%
+ 124  KR074998    0.11%    passed     99.72%
+ 125  KR075000    0.11%    passed     99.89%
+ 126  KY426689    0.11%    passed     99.55%
+ 127  KY426707    0.11%    passed     99.93%
+ 128  KY426710    0.11%    passed     99.78%
+ 129  KY426717    0.11%    passed     99.98%
+ 130  KY426720    0.11%    passed     99.97%
+ 131  KU220271    0.37%    passed     99.89%
+ 132  LT630555    8.17%    passed     98.70%
+ 133  KU220272    0.29%    passed     99.81%
+ 134  KU220273    0.92%    passed     99.82%
+ 135  KU220274    1.53%    passed     99.88%
+ 136  KU220275    1.22%    passed     99.53%
+ 137  KU296357    0.51%    passed     99.90%
+ 138  KU296566    1.32%    passed     96.94%
+ 139  LT630559    7.47%    passed     96.56%
+ 140  KU296522    0.50%    passed     99.94%
+ 141  LT630598    7.40%    passed     97.65%
+ 142  LT630600    7.81%    passed     94.45%
+ 143  LT630601    7.58%    passed     98.24%
+ 144  LT630602    7.41%    passed     97.71%
+ 145  LT630604    8.57%    passed     98.57%
+ 146  LT630579    7.41%    passed     98.28%
+ 147  LT630563    7.65%    passed     97.60%
+ 148  KX121193    1.23%    passed     99.41%
+ 149  KX121194    0.87%    passed     99.97%
+ 150  KY007525    0.43%    passed     99.99%
+****  TOTAL       1.70%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.022 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 25 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.020 / LogL: -31960.593
+Init pinv, alpha: 0.108, 1.000 / Estimate: 0.108, 0.020 / LogL: -31959.077
+Init pinv, alpha: 0.216, 1.000 / Estimate: 0.216, 0.127 / LogL: -31957.793
+Init pinv, alpha: 0.323, 1.000 / Estimate: 0.324, 0.199 / LogL: -31956.463
+Init pinv, alpha: 0.431, 1.000 / Estimate: 0.432, 0.295 / LogL: -31955.084
+Init pinv, alpha: 0.539, 1.000 / Estimate: 0.539, 0.452 / LogL: -31953.686
+Init pinv, alpha: 0.647, 1.000 / Estimate: 0.647, 0.763 / LogL: -31952.414
+Init pinv, alpha: 0.755, 1.000 / Estimate: 0.755, 1.648 / LogL: -31951.967
+Init pinv, alpha: 0.863, 1.000 / Estimate: 0.856, 6.702 / LogL: -31957.012
+Init pinv, alpha: 0.970, 1.000 / Estimate: 0.874, 10.643 / LogL: -31967.134
+Optimal pinv,alpha: 0.755, 1.648 / LogL: -31951.967
+
+Parameters optimization took 10.781 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.088321 secs using 200.3% CPU
+Computing ML distances took 0.088954 sec (of wall-clock time) 0.181520 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000671005 secs using 98.51% CPU
+Computing RapidNJ tree took 0.003350 sec (of wall-clock time) 0.007325 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -31977.853
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.023 second
+Computing log-likelihood of 98 initial trees ... 2.457 seconds
+Current best score: -31949.541
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31947.262
+BETTER TREE FOUND at iteration 2: -31947.259
+Iteration 10 / LogL: -31948.481 / Time: 0h:0m:25s
+Iteration 20 / LogL: -31950.295 / Time: 0h:0m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -31947.259 / CPU time: 25.038
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -31965.443 / Time: 0h:0m:43s (0h:1m:47s left)
+Iteration 40 / LogL: -31968.325 / Time: 0h:0m:50s (0h:1m:20s left)
+Iteration 50 / LogL: -31963.270 / Time: 0h:0m:57s (0h:1m:0s left)
+Log-likelihood cutoff on original alignment: -32003.100
+UFBoot trees printed to results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.ufboot
+Iteration 60 / LogL: -31951.898 / Time: 0h:1m:5s (0h:0m:46s left)
+Iteration 70 / LogL: -31962.420 / Time: 0h:1m:11s (0h:0m:32s left)
+Iteration 80 / LogL: -31950.402 / Time: 0h:1m:17s (0h:0m:21s left)
+Iteration 90 / LogL: -31947.680 / Time: 0h:1m:23s (0h:0m:11s left)
+Iteration 100 / LogL: -31947.650 / Time: 0h:1m:29s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -32003.100
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+UFBoot trees printed to results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.ufboot
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:1m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31947.259
+Optimal log-likelihood: -31947.256
+Rate parameters:  A-C: 1.39435  A-G: 6.74742  A-T: 0.69118  C-G: 0.61312  C-T: 10.02334  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.268
+Proportion of invariable sites: 0.755
+Gamma shape alpha: 1.662
+Parameters optimization took 1 rounds (0.081 sec)
+BEST SCORE FOUND : -31947.256
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.247 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.splits.nex
+Total tree length: 0.033
+
+Total number of iterations: 103
+CPU time used for tree search: 151.879 sec (0h:2m:31s)
+Wall-clock time used for tree search: 80.994 sec (0h:1m:20s)
+Total CPU time used: 186.749 sec (0h:3m:6s)
+Total wall-clock time used: 98.889 sec (0h:1m:38s)
+UFBoot trees printed to results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.splits.nex...
+150 taxa and 1884 splits.
+Consensus tree written to results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.contree
+Reading input trees file results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.contree
+Log-likelihood of consensus tree: -31952.894
+
+Analysis results written to: 
+  IQ-TREE report:                results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.iqtree
+  Maximum-likelihood tree:       results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.treefile
+  Likelihood distances:          results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.splits.nex
+  Consensus tree:                results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.contree
+  UFBoot trees:                  results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.ufboot
+  Screen log file:               results/ebov_westafrica_makona/ebov_westafrica_makona_mlgtr.log
+
+Date and Time: Wed Sep  9 00:43:43 2026

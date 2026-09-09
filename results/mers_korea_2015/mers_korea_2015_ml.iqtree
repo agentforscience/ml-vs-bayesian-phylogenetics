@@ -1,0 +1,314 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 34 sequences with 30119 nucleotide sites
+Number of constant sites: 30085 (= 99.8871% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 30085 (= 99.8871% of all sites)
+Number of parsimony informative sites: 20
+Number of distinct site patterns: 75
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+I          -41578.170   83288.340 +    0.204   83288.634 +    0.205   83836.992 +    0.969
+TPM3u+F+I        -41577.165   83288.331 +    0.205   83288.634 +    0.205   83845.296 -   0.0152
+TN+F+I           -41578.045   83290.089 +   0.0851   83290.392 +   0.0853   83847.054 -  0.00633
+K3Pu+F+I         -41578.303   83290.607 +   0.0657   83290.910 +   0.0658   83847.572 -  0.00488
+TPM2u+F+I        -41578.367   83290.734 +   0.0617   83291.037 +   0.0618   83847.699 -  0.00458
+TIM3+F+I         -41576.435   83288.871 +    0.157   83289.183 +    0.156   83854.149 - 0.000182
+TIM2+F+I         -41577.938   83291.877 -   0.0348   83292.189 -   0.0347   83857.155 - 4.05e-05
+TIM+F+I          -41577.956   83291.911 -   0.0342   83292.223 -   0.0341   83857.189 - 3.99e-05
+F81+F+I          -41595.992   83321.984 - 1.01e-08   83322.269 - 1.02e-08   83862.323 - 3.06e-06
+TVM+F+I          -41575.796   83289.591 +    0.109   83289.913 +    0.108   83863.182 - 1.99e-06
+GTR+F+I          -41575.715   83291.430 -   0.0435   83291.761 -    0.043   83873.334 - 1.24e-08
+GTR+F+G4         -41590.848   83321.696 - 1.17e-08   83322.027 - 1.15e-08   83903.600 - 3.33e-15
+GTR+F+I+G4       -41587.455   83316.911 - 1.28e-07   83317.251 - 1.25e-07   83907.127 - 5.71e-16
+GTR+F            -41597.784   83333.567 - 3.08e-11   83333.889 - 3.06e-11   83907.158 - 5.62e-16
+GTR+F+R2         -41594.218   83330.436 - 1.48e-10   83330.776 - 1.45e-10   83920.652 -  6.6e-19
+GTR+F+I+R2       -41590.747   83325.494 - 1.75e-09   83325.844 - 1.71e-09   83924.023 - 1.22e-19
+GTR+F+R3         -41593.081   83332.162 - 6.22e-11   83332.522 - 6.06e-11   83939.005 - 6.83e-23
+GTR+F+I+R3       -41589.131   83326.262 - 1.19e-09   83326.632 - 1.15e-09   83941.418 - 2.04e-23
+K2P+I            -42163.429   84452.857 - 2.74e-254   84453.125 - 2.8e-254   84976.571 - 3.39e-248
+TPM3+I           -42162.738   84453.476 - 2.01e-254   84453.753 - 2.04e-254   84985.502 - 3.89e-250
+TNe+I            -42163.069   84454.139 - 1.44e-254   84454.416 - 1.47e-254   84986.165 - 2.8e-250
+TPM2+I           -42163.296   84454.592 - 1.15e-254   84454.869 - 1.17e-254   84986.618 - 2.23e-250
+K3P+I            -42163.570   84455.140 - 8.76e-255   84455.417 - 8.89e-255   84987.167 - 1.69e-250
+TIM3e+I          -42162.163   84454.325 - 1.32e-254   84454.611 - 1.33e-254   84994.664 - 3.99e-252
+TIM2e+I          -42162.849   84455.698 - 6.63e-255   84455.983 - 6.7e-255   84996.037 - 2.01e-252
+TIMe+I           -42163.059   84456.119 - 5.37e-255   84456.404 - 5.43e-255   84996.458 - 1.63e-252
+JC+I             -42181.125   84486.250 - 1.54e-261   84486.510 - 1.57e-261   85001.651 - 1.21e-253
+TVMe+I           -42161.563   84455.126 - 8.82e-255   84455.420 - 8.88e-255   85003.778 - 4.19e-254
+SYM+I            -42161.244   84456.489 - 4.46e-255   84456.792 - 4.47e-255   85013.454 - 3.32e-256
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+I
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 16.5197
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 16.5197
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.262
+  pi(C) = 0.2022
+  pi(G) = 0.2093
+  pi(T) = 0.3265
+
+Rate matrix Q:
+
+  A   -0.8874   0.04503    0.7697   0.07269
+  C   0.05834    -1.306   0.04659     1.201
+  G    0.9638   0.04503    -1.082   0.07269
+  T   0.05834    0.7438   0.04659   -0.8488
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.9953
+
+ Category  Relative_rate  Proportion
+  0         0              0.9953
+  1         211.1          0.004738
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -41567.6178 (s.e. 71.8390)
+Unconstrained log-likelihood (without tree): -46325.1247
+Number of free parameters (#branches + #model parameters): 66
+Akaike information criterion (AIC) score: 83267.2356
+Corrected Akaike information criterion (AICc) score: 83267.5299
+Bayesian information criterion (BIC) score: 83815.8877
+
+Total tree length (sum of branch lengths): 0.0014
+Sum of internal branch lengths: 0.0003 (21.0548% of tree length)
+
+WARNING: 22 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KT029139' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-------------------------------KT029139
+|
+|         +**MK796425
++---------| (85.1/93)
+|         +**MT387202
+|
+|                     +------------------------------------------KT326819
+|                  +**| (0/46)
+|                  |  +----KX034093
+|               +**| (0/36)
+|               |  |  +**KT868867
+|               |  +**| (0/40)
+|               |     |  +**KT868868
+|               |     +**| (0/14)
+|               |        |        +---------KT868871
+|               |        |     +**| (0/52)
+|               |        |     |  |    +**KT868872
+|               |        |     |  +****| (84.6/84)
+|               |        |     |       +**KT868876
+|               |        |  +**| (0/37)
+|               |        |  |  +**KT868877
+|               |        +**| (0/4)
+|               |           |  +**KT868873
+|               |           +**| (0/10)
+|               |              +**KT868869
+|          +****| (84.7/49)
+|          |    |             +**KT374052
+|          |    |          +**| (0/55)
+|          |    |          |  +**KT868874
+|          |    |       +**| (0/52)
+|          |    |       |  +**KX034096
+|          |    |    +**| (0/62)
+|          |    |    |  |        +----KT374053
+|          |    |    |  |     +**| (0/48)
+|          |    |    |  |     |  +---------KX034099
+|          |    |    |  |  +**| (0/38)
+|          |    |    |  |  |  +**KX034098
+|          |    |    |  +**| (0/25)
+|          |    |    |     +**KX034100
+|          |    +----| (83.6/72)
+|          |         |            +**KT374054
+|          |         |         +**| (0/76)
+|          |         |         |  +**KT374055
+|          |         +---------| (90.6/95)
+|          |                   +**KU308549
++----------| (87.2/70)
+           |                +**KX034095
+           |             +**| (0/61)
+           |             |  |  +**KT868875
+           |             |  +**| (0/64)
+           |             |     +**KX034094
+           |          +**| (0/60)
+           |          |  +----KX034097
+           |     +----| (87.1/73)
+           |     |    |              +**KT374056
+           |     |    +--------------| (96.3/97)
+           |     |                   +----KT374057
+           |  +**| (0/40)
+           |  |  |              +**KT374051
+           |  |  +--------------| (96.1/99)
+           |  |                 +**KT374050
+           +**| (0/41)
+              +----KT868870
+
+Tree in newick format:
+
+(KT029139:0.0002078221,(MK796425:0.0000010000,MT387202:0.0000010000)85.1/93:0.0000653071,((((KT326819:0.0002802250,KX034093:0.0000344377)0/46:0.0000010000,(KT868867:0.0000010000,(KT868868:0.0000010000,(((KT868871:0.0000672155,(KT868872:0.0000020067,KT868876:0.0000010000)84.6/84:0.0000329726)0/52:0.0000020227,KT868877:0.0000010000)0/37:0.0000010000,(KT868873:0.0000010000,KT868869:0.0000010000)0/10:0.0000010000)0/4:0.0000010000)0/14:0.0000010000)0/40:0.0000010000)0/36:0.0000010000,((((KT374052:0.0000010000,KT868874:0.0000010000)0/55:0.0000010000,KX034096:0.0000010000)0/52:0.0000010000,(((KT374053:0.0000335113,KX034099:0.0000681870)0/48:0.0000010000,KX034098:0.0000010000)0/38:0.0000010000,KX034100:0.0000010000)0/25:0.0000010000)0/62:0.0000010000,((KT374054:0.0000010000,KT374055:0.0000010000)0/76:0.0000010000,KU308549:0.0000010000)90.6/95:0.0000675325)83.6/72:0.0000338979)84.7/49:0.0000330460,(((((KX034095:0.0000010000,(KT868875:0.0000010000,KX034094:0.0000010000)0/64:0.0000010000)0/61:0.0000010000,KX034097:0.0000333158)0/60:0.0000020077,(KT374056:0.0000020872,KT374057:0.0000336486)96.3/97:0.0001019517)87.1/73:0.0000338336,(KT374051:0.0000010000,KT374050:0.0000010000)96.1/99:0.0001019566)0/40:0.0000020355,KT868870:0.0000335913)0/41:0.0000010000)87.2/70:0.0000711272);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -41568.758435
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------------------------------KT029139
+|
+|         +--MK796425
++---------| (93)
+|         +--MT387202
+|
+|                    +------------------------------------------KT326819
+|                 +--| (46)
+|                 |  +----KX034093
+|              +--| (36)
+|              |  |  +--KT868867
+|              |  +--| (40)
+|              |     |              +**KT868868
+|              |     |           +**|
+|              |     |           |  +**KT868865
+|              |     |        +--|
+|              |     |        |  +**KT868866
+|              |     |     +--| (26)
+|              |     |     |  +--KT868869
+|              |     |  +--| (18)
+|              |     |  |  +--KT868873
+|              |     +--| (14)
+|              |        |     +---------KT868871
+|              |        |  +--| (52)
+|              |        |  |  |    +--KT868872
+|              |        |  |  +----| (84)
+|              |        |  |       +--KT868876
+|              |        +--| (37)
+|              |           +--KT868877
+|         +----| (49)
+|         |    |             +--KT374052
+|         |    |          +--| (55)
+|         |    |          |  +--KT868874
+|         |    |       +--| (52)
+|         |    |       |  +--KX034096
+|         |    |    +--| (62)
+|         |    |    |  |        +----KT374053
+|         |    |    |  |     +--| (48)
+|         |    |    |  |     |  +---------KX034099
+|         |    |    |  |  +--| (38)
+|         |    |    |  |  |  +--KX034098
+|         |    |    |  +--| (25)
+|         |    |    |     +--KX034100
+|         |    +----| (72)
+|         |         |            +--KT374054
+|         |         |         +--| (76)
+|         |         |         |  +--KT374055
+|         |         +---------| (95)
+|         |                   +--KU308549
++---------| (70)
+          |                +--KX034095
+          |             +--| (61)
+          |             |  |  +--KT868875
+          |             |  +--| (64)
+          |             |     +--KX034094
+          |          +--| (60)
+          |          |  +----KX034097
+          |     +----| (73)
+          |     |    |              +--KT374056
+          |     |    +--------------| (97)
+          |     |                   +----KT374057
+          |  +--| (40)
+          |  |  |              +--KT374051
+          |  |  +--------------| (99)
+          |  |                 +--KT374050
+          +--| (41)
+             +----KT868870
+
+
+Consensus tree in newick format: 
+
+(KT029139:0.0002099433,(MK796425:0.0000020063,MT387202:0.0000020063)93:0.0000657003,((((KT326819:0.0002819236,KX034093:0.0000338695)46:0.0000020063,(KT868867:0.0000020063,(((((KT868868:0.0000000000,KT868865:0.0000000000):0.0000000000,KT868866:0.0000000000):0.0000020063,KT868869:0.0000020063)26:0.0000020063,KT868873:0.0000020063)18:0.0000020063,((KT868871:0.0000675376,(KT868872:0.0000020063,KT868876:0.0000020063)84:0.0000341195)52:0.0000020063,KT868877:0.0000020063)37:0.0000020063)14:0.0000020063)40:0.0000020063)36:0.0000020063,((((KT374052:0.0000020063,KT868874:0.0000020063)55:0.0000020063,KX034096:0.0000020063)52:0.0000020063,(((KT374053:0.0000339388,KX034099:0.0000683034)48:0.0000020063,KX034098:0.0000020063)38:0.0000020063,KX034100:0.0000020063)25:0.0000020063)62:0.0000020063,((KT374054:0.0000020063,KT374055:0.0000020063)76:0.0000020063,KU308549:0.0000020063)95:0.0000678840)72:0.0000333587)49:0.0000336108,(((((KX034095:0.0000020063,(KT868875:0.0000020063,KX034094:0.0000020063)64:0.0000020063)61:0.0000020063,KX034097:0.0000334808)60:0.0000020063,(KT374056:0.0000020063,KT374057:0.0000338928)97:0.0001024743)73:0.0000334482,(KT374051:0.0000020063,KT374050:0.0000020063)99:0.0001026580)40:0.0000020063,KT868870:0.0000338415)41:0.0000020063)70:0.0000715507);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/mers_korea_2015/mers_korea_2015_ml.treefile -m "HKY{16.5197}+F{0.262035,0.20223,0.209253,0.326482}+I{0.995262}" --length 30119
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep  9 00:32:43 2026
+Total CPU time used: 908.822052 seconds (0h:15m:8s)
+Total wall-clock time used: 464.6991561 seconds (0h:7m:44s)
+

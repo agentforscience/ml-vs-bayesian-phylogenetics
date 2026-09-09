@@ -1,0 +1,16 @@
+{
+ "asdsf_final": 0.009769,
+ "asdsf_trace": [
+  0.009769
+ ],
+ "max_psrf": 1.025,
+ "min_ess": 281.77,
+ "dataset": "sarscov2_usa_early2020",
+ "seconds": 2414.5,
+ "ngen": 800000,
+ "nruns": 2,
+ "nchains": 4,
+ "samplefreq": 80,
+ "burninfrac": 0.25,
+ "tag": "mb"
+}

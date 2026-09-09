@@ -1,0 +1,16 @@
+{
+ "asdsf_final": 0.003439,
+ "asdsf_trace": [
+  0.003439
+ ],
+ "max_psrf": 1.002,
+ "min_ess": 2321.89,
+ "dataset": "fmdv_uk_2001",
+ "seconds": 1142.1,
+ "ngen": 2500000,
+ "nruns": 2,
+ "nchains": 4,
+ "samplefreq": 250,
+ "burninfrac": 0.25,
+ "tag": "mb"
+}

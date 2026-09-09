@@ -1,0 +1,226 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/zika_americas_2015_2016/analysis.fasta -m GTR+F+I+G4 --prefix results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr -T 2 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:42:03 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/zika_americas_2015_2016/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0241417 secs using 82.19% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 100 sequences with 10877 columns, 985 distinct patterns
+283 parsimony-informative, 558 singleton sites, 10036 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00022649 secs using 55.63% CPU
+   1  KU509998    0.64%    passed     99.65%
+   2  KX694534    0.97%    passed     98.70%
+   3  MF073359    0.64%    passed     98.82%
+   4  KU321639    1.85%    passed     99.78%
+   5  MF352141    0.68%    passed     99.76%
+   6  MF073358    0.64%    passed     99.86%
+   7  MH158237    0.64%    passed     99.52%
+   8  MK028857    4.68%    passed     98.41%
+   9  MK028858    0.97%    passed     99.37%
+  10  MK028861    4.19%    passed     92.48%
+  11  KU940228    1.85%    passed     99.92%
+  12  KU940224    3.25%    passed     98.79%
+  13  KX520666    3.12%    passed     99.92%
+  14  KU312312    4.62%    passed     97.97%
+  15  KY631493    1.80%    passed     99.86%
+  16  KY631494    1.16%    passed     99.87%
+  17  KU501217    5.56%    passed     98.87%
+  18  KU501216    5.56%    passed     98.58%
+  19  KX197205    0.12%    passed     97.55%
+  20  MH513598    2.21%    passed     99.93%
+  21  KX156775    1.12%    passed     99.51%
+  22  MH513599    2.01%    passed    100.00%
+  23  KU647676    2.39%    passed     99.96%
+  24  KU758877    4.72%    passed     99.05%
+  25  KX087101    0.91%    passed     98.83%
+  26  KX377337    0.64%    passed     99.52%
+  27  MF574557    2.00%    passed     99.91%
+  28  MF574562    2.00%    passed     99.97%
+  29  MF574574    2.00%    passed     99.96%
+  30  KX156776    1.11%    passed     99.67%
+  31  KX446951    0.80%    passed     99.23%
+  32  KX827268    0.83%    passed     99.01%
+  33  KX421194    2.73%    passed     99.87%
+  34  MH544701    0.64%    passed     99.90%
+  35  KX421195    2.15%    passed     99.99%
+  36  KY348640    0.64%    passed     99.71%
+  37  KU926310    0.64%    passed     99.81%
+  38  KU870645    0.73%    passed     99.83%
+  39  MF801384    2.95%    passed     99.88%
+  40  KU937936    3.08%    passed     99.97%
+  41  MK049245    6.31%    passed     90.62%
+  42  KY606271    2.24%    passed     96.23%
+  43  MK049246    6.31%    passed     88.79%
+  44  KX702400    0.63%    passed     99.97%
+  45  KX893855    0.65%    passed     99.98%
+  46  KY014307    5.77%    passed     99.49%
+  47  MF801387    1.81%    passed     99.96%
+  48  KY785479    6.48%    passed     95.19%
+  49  KY785426    6.57%    passed     99.03%
+  50  KY785469    2.60%    passed     99.96%
+  51  KY785465    6.59%    passed     99.81%
+  52  KY785464    4.03%    passed     99.70%
+  53  KX879604    0.62%    passed     99.62%
+  54  MH882527    1.14%    passed     99.43%
+  55  MH882528    1.15%    passed     99.42%
+  56  KY785466    4.84%    passed     94.40%
+  57  MF794971    0.93%    passed     99.95%
+  58  MF783073    0.63%    passed     99.83%
+  59  MF384325    0.63%    passed     99.71%
+  60  MF801401    7.31%    passed     99.16%
+  61  MF801402    1.40%    passed     99.88%
+  62  KY014315    4.71%    passed     99.17%
+  63  KY785484    4.58%    passed     99.96%
+  64  KY785448    4.08%    passed     98.02%
+  65  KY785419    4.78%    passed     89.07%
+  66  KX842449    4.48%    passed     98.04%
+  67  KY014295    0.91%    passed     99.15%
+  68  KY693678    1.94%    passed     99.98%
+  69  KY765322    2.28%    passed     99.81%
+  70  KY765323    1.51%    passed     99.84%
+  71  KX198135    0.91%    passed     99.98%
+  72  KY648934    2.11%    passed     99.99%
+  73  MF801381    1.85%    passed     99.90%
+  74  MH882537    6.60%    passed     99.67%
+  75  KY785435    2.88%    passed     99.95%
+  76  KY693679    1.74%    passed     99.95%
+  77  MH882538    0.86%    passed     99.63%
+  78  KY785445    4.10%    passed     99.62%
+  79  MF801378    1.43%    passed     99.82%
+  80  MH882540    1.34%    passed     99.83%
+  81  MK049248    4.53%    passed     97.04%
+  82  KY606272    0.76%    passed     99.24%
+  83  MF434516    1.14%    passed     99.52%
+  84  KY693676    1.68%    passed     99.90%
+  85  MF434522    1.03%    passed     99.09%
+  86  KY014299    1.41%    passed     99.83%
+  87  KY325477    2.44%    passed     98.48%
+  88  KY325476    1.20%    passed     98.74%
+  89  KY693680    1.96%    passed     99.86%
+  90  MH157204    4.18%    passed     99.61%
+  91  MG494697    1.94%    passed     99.96%
+  92  MF574578    2.20%    passed    100.00%
+  93  MF574582    2.20%    passed     99.95%
+  94  MF574586    3.64%    passed     99.78%
+  95  MF438286    5.57%    passed     99.68%
+  96  MG770184    7.43%    passed     98.32%
+  97  MG770186    6.90%    passed     98.87%
+  98  MF159531    2.49%    passed     99.91%
+  99  MH063262    2.37%    passed     99.94%
+ 100  MH063264    4.70%    passed     97.37%
+****  TOTAL       2.61%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KX377337 is identical to MH158237 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 16 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.212 / LogL: -23028.274
+Init pinv, alpha: 0.103, 1.000 / Estimate: 0.103, 0.278 / LogL: -23027.843
+Init pinv, alpha: 0.205, 1.000 / Estimate: 0.205, 0.369 / LogL: -23027.471
+Init pinv, alpha: 0.308, 1.000 / Estimate: 0.308, 0.503 / LogL: -23027.173
+Init pinv, alpha: 0.410, 1.000 / Estimate: 0.410, 0.730 / LogL: -23026.981
+Init pinv, alpha: 0.513, 1.000 / Estimate: 0.513, 1.193 / LogL: -23026.983
+Init pinv, alpha: 0.615, 1.000 / Estimate: 0.614, 2.642 / LogL: -23027.514
+Init pinv, alpha: 0.718, 1.000 / Estimate: 0.713, 102.007 / LogL: -23030.110
+Init pinv, alpha: 0.820, 1.000 / Estimate: 0.723, 998.438 / LogL: -23031.078
+Init pinv, alpha: 0.923, 1.000 / Estimate: 0.725, 998.445 / LogL: -23032.653
+Optimal pinv,alpha: 0.410, 0.730 / LogL: -23026.981
+
+Parameters optimization took 8.245 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0415207 secs using 204.7% CPU
+Computing ML distances took 0.041996 sec (of wall-clock time) 0.085475 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000443142 secs using 98.16% CPU
+Computing RapidNJ tree took 0.002192 sec (of wall-clock time) 0.002221 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -23101.033
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.060 second
+Computing log-likelihood of 98 initial trees ... 1.711 seconds
+Current best score: -23018.307
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -23018.190
+BETTER TREE FOUND at iteration 3: -23018.182
+Iteration 10 / LogL: -23018.190 / Time: 0h:0m:16s
+Iteration 20 / LogL: -23018.190 / Time: 0h:0m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -23018.182 / CPU time: 12.243
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -23021.386 / Time: 0h:0m:25s (0h:1m:3s left)
+Iteration 40 / LogL: -23018.332 / Time: 0h:0m:29s (0h:0m:47s left)
+Iteration 50 / LogL: -23018.346 / Time: 0h:0m:33s (0h:0m:36s left)
+Log-likelihood cutoff on original alignment: -23074.194
+UFBoot trees printed to results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.ufboot
+Iteration 60 / LogL: -23018.298 / Time: 0h:0m:38s (0h:0m:28s left)
+Iteration 70 / LogL: -23018.252 / Time: 0h:0m:42s (0h:0m:20s left)
+Iteration 80 / LogL: -23018.338 / Time: 0h:0m:46s (0h:0m:13s left)
+Iteration 90 / LogL: -23018.396 / Time: 0h:0m:50s (0h:0m:7s left)
+Iteration 100 / LogL: -23024.432 / Time: 0h:0m:54s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -23074.194
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+UFBoot trees printed to results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.ufboot
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 0h:0m:57s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23018.182
+Optimal log-likelihood: -23018.182
+Rate parameters:  A-C: 1.16611  A-G: 7.24121  A-T: 1.13322  C-G: 0.55145  C-T: 20.32389  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Proportion of invariable sites: 0.410
+Gamma shape alpha: 0.741
+Parameters optimization took 1 rounds (0.069 sec)
+BEST SCORE FOUND : -23018.182
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+3.949 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.splits.nex
+Total tree length: 0.093
+
+Total number of iterations: 104
+CPU time used for tree search: 91.457 sec (0h:1m:31s)
+Wall-clock time used for tree search: 49.123 sec (0h:0m:49s)
+Total CPU time used: 116.308 sec (0h:1m:56s)
+Total wall-clock time used: 61.910 sec (0h:1m:1s)
+UFBoot trees printed to results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.splits.nex...
+100 taxa and 768 splits.
+Consensus tree written to results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.contree
+Reading input trees file results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.contree
+Log-likelihood of consensus tree: -23019.016
+
+Analysis results written to: 
+  IQ-TREE report:                results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.iqtree
+  Maximum-likelihood tree:       results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.treefile
+  Likelihood distances:          results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.splits.nex
+  Consensus tree:                results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.contree
+  UFBoot trees:                  results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.ufboot
+  Screen log file:               results/zika_americas_2015_2016/zika_americas_2015_2016_mlgtr.log
+
+Date and Time: Wed Sep  9 00:43:06 2026

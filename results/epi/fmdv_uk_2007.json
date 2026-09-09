@@ -1,0 +1,1395 @@
+{
+ "dataset": "fmdv_uk_2007",
+ "primary_trait": "epi_group",
+ "trait_cleaning": {
+  "applied": false,
+  "n_levels_before": 10,
+  "n_levels_after": 10,
+  "n_changed": 0
+ },
+ "n_trait_levels": 10,
+ "traits_available": [
+  "division",
+  "epi_group",
+  "host"
+ ],
+ "rooting": {
+  "ml": {
+   "r2": 0.8268,
+   "rate": "9.994e-03",
+   "n_dated": 45
+  },
+  "mlrep2": {
+   "r2": 0.8256,
+   "rate": "9.971e-03",
+   "n_dated": 45
+  },
+  "mlrep3": {
+   "r2": 0.8265,
+   "rate": "1.002e-02",
+   "n_dated": 45
+  },
+  "mlrep4": {
+   "r2": 0.8281,
+   "rate": "1.006e-02",
+   "n_dated": 45
+  },
+  "mlrep5": {
+   "r2": 0.8284,
+   "rate": "1.007e-02",
+   "n_dated": 45
+  },
+  "mb": {
+   "r2": 0.8403,
+   "rate": "7.039e-03",
+   "n_dated": 45
+  },
+  "mlgtr": {
+   "r2": 0.8257,
+   "rate": "1.003e-02",
+   "n_dated": 45
+  },
+  "mbrun1": {
+   "r2": 0.8361,
+   "rate": "8.459e-03",
+   "n_dated": 45
+  },
+  "mbrun2": {
+   "r2": 0.8366,
+   "rate": "8.830e-03",
+   "n_dated": 45
+  }
+ },
+ "earliest_group": {
+  "group": "IP1b",
+  "first_sampled": {
+   "IP1b": 2007.5908,
+   "IP2b": 2007.599,
+   "IP2c": 2007.6018,
+   "IP3b": 2007.6987,
+   "IP4b": 2007.7014,
+   "IP3c": 2007.7069,
+   "IP5": 2007.7124,
+   "IP6b": 2007.7233,
+   "IP7": 2007.7316,
+   "IP8": 2007.7452
+  },
+  "gap_to_second": 0.0082
+ },
+ "ml_root_clade_size": 1,
+ "index_matches_earliest_group": {
+  "ml": false,
+  "mlrep2": false,
+  "mlrep3": false,
+  "mlrep4": false,
+  "mlrep5": false,
+  "mb": true,
+  "mlgtr": false,
+  "mbrun1": true,
+  "mbrun2": true
+ },
+ "point_readouts": {
+  "ml": {
+   "intro_total": 12,
+   "intro_per_region": {
+    "IP1b": 1,
+    "IP2b": 2,
+    "IP2c": 1,
+    "IP3b": 2,
+    "IP3c": 1,
+    "IP4b": 1,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 11,
+   "index": "IP2b",
+   "index_ambiguous": false,
+   "index_states": [
+    "IP2b"
+   ],
+   "n_transitions": 11,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP3c",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP4b->IP3b",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 25,
+   "n_clusters_standard": 8,
+   "n_clustered_standard": 40,
+   "n_clusters_loose": 6,
+   "n_clustered_loose": 40
+  },
+  "mlrep2": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "IP1b": 1,
+    "IP2b": 4,
+    "IP2c": 1,
+    "IP3b": 2,
+    "IP3c": 1,
+    "IP4b": 1,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 13,
+   "index": "IP2b",
+   "index_ambiguous": true,
+   "index_states": [
+    "IP1b",
+    "IP2b"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP4b->IP3b",
+    "IP4b->IP3c",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 26,
+   "n_clusters_standard": 7,
+   "n_clustered_standard": 38,
+   "n_clusters_loose": 5,
+   "n_clustered_loose": 38
+  },
+  "mlrep3": {
+   "intro_total": 13,
+   "intro_per_region": {
+    "IP1b": 2,
+    "IP2b": 2,
+    "IP2c": 1,
+    "IP3b": 1,
+    "IP3c": 1,
+    "IP4b": 2,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 12,
+   "index": "IP2b",
+   "index_ambiguous": false,
+   "index_states": [
+    "IP2b"
+   ],
+   "n_transitions": 12,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP3c",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 24,
+   "n_clusters_standard": 9,
+   "n_clustered_standard": 36,
+   "n_clusters_loose": 6,
+   "n_clustered_loose": 36
+  },
+  "mlrep4": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "IP1b": 2,
+    "IP2b": 3,
+    "IP2c": 1,
+    "IP3b": 1,
+    "IP3c": 1,
+    "IP4b": 2,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 13,
+   "index": "IP2b",
+   "index_ambiguous": true,
+   "index_states": [
+    "IP1b",
+    "IP2b"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP3c",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 26,
+   "n_clusters_standard": 8,
+   "n_clustered_standard": 32,
+   "n_clusters_loose": 7,
+   "n_clustered_loose": 35
+  },
+  "mlrep5": {
+   "intro_total": 13,
+   "intro_per_region": {
+    "IP1b": 1,
+    "IP2b": 3,
+    "IP2c": 1,
+    "IP3b": 2,
+    "IP3c": 1,
+    "IP4b": 1,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 12,
+   "index": "IP2b",
+   "index_ambiguous": true,
+   "index_states": [
+    "IP1b",
+    "IP2b"
+   ],
+   "n_transitions": 12,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP4b->IP3b",
+    "IP4b->IP3c",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 26,
+   "n_clusters_standard": 8,
+   "n_clustered_standard": 32,
+   "n_clusters_loose": 7,
+   "n_clustered_loose": 35
+  },
+  "mb": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "IP1b": 1,
+    "IP2b": 4,
+    "IP2c": 1,
+    "IP3b": 2,
+    "IP3c": 1,
+    "IP4b": 1,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 13,
+   "index": "IP1b",
+   "index_ambiguous": true,
+   "index_states": [
+    "IP1b",
+    "IP2c"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP5",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP4b->IP3b",
+    "IP4b->IP3c",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 10,
+   "n_clustered_tight": 23,
+   "n_clusters_standard": 10,
+   "n_clustered_standard": 35,
+   "n_clusters_loose": 7,
+   "n_clustered_loose": 38
+  },
+  "mlgtr": {
+   "intro_total": 12,
+   "intro_per_region": {
+    "IP1b": 1,
+    "IP2b": 2,
+    "IP2c": 1,
+    "IP3b": 1,
+    "IP3c": 1,
+    "IP4b": 2,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 11,
+   "index": "IP2b",
+   "index_ambiguous": false,
+   "index_states": [
+    "IP2b"
+   ],
+   "n_transitions": 11,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP3c",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 26,
+   "n_clusters_standard": 7,
+   "n_clustered_standard": 35,
+   "n_clusters_loose": 6,
+   "n_clustered_loose": 38
+  },
+  "mbrun1": {
+   "intro_total": 13,
+   "intro_per_region": {
+    "IP1b": 2,
+    "IP2b": 2,
+    "IP2c": 1,
+    "IP3b": 2,
+    "IP3c": 1,
+    "IP4b": 1,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 12,
+   "index": "IP1b",
+   "index_ambiguous": false,
+   "index_states": [
+    "IP1b"
+   ],
+   "n_transitions": 12,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP1b",
+    "IP2b->IP5",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP4b->IP3b",
+    "IP4b->IP3c",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 10,
+   "n_clustered_tight": 20,
+   "n_clusters_standard": 13,
+   "n_clustered_standard": 37,
+   "n_clusters_loose": 9,
+   "n_clustered_loose": 39
+  },
+  "mbrun2": {
+   "intro_total": 14,
+   "intro_per_region": {
+    "IP1b": 1,
+    "IP2b": 4,
+    "IP2c": 1,
+    "IP3b": 2,
+    "IP3c": 1,
+    "IP4b": 1,
+    "IP5": 1,
+    "IP6b": 1,
+    "IP7": 1,
+    "IP8": 1
+   },
+   "parsimony_score": 13,
+   "index": "IP1b",
+   "index_ambiguous": false,
+   "index_states": [
+    "IP1b"
+   ],
+   "n_transitions": 13,
+   "edge_set": [
+    "IP1b->IP2b",
+    "IP1b->IP2c",
+    "IP2b->IP5",
+    "IP3b->IP4b",
+    "IP3b->IP6b",
+    "IP3b->IP7",
+    "IP4b->IP3b",
+    "IP4b->IP3c",
+    "IP5->IP3b",
+    "IP7->IP8"
+   ],
+   "n_clusters_tight": 9,
+   "n_clustered_tight": 18,
+   "n_clusters_standard": 12,
+   "n_clustered_standard": 35,
+   "n_clusters_loose": 8,
+   "n_clustered_loose": 38
+  }
+ },
+ "comparisons": {
+  "BETWEEN_ml_vs_bayes": {
+   "introduction_count_differs": true,
+   "index_group_differs": true,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP2b->IP1b",
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 2,
+   "d_intro_L1": 2,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": true,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 1,
+   "ari_tight": 0.598641,
+   "d_n_clusters_standard": 2,
+   "ari_standard": 0.322135,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.611426
+  },
+  "NULL_mcmc_replicate": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP2b->IP1b"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 3,
+   "n_regions_differing": 2,
+   "jaccard_edges": 0.090909,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 1,
+   "ari_tight": 0.39853,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.704502,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.983166
+  },
+  "BETWEEN_mlGTR_vs_bayes_PARADIGM_ONLY": {
+   "introduction_count_differs": true,
+   "index_group_differs": true,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP2b->IP1b",
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3b",
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 2,
+   "d_intro_L1": 4,
+   "n_regions_differing": 3,
+   "jaccard_edges": 0.333333,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": true,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 1,
+   "ari_tight": 0.560753,
+   "d_n_clusters_standard": 3,
+   "ari_standard": 0.311896,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.583929
+  },
+  "MODEL_ml_modelfinder_vs_mlGTR": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP4b->IP3b"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 0,
+   "d_intro_L1": 2,
+   "n_regions_differing": 2,
+   "jaccard_edges": 0.090909,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.896111,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.94865,
+   "d_n_clusters_loose": 0,
+   "ari_loose": 0.96095
+  },
+  "NULL_ml_reseed_ml_vs_mlrep2": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 2,
+   "d_intro_L1": 2,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.166667,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.896111,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.835817,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.897872
+  },
+  "NULL_ml_reseed_ml_vs_mlrep3": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP4b->IP3b"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 3,
+   "n_regions_differing": 3,
+   "jaccard_edges": 0.090909,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.896609,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.739796,
+   "d_n_clusters_loose": 0,
+   "ari_loose": 0.937917
+  },
+  "NULL_ml_reseed_ml_vs_mlrep4": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP4b->IP3b"
+   ],
+   "edges_only_b": [],
+   "d_intro_total": 2,
+   "d_intro_L1": 4,
+   "n_regions_differing": 4,
+   "jaccard_edges": 0.090909,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.896111,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.742864,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.851733
+  },
+  "NULL_ml_reseed_ml_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.166667,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.896111,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.742864,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.851733
+  },
+  "NULL_ml_reseed_mlrep2_vs_mlrep3": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP4b->IP3b",
+    "IP4b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP3b->IP3c"
+   ],
+   "d_intro_total": 1,
+   "d_intro_L1": 5,
+   "n_regions_differing": 4,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.795656,
+   "d_n_clusters_standard": 2,
+   "ari_standard": 0.649133,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.889116
+  },
+  "NULL_ml_reseed_mlrep2_vs_mlrep4": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP4b->IP3b",
+    "IP4b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP3b->IP3c"
+   ],
+   "d_intro_total": 0,
+   "d_intro_L1": 4,
+   "n_regions_differing": 4,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 1.0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.743776,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.849719
+  },
+  "NULL_ml_reseed_mlrep2_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 1.0,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.743776,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.849719
+  },
+  "NULL_ml_reseed_mlrep3_vs_mlrep4": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [],
+   "edges_only_b": [],
+   "d_intro_total": 1,
+   "d_intro_L1": 1,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.0,
+   "d_n_transitions": 1,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.795656,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.616267,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.903529
+  },
+  "NULL_ml_reseed_mlrep3_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3b",
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 0,
+   "d_intro_L1": 4,
+   "n_regions_differing": 4,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 0,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 0.795656,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.616267,
+   "d_n_clusters_loose": 1,
+   "ari_loose": 0.903529
+  },
+  "NULL_ml_reseed_mlrep4_vs_mlrep5": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3b",
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 1,
+   "d_intro_L1": 3,
+   "n_regions_differing": 3,
+   "jaccard_edges": 0.25,
+   "d_n_transitions": 1,
+   "cluster_count_differs": false,
+   "cluster_partition_differs": false,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": false,
+   "d_n_clusters_tight": 0,
+   "ari_tight": 1.0,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 1.0,
+   "d_n_clusters_loose": 0,
+   "ari_loose": 1.0
+  }
+ },
+ "null_ml_reseed_change_rate": 1.0,
+ "null_ml_reseed_tier1_rate": 0.0,
+ "rooting_sensitivity": {
+  "common_root_applied": {
+   "ml": true,
+   "mb": true
+  },
+  "under_common_root": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 2,
+   "d_intro_L1": 2,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.166667,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 1,
+   "ari_tight": 0.598641,
+   "d_n_clusters_standard": 1,
+   "ari_standard": 0.466513,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.650155
+  },
+  "under_midpoint_root": {
+   "introduction_count_differs": true,
+   "index_group_differs": false,
+   "reversed_edge": false,
+   "reversed_edges": [],
+   "edges_only_a": [
+    "IP3b->IP3c"
+   ],
+   "edges_only_b": [
+    "IP4b->IP3c"
+   ],
+   "d_intro_total": 2,
+   "d_intro_L1": 2,
+   "n_regions_differing": 1,
+   "jaccard_edges": 0.166667,
+   "d_n_transitions": 2,
+   "cluster_count_differs": true,
+   "cluster_partition_differs": true,
+   "ANY": true,
+   "tier1_who": false,
+   "tier2_how_many": true,
+   "tier3_scope": true,
+   "d_n_clusters_tight": 1,
+   "ari_tight": 0.598641,
+   "d_n_clusters_standard": 0,
+   "ari_standard": 0.467401,
+   "d_n_clusters_loose": 2,
+   "ari_loose": 0.651412
+  }
+ },
+ "distributions": {
+  "intro_total": {
+   "ufboot": {
+    "n": 1000,
+    "mean": 13.729,
+    "median": 14,
+    "sd": 0.7922,
+    "lo95": 12,
+    "hi95": 15,
+    "mode": 14,
+    "pmf": {
+     "12": 0.032,
+     "13": 0.367,
+     "14": 0.464,
+     "15": 0.114,
+     "16": 0.023
+    }
+   },
+   "posterior": {
+    "n": 1000,
+    "mean": 13.306,
+    "median": 13,
+    "sd": 1.0052,
+    "lo95": 11,
+    "hi95": 15,
+    "mode": 13,
+    "pmf": {
+     "10": 0.001,
+     "11": 0.038,
+     "12": 0.17,
+     "13": 0.344,
+     "14": 0.34,
+     "15": 0.106,
+     "16": 0.001
+    }
+   },
+   "test": {
+    "U": 610099.5,
+    "p": 1.440739758268395e-19,
+    "effect": 0.2202,
+    "median_diff": 1.0
+   },
+   "overlap": 0.823,
+   "tv": 0.177
+  },
+  "n_transitions": {
+   "ufboot": {
+    "n": 1000,
+    "mean": 12.729,
+    "median": 13,
+    "sd": 0.7922,
+    "lo95": 11,
+    "hi95": 14,
+    "mode": 13,
+    "pmf": {
+     "11": 0.032,
+     "12": 0.367,
+     "13": 0.464,
+     "14": 0.114,
+     "15": 0.023
+    }
+   },
+   "posterior": {
+    "n": 1000,
+    "mean": 12.306,
+    "median": 12,
+    "sd": 1.0052,
+    "lo95": 10,
+    "hi95": 14,
+    "mode": 12,
+    "pmf": {
+     "9": 0.001,
+     "10": 0.038,
+     "11": 0.17,
+     "12": 0.344,
+     "13": 0.34,
+     "14": 0.106,
+     "15": 0.001
+    }
+   },
+   "test": {
+    "U": 610099.5,
+    "p": 1.440739758268395e-19,
+    "effect": 0.2202,
+    "median_diff": 1.0
+   },
+   "overlap": 0.823,
+   "tv": 0.177
+  },
+  "parsimony_score": {
+   "ufboot": {
+    "n": 1000,
+    "mean": 12.729,
+    "median": 13,
+    "sd": 0.7922,
+    "lo95": 11,
+    "hi95": 14,
+    "mode": 13,
+    "pmf": {
+     "11": 0.032,
+     "12": 0.367,
+     "13": 0.464,
+     "14": 0.114,
+     "15": 0.023
+    }
+   },
+   "posterior": {
+    "n": 1000,
+    "mean": 12.306,
+    "median": 12,
+    "sd": 1.0052,
+    "lo95": 10,
+    "hi95": 14,
+    "mode": 12,
+    "pmf": {
+     "9": 0.001,
+     "10": 0.038,
+     "11": 0.17,
+     "12": 0.344,
+     "13": 0.34,
+     "14": 0.106,
+     "15": 0.001
+    }
+   },
+   "test": {
+    "U": 610099.5,
+    "p": 1.440739758268395e-19,
+    "effect": 0.2202,
+    "median_diff": 1.0
+   },
+   "overlap": 0.823,
+   "tv": 0.177
+  },
+  "index_group": {
+   "earliest_sampled_group": "IP1b",
+   "ufboot_prob_of_earliest": 0.438,
+   "posterior_prob_of_earliest": 0.574,
+   "ufboot_pmf": {
+    "IP2b": 0.562,
+    "IP1b": 0.438
+   },
+   "posterior_pmf": {
+    "IP1b": 0.574,
+    "IP2b": 0.395,
+    "IP2c": 0.031
+   },
+   "tv": 0.167,
+   "overlap": 0.833,
+   "ufboot_top": "IP2b",
+   "posterior_top": "IP1b",
+   "ufboot_top_prob": 0.562,
+   "posterior_top_prob": 0.574
+  },
+  "edge_support": {
+   "n_edges": 39,
+   "n_ufboot": 1000,
+   "n_posterior": 1000,
+   "table": {
+    "IP1b->IP2b": [
+     0.979,
+     0.924
+    ],
+    "IP1b->IP2c": [
+     0.979,
+     0.667
+    ],
+    "IP1b->IP3b": [
+     0.0,
+     0.002
+    ],
+    "IP1b->IP5": [
+     0.03,
+     0.054
+    ],
+    "IP2b->IP1b": [
+     0.909,
+     0.83
+    ],
+    "IP2b->IP2c": [
+     0.021,
+     0.302
+    ],
+    "IP2b->IP3b": [
+     0.001,
+     0.068
+    ],
+    "IP2b->IP5": [
+     0.969,
+     0.88
+    ],
+    "IP2c->IP1b": [
+     0.023,
+     0.023
+    ],
+    "IP2c->IP2b": [
+     0.012,
+     0.008
+    ],
+    "IP3b->IP2b": [
+     0.006,
+     0.002
+    ],
+    "IP3b->IP3c": [
+     0.574,
+     0.56
+    ],
+    "IP3b->IP4b": [
+     0.881,
+     0.871
+    ],
+    "IP3b->IP5": [
+     0.017,
+     0.07
+    ],
+    "IP3b->IP6b": [
+     0.846,
+     0.93
+    ],
+    "IP3b->IP7": [
+     0.961,
+     1.0
+    ],
+    "IP3c->IP3b": [
+     0.121,
+     0.001
+    ],
+    "IP3c->IP4b": [
+     0.036,
+     0.0
+    ],
+    "IP3c->IP7": [
+     0.001,
+     0.0
+    ],
+    "IP4b->IP3b": [
+     0.488,
+     0.397
+    ],
+    "IP4b->IP3c": [
+     0.328,
+     0.44
+    ],
+    "IP4b->IP6b": [
+     0.016,
+     0.0
+    ],
+    "IP4b->IP7": [
+     0.021,
+     0.0
+    ],
+    "IP5->IP2b": [
+     0.181,
+     0.137
+    ],
+    "IP5->IP3b": [
+     0.809,
+     0.801
+    ],
+    "IP5->IP3c": [
+     0.092,
+     0.0
+    ],
+    "IP5->IP4b": [
+     0.101,
+     0.129
+    ],
+    "IP5->IP6b": [
+     0.003,
+     0.0
+    ],
+    "IP5->IP7": [
+     0.009,
+     0.0
+    ],
+    "IP6b->IP3b": [
+     0.018,
+     0.0
+    ],
+    "IP6b->IP3c": [
+     0.007,
+     0.0
+    ],
+    "IP6b->IP4b": [
+     0.006,
+     0.0
+    ],
+    "IP6b->IP7": [
+     0.009,
+     0.0
+    ],
+    "IP7->IP3b": [
+     0.035,
+     0.0
+    ],
+    "IP7->IP3c": [
+     0.005,
+     0.0
+    ],
+    "IP7->IP4b": [
+     0.019,
+     0.0
+    ],
+    "IP7->IP5": [
+     0.002,
+     0.0
+    ],
+    "IP7->IP6b": [
+     0.135,
+     0.07
+    ],
+    "IP7->IP8": [
+     1.0,
+     1.0
+    ]
+   },
+   "max_abs_diff": 0.312,
+   "n_edges_diff_gt_0_5": 0,
+   "n_confident_both": 2,
+   "n_confident_conflict": 3
+  },
+  "n_clusters_tight": {
+   "ufboot": {
+    "n": 300,
+    "mean": 8.76,
+    "median": 9,
+    "sd": 0.9322,
+    "lo95": 7,
+    "hi95": 10,
+    "mode": 9,
+    "pmf": {
+     "6": 0.01,
+     "7": 0.07333,
+     "8": 0.28,
+     "9": 0.44333,
+     "10": 0.17,
+     "11": 0.02333
+    }
+   },
+   "posterior": {
+    "n": 300,
+    "mean": 6.4033,
+    "median": 6,
+    "sd": 1.8657,
+    "lo95": 3,
+    "hi95": 10,
+    "mode": 7,
+    "pmf": {
+     "1": 0.00667,
+     "2": 0.01333,
+     "3": 0.04,
+     "4": 0.07333,
+     "5": 0.17667,
+     "6": 0.21,
+     "7": 0.22333,
+     "8": 0.13667,
+     "9": 0.06333,
+     "10": 0.04,
+     "11": 0.01333,
+     "12": 0.00333
+    }
+   },
+   "test": {
+    "U": 78190.0,
+    "p": 7.755540615721895e-57,
+    "effect": 0.7376,
+    "median_diff": 3.0
+   },
+   "overlap": 0.33666
+  },
+  "n_clusters_standard": {
+   "ufboot": {
+    "n": 300,
+    "mean": 7.9267,
+    "median": 8,
+    "sd": 1.592,
+    "lo95": 4,
+    "hi95": 11,
+    "mode": 8,
+    "pmf": {
+     "4": 0.03,
+     "5": 0.04,
+     "6": 0.12667,
+     "7": 0.15333,
+     "8": 0.26,
+     "9": 0.24667,
+     "10": 0.11333,
+     "11": 0.02,
+     "12": 0.01
+    }
+   },
+   "posterior": {
+    "n": 300,
+    "mean": 10.1733,
+    "median": 10,
+    "sd": 1.4526,
+    "lo95": 7,
+    "hi95": 13,
+    "mode": 11,
+    "pmf": {
+     "6": 0.00333,
+     "7": 0.02333,
+     "8": 0.08333,
+     "9": 0.23333,
+     "10": 0.23333,
+     "11": 0.25333,
+     "12": 0.12667,
+     "13": 0.03333,
+     "15": 0.01
+    }
+   },
+   "test": {
+    "U": 13619.0,
+    "p": 8.343477831205993e-51,
+    "effect": -0.6974,
+    "median_diff": -2.0
+   },
+   "overlap": 0.48665
+  },
+  "n_clusters_loose": {
+   "ufboot": {
+    "n": 300,
+    "mean": 6.2067,
+    "median": 6,
+    "sd": 1.4756,
+    "lo95": 3,
+    "hi95": 9,
+    "mode": 7,
+    "pmf": {
+     "3": 0.05,
+     "4": 0.07667,
+     "5": 0.19333,
+     "6": 0.21,
+     "7": 0.28333,
+     "8": 0.14333,
+     "9": 0.04,
+     "10": 0.00333
+    }
+   },
+   "posterior": {
+    "n": 300,
+    "mean": 7.7933,
+    "median": 8,
+    "sd": 1.7216,
+    "lo95": 5,
+    "hi95": 11,
+    "mode": 8,
+    "pmf": {
+     "4": 0.02,
+     "5": 0.05667,
+     "6": 0.17333,
+     "7": 0.19667,
+     "8": 0.21,
+     "9": 0.18667,
+     "10": 0.08667,
+     "11": 0.05667,
+     "12": 0.01,
+     "13": 0.00333
+    }
+   },
+   "test": {
+    "U": 22962.0,
+    "p": 5.687650923269777e-26,
+    "effect": -0.4897,
+    "median_diff": -2.0
+   },
+   "overlap": 0.63333
+  }
+ },
+ "analysis_seconds": 82.1
+}

@@ -1,0 +1,290 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/zika_americas_2015_2016/analysis.fasta -m MFP --prefix results/zika_americas_2015_2016/zika_americas_2015_2016_mlrep5 -T 2 -redo --quiet -seed 777
+Seed:    777 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:26:31 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/zika_americas_2015_2016/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0464015 secs using 50.96% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 100 sequences with 10877 columns, 985 distinct patterns
+283 parsimony-informative, 558 singleton sites, 10036 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.010507 secs using 99.53% CPU
+   1  KU509998    0.64%    passed     99.65%
+   2  KX694534    0.97%    passed     98.70%
+   3  MF073359    0.64%    passed     98.82%
+   4  KU321639    1.85%    passed     99.78%
+   5  MF352141    0.68%    passed     99.76%
+   6  MF073358    0.64%    passed     99.86%
+   7  MH158237    0.64%    passed     99.52%
+   8  MK028857    4.68%    passed     98.41%
+   9  MK028858    0.97%    passed     99.37%
+  10  MK028861    4.19%    passed     92.48%
+  11  KU940228    1.85%    passed     99.92%
+  12  KU940224    3.25%    passed     98.79%
+  13  KX520666    3.12%    passed     99.92%
+  14  KU312312    4.62%    passed     97.97%
+  15  KY631493    1.80%    passed     99.86%
+  16  KY631494    1.16%    passed     99.87%
+  17  KU501217    5.56%    passed     98.87%
+  18  KU501216    5.56%    passed     98.58%
+  19  KX197205    0.12%    passed     97.55%
+  20  MH513598    2.21%    passed     99.93%
+  21  KX156775    1.12%    passed     99.51%
+  22  MH513599    2.01%    passed    100.00%
+  23  KU647676    2.39%    passed     99.96%
+  24  KU758877    4.72%    passed     99.05%
+  25  KX087101    0.91%    passed     98.83%
+  26  KX377337    0.64%    passed     99.52%
+  27  MF574557    2.00%    passed     99.91%
+  28  MF574562    2.00%    passed     99.97%
+  29  MF574574    2.00%    passed     99.96%
+  30  KX156776    1.11%    passed     99.67%
+  31  KX446951    0.80%    passed     99.23%
+  32  KX827268    0.83%    passed     99.01%
+  33  KX421194    2.73%    passed     99.87%
+  34  MH544701    0.64%    passed     99.90%
+  35  KX421195    2.15%    passed     99.99%
+  36  KY348640    0.64%    passed     99.71%
+  37  KU926310    0.64%    passed     99.81%
+  38  KU870645    0.73%    passed     99.83%
+  39  MF801384    2.95%    passed     99.88%
+  40  KU937936    3.08%    passed     99.97%
+  41  MK049245    6.31%    passed     90.62%
+  42  KY606271    2.24%    passed     96.23%
+  43  MK049246    6.31%    passed     88.79%
+  44  KX702400    0.63%    passed     99.97%
+  45  KX893855    0.65%    passed     99.98%
+  46  KY014307    5.77%    passed     99.49%
+  47  MF801387    1.81%    passed     99.96%
+  48  KY785479    6.48%    passed     95.19%
+  49  KY785426    6.57%    passed     99.03%
+  50  KY785469    2.60%    passed     99.96%
+  51  KY785465    6.59%    passed     99.81%
+  52  KY785464    4.03%    passed     99.70%
+  53  KX879604    0.62%    passed     99.62%
+  54  MH882527    1.14%    passed     99.43%
+  55  MH882528    1.15%    passed     99.42%
+  56  KY785466    4.84%    passed     94.40%
+  57  MF794971    0.93%    passed     99.95%
+  58  MF783073    0.63%    passed     99.83%
+  59  MF384325    0.63%    passed     99.71%
+  60  MF801401    7.31%    passed     99.16%
+  61  MF801402    1.40%    passed     99.88%
+  62  KY014315    4.71%    passed     99.17%
+  63  KY785484    4.58%    passed     99.96%
+  64  KY785448    4.08%    passed     98.02%
+  65  KY785419    4.78%    passed     89.07%
+  66  KX842449    4.48%    passed     98.04%
+  67  KY014295    0.91%    passed     99.15%
+  68  KY693678    1.94%    passed     99.98%
+  69  KY765322    2.28%    passed     99.81%
+  70  KY765323    1.51%    passed     99.84%
+  71  KX198135    0.91%    passed     99.98%
+  72  KY648934    2.11%    passed     99.99%
+  73  MF801381    1.85%    passed     99.90%
+  74  MH882537    6.60%    passed     99.67%
+  75  KY785435    2.88%    passed     99.95%
+  76  KY693679    1.74%    passed     99.95%
+  77  MH882538    0.86%    passed     99.63%
+  78  KY785445    4.10%    passed     99.62%
+  79  MF801378    1.43%    passed     99.82%
+  80  MH882540    1.34%    passed     99.83%
+  81  MK049248    4.53%    passed     97.04%
+  82  KY606272    0.76%    passed     99.24%
+  83  MF434516    1.14%    passed     99.52%
+  84  KY693676    1.68%    passed     99.90%
+  85  MF434522    1.03%    passed     99.09%
+  86  KY014299    1.41%    passed     99.83%
+  87  KY325477    2.44%    passed     98.48%
+  88  KY325476    1.20%    passed     98.74%
+  89  KY693680    1.96%    passed     99.86%
+  90  MH157204    4.18%    passed     99.61%
+  91  MG494697    1.94%    passed     99.96%
+  92  MF574578    2.20%    passed    100.00%
+  93  MF574582    2.20%    passed     99.95%
+  94  MF574586    3.64%    passed     99.78%
+  95  MF438286    5.57%    passed     99.68%
+  96  MG770184    7.43%    passed     98.32%
+  97  MG770186    6.90%    passed     98.87%
+  98  MF159531    2.49%    passed     99.91%
+  99  MH063262    2.37%    passed     99.94%
+ 100  MH063264    4.70%    passed     97.37%
+****  TOTAL       2.61%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KX377337 is identical to MH158237 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -23023.133
+Optimal log-likelihood: -23023.131
+Rate parameters:  A-C: 1.14250  A-G: 7.17278  A-T: 1.10895  C-G: 0.54379  C-T: 19.76985  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Proportion of invariable sites: 0.461
+Gamma shape alpha: 0.912
+Parameters optimization took 1 rounds (0.125 sec)
+Time for fast ML tree search: 3.408 seconds
+
+NOTE: ModelFinder requires 32 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 10877 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         23098.516    205 46607.032    46614.947    48102.386
+  2  GTR+F+I       23024.876    206 46461.751    46469.744    47964.399
+  3  GTR+F+G4      23023.953    206 46459.905    46467.898    47962.553
+  4  GTR+F+I+G4    23023.125    207 46460.250    46468.321    47970.192
+  5  GTR+F+R2      23025.531    207 46465.061    46473.133    47975.003
+  6  GTR+F+R3      23023.382    209 46464.765    46472.994    47989.296
+ 14  GTR+F+I+R2    23024.925    208 46465.851    46474.001    47983.087
+ 15  GTR+F+I+R3    23023.769    210 46467.538    46475.847    47999.364
+ 24  SYM+I         23126.571    203 46659.141    46666.901    48139.905
+ 25  SYM+G4        23125.649    203 46657.298    46665.058    48138.063
+ 26  SYM+I+G4      23124.785    204 46657.569    46665.407    48145.628
+ 46  TVM+F+I       23113.680    205 46637.361    46645.276    48132.714
+ 47  TVM+F+G4      23113.429    205 46636.858    46644.773    48132.211
+ 48  TVM+F+I+G4    23112.002    206 46636.004    46643.997    48138.652
+ 68  TVMe+I        23174.281    202 46752.562    46760.245    48226.032
+ 69  TVMe+G4       23173.809    202 46751.618    46759.301    48225.087
+ 70  TVMe+I+G4     23172.641    203 46751.281    46759.041    48232.045
+ 90  TIM3+F+I      23028.634    204 46465.269    46473.106    47953.328
+ 91  TIM3+F+G4     23027.720    204 46463.439    46471.277    47951.498
+ 92  TIM3+F+I+G4   23026.894    205 46463.787    46471.702    47959.141
+112  TIM3e+I       23129.891    201 46661.782    46669.389    48127.958
+113  TIM3e+G4      23128.976    201 46659.952    46667.559    48126.128
+114  TIM3e+I+G4    23128.120    202 46660.239    46667.923    48133.709
+134  TIM2+F+I      23027.571    204 46463.142    46470.979    47951.201
+135  TIM2+F+G4     23026.636    204 46461.271    46469.109    47949.330
+136  TIM2+F+I+G4   23025.796    205 46461.593    46469.508    47956.946
+156  TIM2e+I       23129.034    201 46660.069    46667.676    48126.245
+157  TIM2e+G4      23128.101    201 46658.201    46665.808    48124.377
+158  TIM2e+I+G4    23127.233    202 46658.467    46666.150    48131.937
+178  TIM+F+I       23028.358    204 46464.717    46472.554    47952.776
+179  TIM+F+G4      23027.425    204 46462.850    46470.687    47950.908
+180  TIM+F+I+G4    23026.580    205 46463.160    46471.075    47958.513
+200  TIMe+I        23129.459    201 46660.919    46668.526    48127.094
+201  TIMe+G4       23128.529    201 46659.058    46666.665    48125.234
+202  TIMe+I+G4     23127.653    202 46659.307    46666.990    48132.777
+222  TPM3u+F+I     23117.500    203 46641.000    46648.760    48121.764
+223  TPM3u+F+G4    23117.255    203 46640.510    46648.270    48121.275
+224  TPM3u+F+I+G4  23115.841    204 46639.681    46647.519    48127.740
+244  TPM3+I        23177.697    200 46755.394    46762.925    48214.275
+245  TPM3+G4       23177.231    200 46754.463    46761.994    48213.344
+246  TPM3+I+G4     23176.073    201 46754.145    46761.752    48220.321
+266  TPM2u+F+I     23116.436    203 46638.872    46646.632    48119.637
+267  TPM2u+F+G4    23116.176    203 46638.352    46646.112    48119.116
+268  TPM2u+F+I+G4  23114.724    204 46637.448    46645.286    48125.507
+288  TPM2+I        23176.890    200 46753.781    46761.312    48212.662
+289  TPM2+G4       23176.406    200 46752.813    46760.343    48211.694
+290  TPM2+I+G4     23175.222    201 46752.445    46760.052    48218.620
+310  K3Pu+F+I      23117.202    203 46640.405    46648.165    48121.169
+311  K3Pu+F+G4     23116.950    203 46639.900    46647.660    48120.664
+312  K3Pu+F+I+G4   23115.501    204 46639.002    46646.839    48127.061
+332  K3P+I         23177.275    200 46754.549    46762.080    48213.430
+333  K3P+G4        23176.799    200 46753.597    46761.128    48212.478
+334  K3P+I+G4      23175.610    201 46753.219    46760.826    48219.395
+354  TN+F+I        23029.656    203 46465.313    46473.073    47946.077
+355  TN+F+G4       23028.721    203 46463.443    46471.203    47944.207
+356  TN+F+I+G4     23027.877    204 46463.753    46471.591    47951.812
+376  TNe+I         23130.758    200 46661.517    46669.048    48120.398
+377  TNe+G4        23129.827    200 46659.654    46667.185    48118.535
+378  TNe+I+G4      23128.953    201 46659.907    46667.514    48126.082
+398  HKY+F+I       23118.515    202 46641.030    46648.713    48114.500
+399  HKY+F+G4      23118.261    202 46640.523    46648.206    48113.993
+400  HKY+F+I+G4    23116.813    203 46639.626    46647.386    48120.390
+420  K2P+I         23178.567    199 46755.135    46762.590    48206.721
+421  K2P+G4        23178.091    199 46754.182    46761.637    48205.769
+422  K2P+I+G4      23176.906    200 46753.811    46761.342    48212.692
+442  F81+F+I       23708.341    201 47818.682    47826.289    49284.857
+443  F81+F+G4      23707.783    201 47817.567    47825.174    49283.742
+444  F81+F+I+G4    23706.787    202 47817.575    47825.258    49291.045
+464  JC+I          23775.347    198 47946.693    47954.073    49390.985
+465  JC+G4         23774.867    198 47945.734    47953.114    49390.027
+466  JC+I+G4       23773.768    199 47945.536    47952.992    49397.123
+Akaike Information Criterion:           GTR+F+G4
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         TN+F+G4
+Best-fit model: TN+F+G4 chosen according to BIC
+
+All model information printed to results/zika_americas_2015_2016/zika_americas_2015_2016_mlrep5.model.gz
+CPU time for ModelFinder: 47.216 seconds (0h:0m:47s)
+Wall-clock time for ModelFinder: 41.356 seconds (0h:0m:41s)
+
+NOTE: 12 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -23707.835
+2. Current log-likelihood: -23053.435
+3. Current log-likelihood: -23028.725
+Optimal log-likelihood: -23028.717
+Rate parameters:  A-C: 1.00000  A-G: 7.52658  A-T: 1.00000  C-G: 1.00000  C-T: 20.86150  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Gamma shape alpha: 0.207
+Parameters optimization took 3 rounds (0.455 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0460424 secs using 205.5% CPU
+Computing ML distances took 0.046444 sec (of wall-clock time) 0.095040 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000456366 secs using 98.61% CPU
+Computing RapidNJ tree took 0.002201 sec (of wall-clock time) 0.002228 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -23108.033
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.217 second
+Computing log-likelihood of 98 initial trees ... 7.475 seconds
+Current best score: -23024.073
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -23023.963
+Iteration 10 / LogL: -23024.021 / Time: 0h:1m:0s
+Iteration 20 / LogL: -23027.655 / Time: 0h:1m:7s
+Finish initializing candidate tree set (20)
+Current best tree score: -23023.963 / CPU time: 25.549
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -23025.703 / Time: 0h:1m:22s (0h:1m:41s left)
+Iteration 40 / LogL: -23028.188 / Time: 0h:1m:29s (0h:1m:15s left)
+Iteration 50 / LogL: -23024.065 / Time: 0h:1m:38s (0h:0m:59s left)
+Iteration 60 / LogL: -23024.064 / Time: 0h:1m:50s (0h:0m:47s left)
+Iteration 70 / LogL: -23050.189 / Time: 0h:1m:57s (0h:0m:34s left)
+Iteration 80 / LogL: -23024.146 / Time: 0h:2m:7s (0h:0m:22s left)
+Iteration 90 / LogL: -23024.146 / Time: 0h:2m:18s (0h:0m:11s left)
+Iteration 100 / LogL: -23027.168 / Time: 0h:2m:23s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:2m:24s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23023.963
+Optimal log-likelihood: -23023.963
+Rate parameters:  A-C: 1.00000  A-G: 7.46175  A-T: 1.00000  C-G: 1.00000  C-T: 20.87917  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Gamma shape alpha: 0.213
+Parameters optimization took 1 rounds (0.058 sec)
+BEST SCORE FOUND : -23023.963
+Total tree length: 0.093
+
+Total number of iterations: 102
+CPU time used for tree search: 118.533 sec (0h:1m:58s)
+Wall-clock time used for tree search: 102.321 sec (0h:1m:42s)
+Total CPU time used: 167.114 sec (0h:2m:47s)
+Total wall-clock time used: 144.516 sec (0h:2m:24s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/zika_americas_2015_2016/zika_americas_2015_2016_mlrep5.iqtree
+  Maximum-likelihood tree:       results/zika_americas_2015_2016/zika_americas_2015_2016_mlrep5.treefile
+  Likelihood distances:          results/zika_americas_2015_2016/zika_americas_2015_2016_mlrep5.mldist
+  Screen log file:               results/zika_americas_2015_2016/zika_americas_2015_2016_mlrep5.log
+
+Date and Time: Wed Sep  9 00:28:56 2026

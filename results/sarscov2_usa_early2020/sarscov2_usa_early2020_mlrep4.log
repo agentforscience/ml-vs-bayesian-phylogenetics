@@ -1,0 +1,314 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/sarscov2_usa_early2020/analysis.fasta -m MFP --prefix results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4 -T 2 -redo --quiet -seed 31337
+Seed:    31337 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:27:28 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/sarscov2_usa_early2020/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.132828 secs using 39.61% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 120 sequences with 29921 columns, 592 distinct patterns
+57 parsimony-informative, 199 singleton sites, 29665 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000173449 secs using 676.3% CPU
+   1  MT598633    0.21%    passed     99.98%
+   2  MT370904    0.69%    passed     99.99%
+   3  MT304491    0.15%    passed     99.99%
+   4  MT627246    0.21%    passed     99.97%
+   5  MT325632    0.13%    passed     99.99%
+   6  MT325599    0.13%    passed    100.00%
+   7  MT325609    0.13%    passed    100.00%
+   8  MT325623    0.13%    passed     99.97%
+   9  MT627632    0.21%    passed     99.98%
+  10  MT512425    0.14%    passed     99.98%
+  11  MT520509    0.19%    passed    100.00%
+  12  MT605817    0.21%    passed     99.98%
+  13  MT252803    0.53%    passed     99.84%
+  14  MT512437    0.13%    passed     99.99%
+  15  MT412252    0.29%    passed     99.96%
+  16  MT627420    0.06%    passed     99.59%
+  17  MT614537    0.46%    passed     99.98%
+  18  MT614557    0.46%    passed    100.00%
+  19  MT614559    0.46%    passed     99.98%
+  20  MT627435    0.07%    passed     99.61%
+  21  MT627437    0.15%    passed    100.00%
+  22  MT632552    0.17%    passed     99.99%
+  23  MT263447    0.18%    passed     99.81%
+  24  MT614481    0.46%    passed     99.99%
+  25  MT263467    0.23%    passed     99.67%
+  26  MT646076    0.47%    passed     99.98%
+  27  MT499206    0.06%    passed     99.58%
+  28  MT509471    0.47%    passed     99.99%
+  29  MT370883    0.69%    passed     99.99%
+  30  MT499194    0.28%    passed     99.97%
+  31  MT509486    0.48%    passed     99.99%
+  32  MT520535    0.31%    passed     99.94%
+  33  MT326135    0.42%    passed     99.43%
+  34  MT326140    0.18%    passed     99.83%
+  35  MT520438    3.62%    passed     89.54%
+  36  MT628132    0.24%    passed     99.98%
+  37  MT632514    0.19%    passed     99.98%
+  38  MT646100    1.20%    passed     99.89%
+  39  MT326159    0.28%    passed     99.92%
+  40  MT326172    0.27%    passed     99.76%
+  41  MT499183    0.06%    passed     99.69%
+  42  MT509467    0.48%    passed     99.99%
+  43  MT520342    0.27%    passed     99.98%
+  44  MT520455    1.22%    passed     99.75%
+  45  MT326053    0.54%    passed     99.57%
+  46  MT499191    0.09%    passed     99.76%
+  47  MT326058    0.30%    passed     99.90%
+  48  MT499180    0.09%    passed     99.64%
+  49  MT520444    0.22%    passed    100.00%
+  50  MT628140    0.32%    passed     99.99%
+  51  MT628243    0.24%    passed     99.98%
+  52  MT632927    0.18%    passed     99.99%
+  53  MT633015    0.19%    passed     99.98%
+  54  MT358726    0.61%    passed     99.82%
+  55  MT520437    0.27%    passed     99.98%
+  56  MT632849    0.19%    passed     99.98%
+  57  MT632774    1.71%    passed     99.32%
+  58  MT632815    0.21%    passed     99.98%
+  59  MT632871    0.18%    passed     99.99%
+  60  MT632933    0.20%    passed     99.99%
+  61  MT632840    0.20%    passed     99.97%
+  62  MT633020    0.19%    passed     99.98%
+  63  MT412229    0.55%    passed     99.87%
+  64  MT412327    0.01%    passed     98.06%
+  65  MT507796    0.15%    passed     99.99%
+  66  MT520330    0.27%    passed     99.98%
+  67  MT533237    0.39%    passed     99.94%
+  68  MT631817    0.27%    passed     99.99%
+  69  MT633029    0.18%    passed     99.99%
+  70  MT671826    0.31%    passed     99.98%
+  71  MT520251    0.19%    passed     99.98%
+  72  MT585092    0.52%    passed     99.95%
+  73  MT628226    0.95%    passed     99.95%
+  74  MT412271    0.08%    passed     99.59%
+  75  MT585099    0.49%    passed     99.98%
+  76  MT585104    0.51%    passed     99.96%
+  77  MT641578    0.20%    passed     99.99%
+  78  MT641608    0.21%    passed     99.99%
+  79  MT628097    0.41%    passed     99.84%
+  80  MT432195    0.14%    passed     99.99%
+  81  MT641548    0.15%    passed    100.00%
+  82  MT534323    0.21%    passed     99.98%
+  83  MT534336    0.10%    passed     99.74%
+  84  MT641612    0.18%    passed     99.99%
+  85  MT506997    5.14%    passed     98.80%
+  86  MT507002    2.26%    passed     99.78%
+  87  MT641613    0.21%    passed     99.98%
+  88  MT551605    0.29%    passed     99.96%
+  89  MT558658    0.20%    passed     99.97%
+  90  MT558660    0.21%    passed     99.98%
+  91  MT558675    0.12%    passed     99.72%
+  92  MT609589    0.12%    passed     99.58%
+  93  MT680234    0.28%    passed     99.99%
+  94  MT533209    1.23%    passed     99.81%
+  95  MT628050    0.18%    passed     99.99%
+  96  MT631791    0.72%    passed     99.98%
+  97  MT642268    0.17%    passed     99.99%
+  98  MT642343    0.21%    passed     99.99%
+  99  MT620769    0.10%    passed     99.78%
+ 100  MT642152    0.16%    passed     99.99%
+ 101  MT577612    2.36%    passed     99.59%
+ 102  MT642346    0.20%    passed     99.98%
+ 103  MT628158    0.25%    passed     99.99%
+ 104  MT577618    2.55%    passed     98.21%
+ 105  MT585019    0.44%    passed     99.98%
+ 106  MT585028    3.09%    passed     98.64%
+ 107  MT642129    0.21%    passed     99.98%
+ 108  MT585064    0.32%    passed     99.89%
+ 109  MT628204    0.23%    passed     99.95%
+ 110  MT642121    0.22%    passed     99.99%
+ 111  MT628168    3.90%    passed     99.85%
+ 112  MT642182    0.18%    passed     99.98%
+ 113  MT642384    0.18%    passed     99.99%
+ 114  MT642146    0.18%    passed     99.97%
+ 115  MT642297    0.20%    passed     99.98%
+ 116  MT512645    0.13%    passed    100.00%
+ 117  MT609572    0.07%    passed     99.73%
+ 118  MT679171    0.18%    passed     99.66%
+ 119  MT679196    0.18%    passed     99.77%
+ 120  MT412243    0.19%    passed     99.99%
+****  TOTAL       0.47%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MT627632 is identical to MT598633 but kept for subsequent analysis
+NOTE: MT633020 is identical to MT633015 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MT605817 (identical to MT598633) is ignored but added at the end
+Alignment was printed to results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.013 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -43513.026
+Optimal log-likelihood: -43513.017
+Rate parameters:  A-C: 0.41061  A-G: 1.26949  A-T: 0.20054  C-G: 0.35793  C-T: 3.44774  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Proportion of invariable sites: 0.496
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.432 sec)
+Time for fast ML tree search: 3.185 seconds
+
+NOTE: ModelFinder requires 22 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 29921 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         43542.695    243 87571.391    87575.387    89589.826
+  2  GTR+F+I       43511.041    244 87510.081    87514.110    89536.822
+  3  GTR+F+G4      43520.475    244 87528.951    87532.979    89555.692
+  4  GTR+F+I+G4    43513.010    245 87516.020    87520.082    89551.068
+  5  GTR+F+R2      43530.837    245 87551.673    87555.735    89586.720
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 387 likelihood is underflown
+Pattern 392 likelihood is underflown
+Pattern 441 likelihood is underflown
+  6  GTR+F+R3      43527.157    247 87548.315    87552.443    89599.975
+ 14  GTR+F+I+R2    43520.509    246 87533.019    87537.114    89576.372
+ 15  GTR+F+I+R3    43516.002    248 87528.004    87532.166    89587.970
+ 24  SYM+I         44439.674    241 89361.348    89365.278    91363.170
+ 46  TVM+F+I       43531.269    243 87548.538    87552.534    89566.972
+ 68  TVMe+I        44460.388    240 89400.777    89404.674    91394.293
+ 90  TIM3+F+I      43526.242    242 87536.485    87540.448    89546.613
+112  TIM3e+I       44450.680    239 89379.360    89383.226    91364.570
+134  TIM2+F+I      43517.911    242 87519.822    87523.785    89529.951
+156  TIM2e+I       44449.425    239 89376.850    89380.715    91362.060
+178  TIM+F+I       43517.101    242 87518.202    87522.165    89528.330
+200  TIMe+I        44446.497    239 89370.994    89374.859    91356.203
+222  TPM3u+F+I     43546.553    241 87575.105    87579.035    89576.927
+244  TPM3+I        44471.213    238 89418.426    89422.259    91395.330
+266  TPM2u+F+I     43538.296    241 87558.592    87562.522    89560.414
+288  TPM2+I        44469.923    238 89415.847    89419.679    91392.750
+310  K3Pu+F+I      43537.516    241 87557.032    87560.962    89558.854
+332  K3P+I         44466.853    238 89409.706    89413.538    91386.609
+354  TN+F+I        43527.260    241 87536.519    87540.449    89538.341
+376  TNe+I         44454.914    238 89385.827    89389.660    91362.730
+398  HKY+F+I       43547.664    240 87575.328    87579.225    89568.844
+420  K2P+I         44475.254    237 89424.508    89428.309    91393.105
+442  F81+F+I       43630.747    239 87739.495    87743.360    89724.704
+464  JC+I          44553.708    236 89579.417    89583.185    91539.707
+Akaike Information Criterion:           GTR+F+I
+Corrected Akaike Information Criterion: GTR+F+I
+Bayesian Information Criterion:         TIM+F+I
+Best-fit model: TIM+F+I chosen according to BIC
+
+All model information printed to results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.model.gz
+CPU time for ModelFinder: 15.635 seconds (0h:0m:15s)
+Wall-clock time for ModelFinder: 13.493 seconds (0h:0m:13s)
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -43630.831
+2. Current log-likelihood: -43585.057
+3. Current log-likelihood: -43571.058
+4. Current log-likelihood: -43525.862
+5. Current log-likelihood: -43517.017
+Optimal log-likelihood: -43517.002
+Rate parameters:  A-C: 1.00000  A-G: 1.72500  A-T: 0.32322  C-G: 0.32322  C-T: 4.68302  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Proportion of invariable sites: 0.921
+Parameters optimization took 5 rounds (0.747 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0600265 secs using 91.86% CPU
+Computing ML distances took 0.060358 sec (of wall-clock time) 0.055474 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000468029 secs using 97.86% CPU
+Computing RapidNJ tree took 0.002345 sec (of wall-clock time) 0.002311 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -43543.963
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.003 second
+Computing log-likelihood of 98 initial trees ... 3.429 seconds
+Current best score: -43513.660
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -43513.228
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -43513.045
+Iteration 10 / LogL: -43514.686 / Time: 0h:0m:24s
+Iteration 20 / LogL: -43516.921 / Time: 0h:0m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -43513.045 / CPU time: 12.198
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -43513.828 / Time: 0h:0m:29s (0h:0m:39s left)
+Iteration 40 / LogL: -43516.393 / Time: 0h:0m:35s (0h:0m:34s left)
+Iteration 50 / LogL: -43528.813 / Time: 0h:0m:37s (0h:0m:25s left)
+Iteration 60 / LogL: -43513.781 / Time: 0h:0m:40s (0h:0m:19s left)
+Iteration 70 / LogL: -43513.617 / Time: 0h:0m:43s (0h:0m:13s left)
+Iteration 80 / LogL: -43524.367 / Time: 0h:0m:46s (0h:0m:9s left)
+Iteration 90 / LogL: -43547.178 / Time: 0h:0m:47s (0h:0m:4s left)
+Iteration 100 / LogL: -43529.283 / Time: 0h:0m:49s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:0m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -43513.045
+Optimal log-likelihood: -43513.041
+Rate parameters:  A-C: 1.00000  A-G: 1.72377  A-T: 0.34312  C-G: 0.34312  C-T: 4.69784  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Proportion of invariable sites: 0.921
+Parameters optimization took 1 rounds (0.088 sec)
+BEST SCORE FOUND : -43513.041
+Total tree length: 0.009
+
+Total number of iterations: 103
+CPU time used for tree search: 38.703 sec (0h:0m:38s)
+Wall-clock time used for tree search: 35.335 sec (0h:0m:35s)
+Total CPU time used: 55.617 sec (0h:0m:55s)
+Total wall-clock time used: 50.140 sec (0h:0m:50s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.iqtree
+  Maximum-likelihood tree:       results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.treefile
+  Likelihood distances:          results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.mldist
+  Screen log file:               results/sarscov2_usa_early2020/sarscov2_usa_early2020_mlrep4.log
+
+Date and Time: Wed Sep  9 00:28:18 2026

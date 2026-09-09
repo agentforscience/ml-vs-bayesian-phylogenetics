@@ -1,0 +1,260 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_sierraleone_2014/analysis.fasta -m GTR+F+I+G4 --prefix results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr -T 2 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:42:03 2026
+Kernel:  AVX+FMA - 2 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_sierraleone_2014/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0450948 secs using 99.99% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 110 sequences with 18959 columns, 284 distinct patterns
+78 parsimony-informative, 141 singleton sites, 18740 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.3049e-05 secs using 91.72% CPU
+   1  KM034549    0.82%    passed     99.99%
+   2  KM034551    0.17%    passed     99.89%
+   3  KM034554    0.06%    passed     99.66%
+   4  KM034562    0.01%    passed     99.78%
+   5  KM034563    2.60%    passed     98.33%
+   6  KM233049    0.07%    passed     99.62%
+   7  KM233039    0.03%    passed     99.74%
+   8  KM233116    0.17%    passed     99.83%
+   9  KM233053    0.01%    passed     99.74%
+  10  KM233054    0.06%    passed     99.75%
+  11  KM233056    0.01%    passed     99.80%
+  12  KM233047    0.20%    passed     99.80%
+  13  KM233048    0.69%    passed     99.99%
+  14  KM233050    0.02%    passed     99.70%
+  15  KM233057    0.03%    passed     99.77%
+  16  KM233058    0.57%    passed    100.00%
+  17  KM233061    0.36%    passed    100.00%
+  18  KM233065    0.18%    passed     99.91%
+  19  KM233069    0.01%    passed     99.78%
+  20  KM233060    1.31%    passed     99.80%
+  21  KM233073    0.25%    passed     99.91%
+  22  KM233074    0.36%    passed    100.00%
+  23  KM233075    0.15%    passed     99.71%
+  24  KM233067    0.26%    passed     99.93%
+  25  KM233077    0.33%    passed     99.99%
+  26  KM233080    0.07%    passed     99.70%
+  27  KM233086    0.68%    passed    100.00%
+  28  KM233092    0.06%    passed     99.67%
+  29  KM233093    0.42%    passed    100.00%
+  30  KM233068    0.18%    passed     99.91%
+  31  KM233100    0.14%    passed     99.66%
+  32  KM233105    0.24%    passed     99.93%
+  33  KM233106    0.07%    passed     99.75%
+  34  KM233108    0.23%    passed     99.90%
+  35  KM233110    0.02%    passed     99.83%
+  36  KM233112    0.19%    passed     99.88%
+  37  KM233115    0.65%    passed    100.00%
+  38  KM233083    0.98%    passed     99.85%
+  39  KP759747    0.41%    passed     99.99%
+  40  KP759640    1.30%    passed     99.89%
+  41  KP759630    1.17%    passed     98.99%
+  42  KP759642    1.18%    passed     99.55%
+  43  KP759688    0.41%    passed     99.99%
+  44  KP759608    0.69%    passed     99.98%
+  45  KP759644    1.18%    passed     99.54%
+  46  KP759652    1.16%    passed     99.44%
+  47  KP759666    0.41%    passed     99.99%
+  48  KP759670    0.41%    passed     99.99%
+  49  KP759683    0.41%    passed     99.97%
+  50  KP759620    1.18%    passed     99.56%
+  51  KP759694    0.41%    passed    100.00%
+  52  KP759629    1.18%    passed     99.45%
+  53  KP759712    0.41%    passed     99.99%
+  54  KP759635    1.22%    passed     99.35%
+  55  KP759714    0.41%    passed     99.99%
+  56  KP759719    0.41%    passed     99.98%
+  57  KP759723    0.41%    passed     99.99%
+  58  KP759633    1.17%    passed     99.83%
+  59  KP759717    0.41%    passed    100.00%
+  60  KP759634    1.18%    passed     99.30%
+  61  KP759725    0.41%    passed    100.00%
+  62  KP759728    0.41%    passed     99.99%
+  63  KP759729    0.41%    passed    100.00%
+  64  KP759731    0.41%    passed    100.00%
+  65  KP759732    0.41%    passed     99.99%
+  66  KP759737    0.41%    passed    100.00%
+  67  KP759638    1.17%    passed     99.55%
+  68  KP759730    0.41%    passed     99.98%
+  69  KP759739    0.41%    passed     99.99%
+  70  KP759750    0.41%    passed     99.99%
+  71  KP759751    0.41%    passed     99.98%
+  72  KP759753    0.41%    passed    100.00%
+  73  KP759645    1.34%    passed     99.77%
+  74  KP759744    0.41%    passed     99.97%
+  75  KP759752    0.41%    passed    100.00%
+  76  KP759648    1.22%    passed     99.76%
+  77  KP759649    1.18%    passed     99.78%
+  78  KP759760    0.41%    passed     99.97%
+  79  KP759653    1.18%    passed     99.26%
+  80  KP759657    1.19%    passed     99.91%
+  81  KP759761    0.41%    passed    100.00%
+  82  KP759764    0.41%    passed     99.99%
+  83  KP759767    0.41%    passed    100.00%
+  84  KP759597    1.22%    passed     99.72%
+  85  KP759656    1.18%    passed     99.67%
+  86  KP759669    0.41%    passed     99.98%
+  87  KP759765    0.41%    passed     99.98%
+  88  KP759766    0.41%    passed     99.97%
+  89  KP759595    0.69%    passed     99.97%
+  90  KP759599    0.69%    passed     99.95%
+  91  KP759603    0.69%    passed     99.99%
+  92  KP759664    0.41%    passed    100.00%
+  93  KP759676    0.41%    passed     99.96%
+  94  KP759594    1.18%    passed     99.55%
+  95  KP759682    0.41%    passed     99.98%
+  96  KP759684    0.41%    passed     99.99%
+  97  KP759686    0.41%    passed     99.99%
+  98  KP759600    0.69%    passed     99.99%
+  99  KP759679    0.41%    passed     99.99%
+ 100  KP759690    0.41%    passed     99.99%
+ 101  KP759689    0.41%    passed     99.99%
+ 102  KP759693    0.41%    passed     99.99%
+ 103  KP759616    1.30%    passed     99.86%
+ 104  KP759695    0.41%    passed     99.98%
+ 105  KP759702    0.41%    passed    100.00%
+ 106  KP759703    0.41%    passed     99.99%
+ 107  KP759626    1.18%    passed     99.60%
+ 108  KP759627    1.18%    passed     99.76%
+ 109  KP759705    0.41%    passed     99.97%
+ 110  KP759709    0.41%    passed     99.99%
+****  TOTAL       0.55%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KM233068 is identical to KM233065 but kept for subsequent analysis
+NOTE: KP759684 is identical to KP759712 but kept for subsequent analysis
+NOTE: KP759729 is identical to KP759725 but kept for subsequent analysis
+NOTE: KP759752 is identical to KP759753 but kept for subsequent analysis
+NOTE: KP759693 is identical to KP759686 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.020 / LogL: -28281.207
+Init pinv, alpha: 0.110, 1.000 / Estimate: 0.110, 0.020 / LogL: -28280.994
+Init pinv, alpha: 0.220, 1.000 / Estimate: 0.220, 0.020 / LogL: -28280.854
+Init pinv, alpha: 0.329, 1.000 / Estimate: 0.330, 0.101 / LogL: -28280.829
+Init pinv, alpha: 0.439, 1.000 / Estimate: 0.439, 0.212 / LogL: -28280.841
+Init pinv, alpha: 0.549, 1.000 / Estimate: 0.549, 0.378 / LogL: -28280.851
+Init pinv, alpha: 0.659, 1.000 / Estimate: 0.659, 0.756 / LogL: -28280.859
+Init pinv, alpha: 0.769, 1.000 / Estimate: 0.769, 2.775 / LogL: -28280.850
+Init pinv, alpha: 0.879, 1.000 / Estimate: 0.878, 998.440 / LogL: -28281.447
+Init pinv, alpha: 0.988, 1.000 / Estimate: 0.952, 998.447 / LogL: -28298.618
+Optimal pinv,alpha: 0.330, 0.101 / LogL: -28280.829
+
+Parameters optimization took 2.008 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.044845 secs using 201% CPU
+Computing ML distances took 0.045051 sec (of wall-clock time) 0.090364 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000413585 secs using 1067% CPU
+Computing RapidNJ tree took 0.002037 sec (of wall-clock time) 0.006036 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -28283.109
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.692 second
+Computing log-likelihood of 98 initial trees ... 0.872 seconds
+Current best score: -28280.828
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -28280.827
+BETTER TREE FOUND at iteration 3: -28280.827
+BETTER TREE FOUND at iteration 4: -28280.827
+BETTER TREE FOUND at iteration 5: -28280.827
+BETTER TREE FOUND at iteration 9: -28280.827
+Iteration 10 / LogL: -28280.827 / Time: 0h:0m:5s
+BETTER TREE FOUND at iteration 17: -28280.827
+Iteration 20 / LogL: -28280.827 / Time: 0h:0m:7s
+Finish initializing candidate tree set (20)
+Current best tree score: -28280.827 / CPU time: 4.956
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -28281.335 / Time: 0h:0m:9s (0h:0m:27s left)
+Iteration 40 / LogL: -28281.226 / Time: 0h:0m:11s (0h:0m:22s left)
+Iteration 50 / LogL: -28288.568 / Time: 0h:0m:13s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -28348.401
+UFBoot trees printed to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.ufboot
+Iteration 60 / LogL: -28288.322 / Time: 0h:0m:16s (0h:0m:15s left)
+Iteration 70 / LogL: -28317.429 / Time: 0h:0m:18s (0h:0m:12s left)
+Iteration 80 / LogL: -28281.052 / Time: 0h:0m:20s (0h:0m:9s left)
+Iteration 90 / LogL: -28281.239 / Time: 0h:0m:22s (0h:0m:6s left)
+Iteration 100 / LogL: -28286.728 / Time: 0h:0m:25s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -28343.678
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.ufboot
+Iteration 110 / LogL: -28281.305 / Time: 0h:0m:28s (0h:0m:23s left)
+Iteration 120 / LogL: -28294.720 / Time: 0h:0m:30s (0h:0m:20s left)
+Iteration 130 / LogL: -28312.429 / Time: 0h:0m:32s (0h:0m:17s left)
+Iteration 140 / LogL: -28281.025 / Time: 0h:0m:35s (0h:0m:15s left)
+Iteration 150 / LogL: -28284.279 / Time: 0h:0m:37s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -28343.678
+UFBoot trees printed to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.ufboot
+Iteration 160 / LogL: -28281.180 / Time: 0h:0m:40s (0h:0m:10s left)
+Iteration 170 / LogL: -28284.337 / Time: 0h:0m:43s (0h:0m:7s left)
+Iteration 180 / LogL: -28288.544 / Time: 0h:0m:46s (0h:0m:5s left)
+Iteration 190 / LogL: -28281.150 / Time: 0h:0m:49s (0h:0m:2s left)
+Iteration 200 / LogL: -28291.550 / Time: 0h:0m:52s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -28343.574
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+UFBoot trees printed to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.ufboot
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:0m:53s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -28280.827
+Optimal log-likelihood: -28280.826
+Rate parameters:  A-C: 1.22921  A-G: 12.63360  A-T: 1.26037  C-G: 0.40380  C-T: 14.64188  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.269
+Proportion of invariable sites: 0.330
+Gamma shape alpha: 0.101
+Parameters optimization took 1 rounds (0.037 sec)
+BEST SCORE FOUND : -28280.826
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.247 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.splits.nex
+Total tree length: 0.012
+
+Total number of iterations: 200
+CPU time used for tree search: 91.286 sec (0h:1m:31s)
+Wall-clock time used for tree search: 51.412 sec (0h:0m:51s)
+Total CPU time used: 98.328 sec (0h:1m:38s)
+Total wall-clock time used: 55.174 sec (0h:0m:55s)
+UFBoot trees printed to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.splits.nex...
+110 taxa and 2283 splits.
+Consensus tree written to results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.contree
+Reading input trees file results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.contree
+Log-likelihood of consensus tree: -28283.966
+
+Analysis results written to: 
+  IQ-TREE report:                results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.iqtree
+  Maximum-likelihood tree:       results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.treefile
+  Likelihood distances:          results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.splits.nex
+  Consensus tree:                results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.contree
+  UFBoot trees:                  results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.ufboot
+  Screen log file:               results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlgtr.log
+
+Date and Time: Wed Sep  9 00:42:59 2026

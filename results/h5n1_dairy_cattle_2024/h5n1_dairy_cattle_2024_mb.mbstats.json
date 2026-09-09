@@ -1,0 +1,16 @@
+{
+ "asdsf_final": 0.007031,
+ "asdsf_trace": [
+  0.007031
+ ],
+ "max_psrf": 1.006,
+ "min_ess": 1249.12,
+ "dataset": "h5n1_dairy_cattle_2024",
+ "seconds": 1298.1,
+ "ngen": 2000000,
+ "nruns": 2,
+ "nchains": 4,
+ "samplefreq": 200,
+ "burninfrac": 0.25,
+ "tag": "mb"
+}

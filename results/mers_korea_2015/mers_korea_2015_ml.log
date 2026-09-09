@@ -1,0 +1,461 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    07be82772fbe (AVX2, FMA3, 503 GB RAM)
+Command: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2 -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta -m MFP --prefix results/mers_korea_2015/mers_korea_2015_ml -T 4 -redo --quiet -B 1000 --wbtl -alrt 1000 -seed 1
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 00:24:58 2026
+Kernel:  AVX+FMA - 4 threads (32 CPU cores detected)
+
+Reading alignment file /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/mers_korea_2015/analysis.fasta ... Fasta format detected
+Reading fasta file: done in 0.0197938 secs using 73.17% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 34 sequences with 30119 columns, 75 distinct patterns
+20 parsimony-informative, 14 singleton sites, 30085 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.62409e-05 secs using 86.2% CPU
+   1  KT029139    0.04%    passed    100.00%
+   2  MK796425    0.04%    passed     99.99%
+   3  MT387202    0.04%    passed     99.99%
+   4  KT326819    0.41%    passed     99.71%
+   5  KX034093    1.36%    passed     99.72%
+   6  KT374052    0.96%    passed     99.84%
+   7  KT374054    0.96%    passed     99.80%
+   8  KX034095    0.00%    passed     99.93%
+   9  KT868867    0.17%    passed    100.00%
+  10  KT868868    0.17%    passed    100.00%
+  11  KU308549    0.00%    passed     99.92%
+  12  KT868871    0.17%    passed    100.00%
+  13  KT868870    0.18%    passed    100.00%
+  14  KT868872    0.17%    passed    100.00%
+  15  KT868873    0.17%    passed    100.00%
+  16  KT868875    0.17%    passed    100.00%
+  17  KT868876    0.17%    passed    100.00%
+  18  KT868865    0.17%    passed    100.00%
+  19  KT868866    0.17%    passed    100.00%
+  20  KT868869    0.17%    passed    100.00%
+  21  KT868874    0.17%    passed    100.00%
+  22  KX034094    0.03%    passed     99.99%
+  23  KT374053    0.96%    passed     99.87%
+  24  KX034096    0.12%    passed     99.85%
+  25  KX034097    0.00%    passed     99.92%
+  26  KT374055    0.96%    passed     99.80%
+  27  KT374051    0.96%    passed     99.84%
+  28  KT374056    0.96%    passed     99.76%
+  29  KT868877    0.18%    passed    100.00%
+  30  KX034098    0.04%    passed    100.00%
+  31  KT374057    0.96%    passed     99.75%
+  32  KX034099    0.03%    passed     99.99%
+  33  KT374050    0.96%    passed     99.84%
+  34  KX034100    0.00%    passed     99.91%
+****  TOTAL       0.35%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MT387202 is identical to MK796425 but kept for subsequent analysis
+NOTE: KT374055 is identical to KT374054 but kept for subsequent analysis
+NOTE: KT868873 is identical to KT868868 but kept for subsequent analysis
+NOTE: KT868876 is identical to KT868872 but kept for subsequent analysis
+NOTE: KT374050 is identical to KT374051 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KT868865 (identical to KT868868) is ignored but added at the end
+NOTE: KT868866 (identical to KT868868) is ignored but added at the end
+Alignment was printed to results/mers_korea_2015/mers_korea_2015_ml.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/mers_korea_2015/mers_korea_2015_ml.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -41588.420
+Optimal log-likelihood: -41588.103
+Rate parameters:  A-C: 5.82633  A-G: 18.55900  A-T: 3.56045  C-G: 4.13848  C-T: 19.77392  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.202  G: 0.209  T: 0.326
+Proportion of invariable sites: 0.500
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.009 sec)
+Time for fast ML tree search: 0.050 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 30119 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  GTR+F         41597.784    69  83333.567    83333.889    83907.158
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  GTR+F+I       41575.715    70  83291.430    83291.761    83873.334
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  GTR+F+G4      41590.848    70  83321.696    83322.027    83903.600
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  GTR+F+I+G4    41587.455    71  83316.911    83317.251    83907.127
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 56 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 56 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 56 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 56 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 56 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 56 likelihood is underflown
+  5  GTR+F+R2      41594.218    71  83330.436    83330.776    83920.652
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  GTR+F+R3      41593.081    73  83332.162    83332.522    83939.005
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 14  GTR+F+I+R2    41590.747    72  83325.494    83325.844    83924.023
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 45 likelihood is underflown
+ 15  GTR+F+I+R3    41589.131    74  83326.262    83326.632    83941.418
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 24  SYM+I         42161.244    67  84456.489    84456.792    85013.454
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 46  TVM+F+I       41575.796    69  83289.591    83289.913    83863.182
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 68  TVMe+I        42161.563    66  84455.126    84455.420    85003.778
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 90  TIM3+F+I      41576.435    68  83288.871    83289.183    83854.149
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+112  TIM3e+I       42162.163    65  84454.325    84454.611    84994.664
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+134  TIM2+F+I      41577.938    68  83291.877    83292.189    83857.155
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+156  TIM2e+I       42162.849    65  84455.698    84455.983    84996.037
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+178  TIM+F+I       41577.956    68  83291.911    83292.223    83857.189
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+200  TIMe+I        42163.059    65  84456.119    84456.404    84996.458
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+222  TPM3u+F+I     41577.165    67  83288.331    83288.634    83845.296
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+244  TPM3+I        42162.738    64  84453.476    84453.753    84985.502
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+266  TPM2u+F+I     41578.367    67  83290.734    83291.037    83847.699
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+288  TPM2+I        42163.296    64  84454.592    84454.869    84986.618
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+310  K3Pu+F+I      41578.303    67  83290.607    83290.910    83847.572
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+332  K3P+I         42163.570    64  84455.140    84455.417    84987.167
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+354  TN+F+I        41578.045    67  83290.089    83290.393    83847.054
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+376  TNe+I         42163.069    64  84454.139    84454.416    84986.165
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+398  HKY+F+I       41578.170    66  83288.340    83288.634    83836.992
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+420  K2P+I         42163.429    63  84452.857    84453.125    84976.570
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+442  F81+F+I       41595.992    65  83321.984    83322.269    83862.323
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+464  JC+I          42181.125    62  84486.250    84486.510    85001.651
+Akaike Information Criterion:           TPM3u+F+I
+Corrected Akaike Information Criterion: TPM3u+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to results/mers_korea_2015/mers_korea_2015_ml.model.gz
+CPU time for ModelFinder: 1.305 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 0.351 seconds (0h:0m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -41596.001
+2. Current log-likelihood: -41580.046
+Optimal log-likelihood: -41579.992
+Rate parameters:  A-C: 1.00000  A-G: 18.65168  A-T: 1.00000  C-G: 1.00000  C-T: 18.65168  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.202  G: 0.209  T: 0.326
+Proportion of invariable sites: 0.995
+Parameters optimization took 2 rounds (0.006 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000417322 secs using 1680% CPU
+Computing ML distances took 0.000480 sec (of wall-clock time) 0.007074 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000111111 secs using 2402% CPU
+Computing RapidNJ tree took 0.000519 sec (of wall-clock time) 0.002878 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -41574.792
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.079 second
+Computing log-likelihood of 98 initial trees ... 0.135 seconds
+Current best score: -41573.126
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -41572.942
+BETTER TREE FOUND at iteration 2: -41572.942
+BETTER TREE FOUND at iteration 3: -41572.941
+BETTER TREE FOUND at iteration 8: -41572.941
+Iteration 10 / LogL: -41572.942 / Time: 0h:0m:0s
+Iteration 20 / LogL: -41572.942 / Time: 0h:0m:1s
+Finish initializing candidate tree set (20)
+Current best tree score: -41572.941 / CPU time: 0.659
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -41576.703 / Time: 0h:0m:1s (0h:0m:3s left)
+Iteration 40 / LogL: -41573.048 / Time: 0h:0m:1s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 49: -41572.941
+Iteration 50 / LogL: -41573.018 / Time: 0h:0m:2s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41609.085
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 60 / LogL: -41573.222 / Time: 0h:0m:2s (0h:0m:3s left)
+Iteration 70 / LogL: -41573.373 / Time: 0h:0m:3s (0h:0m:3s left)
+Iteration 80 / LogL: -41573.312 / Time: 0h:0m:3s (0h:0m:3s left)
+Iteration 90 / LogL: -41573.176 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 100 / LogL: -41573.111 / Time: 0h:0m:4s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41609.084
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.965
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 110 / LogL: -41573.248 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 120 / LogL: -41572.943 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 130 / LogL: -41573.165 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 140 / LogL: -41590.052 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 150 / LogL: -41572.988 / Time: 0h:0m:7s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41609.084
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 152: -41567.830
+Iteration 160 / LogL: -41573.310 / Time: 0h:0m:8s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 166: -41567.829
+UPDATE BEST LOG-LIKELIHOOD: -41567.829
+Iteration 170 / LogL: -41573.021 / Time: 0h:0m:8s (0h:0m:4s left)
+Iteration 180 / LogL: -41567.832 / Time: 0h:0m:9s (0h:0m:4s left)
+Iteration 190 / LogL: -41571.747 / Time: 0h:0m:9s (0h:0m:3s left)
+Iteration 200 / LogL: -41567.860 / Time: 0h:0m:9s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41609.084
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.814
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 202: -41567.801
+Iteration 210 / LogL: -41583.365 / Time: 0h:0m:10s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 220: -41567.801
+Iteration 220 / LogL: -41567.801 / Time: 0h:0m:10s (0h:0m:4s left)
+Iteration 230 / LogL: -41568.107 / Time: 0h:0m:11s (0h:0m:4s left)
+Iteration 240 / LogL: -41567.836 / Time: 0h:0m:11s (0h:0m:3s left)
+Iteration 250 / LogL: -41568.048 / Time: 0h:0m:12s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -41609.084
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 260 / LogL: -41567.876 / Time: 0h:0m:13s (0h:0m:2s left)
+Iteration 270 / LogL: -41567.891 / Time: 0h:0m:13s (0h:0m:2s left)
+Iteration 280 / LogL: -41567.899 / Time: 0h:0m:14s (0h:0m:2s left)
+Iteration 290 / LogL: -41568.028 / Time: 0h:0m:14s (0h:0m:1s left)
+Iteration 300 / LogL: -41568.012 / Time: 0h:0m:15s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -41609.084
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.868
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 310 / LogL: -41568.064 / Time: 0h:0m:16s (0h:0m:4s left)
+Iteration 320 / LogL: -41567.802 / Time: 0h:0m:16s (0h:0m:4s left)
+Iteration 330 / LogL: -41568.059 / Time: 0h:0m:17s (0h:0m:3s left)
+Iteration 340 / LogL: -41567.929 / Time: 0h:0m:18s (0h:0m:3s left)
+Iteration 350 / LogL: -41568.069 / Time: 0h:0m:18s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -41609.084
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 360 / LogL: -41567.983 / Time: 0h:0m:19s (0h:0m:2s left)
+Iteration 370 / LogL: -41567.974 / Time: 0h:0m:20s (0h:0m:1s left)
+Iteration 380 / LogL: -41567.882 / Time: 0h:0m:20s (0h:0m:1s left)
+Iteration 390 / LogL: -41571.714 / Time: 0h:0m:21s (0h:0m:0s left)
+Iteration 400 / LogL: -41568.066 / Time: 0h:0m:21s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -41609.084
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.945
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 410 / LogL: -41567.989 / Time: 0h:0m:22s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 413: -41567.800
+Iteration 420 / LogL: -41567.994 / Time: 0h:0m:33s (0h:0m:7s left)
+BETTER TREE FOUND at iteration 422: -41567.800
+Iteration 430 / LogL: -41567.992 / Time: 0h:0m:40s (0h:0m:8s left)
+Iteration 440 / LogL: -41567.995 / Time: 0h:1m:14s (0h:0m:13s left)
+Iteration 450 / LogL: -41567.940 / Time: 0h:1m:25s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -41609.084
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 460 / LogL: -41568.009 / Time: 0h:1m:47s (0h:0m:14s left)
+Iteration 470 / LogL: -41567.967 / Time: 0h:2m:33s (0h:0m:16s left)
+Iteration 480 / LogL: -41567.900 / Time: 0h:2m:46s (0h:0m:14s left)
+BETTER TREE FOUND at iteration 483: -41567.800
+Iteration 490 / LogL: -41567.983 / Time: 0h:3m:1s (0h:0m:34s left)
+Iteration 500 / LogL: -41567.982 / Time: 0h:3m:19s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -41609.084
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.961
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 510 / LogL: -41568.056 / Time: 0h:3m:51s (0h:0m:40s left)
+BETTER TREE FOUND at iteration 519: -41567.792
+Iteration 520 / LogL: -41568.034 / Time: 0h:4m:1s (0h:0m:45s left)
+Iteration 530 / LogL: -41567.947 / Time: 0h:4m:5s (0h:0m:41s left)
+Iteration 540 / LogL: -41567.878 / Time: 0h:4m:12s (0h:0m:36s left)
+Iteration 550 / LogL: -41567.881 / Time: 0h:4m:17s (0h:0m:32s left)
+Log-likelihood cutoff on original alignment: -41609.405
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 560 / LogL: -41567.891 / Time: 0h:4m:22s (0h:0m:27s left)
+Iteration 570 / LogL: -41567.982 / Time: 0h:4m:25s (0h:0m:22s left)
+BETTER TREE FOUND at iteration 579: -41567.792
+Iteration 580 / LogL: -41567.903 / Time: 0h:4m:33s (0h:0m:46s left)
+Iteration 590 / LogL: -41568.124 / Time: 0h:4m:37s (0h:0m:41s left)
+Iteration 600 / LogL: -41567.982 / Time: 0h:4m:42s (0h:0m:37s left)
+Log-likelihood cutoff on original alignment: -41609.405
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.964
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 610 / LogL: -41567.989 / Time: 0h:4m:48s (0h:0m:42s left)
+Iteration 620 / LogL: -41567.895 / Time: 0h:4m:55s (0h:0m:38s left)
+Iteration 630 / LogL: -41567.792 / Time: 0h:5m:6s (0h:0m:34s left)
+Iteration 640 / LogL: -41567.792 / Time: 0h:5m:12s (0h:0m:29s left)
+Iteration 650 / LogL: -41578.352 / Time: 0h:5m:21s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -41609.084
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 660 / LogL: -41567.903 / Time: 0h:5m:27s (0h:0m:19s left)
+Iteration 670 / LogL: -41567.948 / Time: 0h:5m:30s (0h:0m:14s left)
+Iteration 680 / LogL: -41568.031 / Time: 0h:5m:34s (0h:0m:9s left)
+Iteration 690 / LogL: -41567.945 / Time: 0h:5m:38s (0h:0m:4s left)
+Iteration 700 / LogL: -41567.995 / Time: 0h:5m:41s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -41609.841
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+BETTER TREE FOUND at iteration 709: -41567.791
+Iteration 710 / LogL: -41567.875 / Time: 0h:5m:48s (0h:0m:48s left)
+Iteration 720 / LogL: -41567.967 / Time: 0h:5m:57s (0h:0m:44s left)
+Iteration 730 / LogL: -41568.029 / Time: 0h:6m:1s (0h:0m:39s left)
+BETTER TREE FOUND at iteration 737: -41567.790
+Iteration 740 / LogL: -41567.864 / Time: 0h:6m:6s (0h:0m:48s left)
+Iteration 750 / LogL: -41567.920 / Time: 0h:6m:9s (0h:0m:42s left)
+Log-likelihood cutoff on original alignment: -41609.841
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 760 / LogL: -41567.920 / Time: 0h:6m:14s (0h:0m:37s left)
+Iteration 770 / LogL: -41567.843 / Time: 0h:6m:17s (0h:0m:32s left)
+Iteration 780 / LogL: -41568.021 / Time: 0h:6m:25s (0h:0m:28s left)
+Iteration 790 / LogL: -41568.005 / Time: 0h:6m:29s (0h:0m:23s left)
+Iteration 800 / LogL: -41567.937 / Time: 0h:6m:34s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -41609.841
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+BETTER TREE FOUND at iteration 801: -41567.790
+Iteration 810 / LogL: -41567.875 / Time: 0h:6m:37s (0h:0m:44s left)
+Iteration 820 / LogL: -41567.881 / Time: 0h:6m:44s (0h:0m:39s left)
+Iteration 830 / LogL: -41567.901 / Time: 0h:6m:48s (0h:0m:34s left)
+Iteration 840 / LogL: -41567.927 / Time: 0h:6m:53s (0h:0m:30s left)
+Iteration 850 / LogL: -41567.898 / Time: 0h:6m:56s (0h:0m:25s left)
+Log-likelihood cutoff on original alignment: -41609.841
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 860 / LogL: -41567.898 / Time: 0h:7m:3s (0h:0m:20s left)
+Iteration 870 / LogL: -41572.674 / Time: 0h:7m:8s (0h:0m:15s left)
+Iteration 880 / LogL: -41568.032 / Time: 0h:7m:13s (0h:0m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 886: -41567.759
+Iteration 890 / LogL: -41567.809 / Time: 0h:7m:16s (0h:0m:47s left)
+Iteration 900 / LogL: -41568.118 / Time: 0h:7m:22s (0h:0m:42s left)
+Log-likelihood cutoff on original alignment: -41609.841
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.974
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 910 / LogL: -41567.854 / Time: 0h:7m:31s (0h:0m:44s left)
+Iteration 920 / LogL: -41567.907 / Time: 0h:7m:33s (0h:0m:39s left)
+Iteration 930 / LogL: -41567.897 / Time: 0h:7m:34s (0h:0m:34s left)
+Iteration 940 / LogL: -41567.863 / Time: 0h:7m:36s (0h:0m:29s left)
+Iteration 950 / LogL: -41567.891 / Time: 0h:7m:37s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -41609.841
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+Iteration 960 / LogL: -41568.055 / Time: 0h:7m:39s (0h:0m:19s left)
+Iteration 970 / LogL: -41567.932 / Time: 0h:7m:40s (0h:0m:14s left)
+Iteration 980 / LogL: -41567.888 / Time: 0h:7m:41s (0h:0m:9s left)
+Iteration 990 / LogL: -41567.833 / Time: 0h:7m:42s (0h:0m:4s left)
+Iteration 1000 / LogL: -41567.901 / Time: 0h:7m:43s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -41609.841
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 0h:7m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -41567.759
+2. Current log-likelihood: -41567.747
+3. Current log-likelihood: -41567.736
+4. Current log-likelihood: -41567.724
+5. Current log-likelihood: -41567.713
+6. Current log-likelihood: -41567.702
+7. Current log-likelihood: -41567.691
+8. Current log-likelihood: -41567.680
+9. Current log-likelihood: -41567.669
+10. Current log-likelihood: -41567.659
+11. Current log-likelihood: -41567.648
+12. Current log-likelihood: -41567.638
+13. Current log-likelihood: -41567.628
+Optimal log-likelihood: -41567.618
+Rate parameters:  A-C: 1.00000  A-G: 16.51973  A-T: 1.00000  C-G: 1.00000  C-T: 16.51973  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.202  G: 0.209  T: 0.326
+Proportion of invariable sites: 0.995
+Parameters optimization took 13 rounds (0.029 sec)
+BEST SCORE FOUND : -41567.618
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.053 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/mers_korea_2015/mers_korea_2015_ml.splits.nex
+Total tree length: 0.001
+
+Total number of iterations: 1001
+CPU time used for tree search: 906.971 sec (0h:15m:6s)
+Wall-clock time used for tree search: 463.876 sec (0h:7m:43s)
+Total CPU time used: 908.822 sec (0h:15m:8s)
+Total wall-clock time used: 464.476 sec (0h:7m:44s)
+UFBoot trees printed to results/mers_korea_2015/mers_korea_2015_ml.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/mers_korea_2015/mers_korea_2015_ml.splits.nex...
+32 taxa and 912 splits.
+Consensus tree written to results/mers_korea_2015/mers_korea_2015_ml.contree
+Reading input trees file results/mers_korea_2015/mers_korea_2015_ml.contree
+Log-likelihood of consensus tree: -41568.758
+
+Analysis results written to: 
+  IQ-TREE report:                results/mers_korea_2015/mers_korea_2015_ml.iqtree
+  Maximum-likelihood tree:       results/mers_korea_2015/mers_korea_2015_ml.treefile
+  Likelihood distances:          results/mers_korea_2015/mers_korea_2015_ml.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/mers_korea_2015/mers_korea_2015_ml.splits.nex
+  Consensus tree:                results/mers_korea_2015/mers_korea_2015_ml.contree
+  UFBoot trees:                  results/mers_korea_2015/mers_korea_2015_ml.ufboot
+  Screen log file:               results/mers_korea_2015/mers_korea_2015_ml.log
+
+Date and Time: Wed Sep  9 00:32:43 2026

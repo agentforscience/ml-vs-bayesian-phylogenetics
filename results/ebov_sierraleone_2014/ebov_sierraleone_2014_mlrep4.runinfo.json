@@ -1,0 +1,19 @@
+{
+ "dataset": "ebov_sierraleone_2014",
+ "seconds": 18.7,
+ "cmd": [
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/code/bin/iqtree2",
+  "-s",
+  "/workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/ebov_sierraleone_2014/analysis.fasta",
+  "-m",
+  "MFP",
+  "--prefix",
+  "results/ebov_sierraleone_2014/ebov_sierraleone_2014_mlrep4",
+  "-T",
+  "2",
+  "-redo",
+  "--quiet",
+  "-seed",
+  "31337"
+ ]
+}

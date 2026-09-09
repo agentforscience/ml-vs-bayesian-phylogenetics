@@ -1,0 +1,307 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/fmdv_uk_2001/analysis.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 43 sequences with 8196 nucleotide sites
+Number of constant sites: 7928 (= 96.7301% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7928 (= 96.7301% of all sites)
+Number of parsimony informative sites: 93
+Number of distinct site patterns: 181
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.5816
+  A-G: 18.0190
+  A-T: 2.3040
+  C-G: 1.5167
+  C-T: 37.7831
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2475
+  pi(C) = 0.2792
+  pi(G) = 0.2579
+  pi(T) = 0.2154
+
+Rate matrix Q:
+
+  A    -0.731   0.05781    0.6082   0.06497
+  C   0.05124    -1.168   0.05119     1.065
+  G    0.5838   0.05544   -0.6674    0.0282
+  T   0.07465     1.381   0.03375     -1.49
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.5375
+Gamma shape alpha: 41.83
+
+ Category  Relative_rate  Proportion
+  0         0              0.5375
+  1         1.753          0.1156
+  2         2.039          0.1156
+  3         2.256          0.1156
+  4         2.601          0.1156
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13631.0565 (s.e. 125.6641)
+Unconstrained log-likelihood (without tree): -13782.6103
+Number of free parameters (#branches + #model parameters): 93
+Akaike information criterion (AIC) score: 27448.1129
+Corrected Akaike information criterion (AICc) score: 27450.2709
+Bayesian information criterion (BIC) score: 28100.1733
+
+Total tree length (sum of branch lengths): 0.0342
+Sum of internal branch lengths: 0.0113 (32.9652% of tree length)
+
+WARNING: 18 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DQ404180' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--DQ404180
+|
+|           +--DQ404177
+|        +**| (0/86)
+|        |  +--DQ404178
+|     +--| (75/89)
+|     |  +**DQ404179
+|  +**| (0/36)
+|  |  |           +--DQ404175
+|  |  |        +**| (0/36)
+|  |  |        |  +----DQ404171
+|  |  |     +**| (0/23)
+|  |  |     |  |           +**DQ404173
+|  |  |     |  |        +--| (93.4/98)
+|  |  |     |  |        |  |  +--DQ404172
+|  |  |     |  |        |  +**| (77.1/85)
+|  |  |     |  |        |     +------------------------------------DQ404163
+|  |  |     |  |     +**| (0/41)
+|  |  |     |  |     |  |           +--EF552693
+|  |  |     |  |     |  |        +--| (90.7/99)
+|  |  |     |  |     |  |        |  |      +--KM257064
+|  |  |     |  |     |  |        |  |  +---| (96.2/100)
+|  |  |     |  |     |  |        |  |  |   +-----EF552692
+|  |  |     |  |     |  |        |  +**| (0/68)
+|  |  |     |  |     |  |        |     |  +--DQ404170
+|  |  |     |  |     |  |        |     +--| (75.4/79)
+|  |  |     |  |     |  |        |        |       +**DQ404167
+|  |  |     |  |     |  |        |        +-------| (99.8/100)
+|  |  |     |  |     |  |        |                |  +**DQ404166
+|  |  |     |  |     |  |        |                +--| (91.1/97)
+|  |  |     |  |     |  |        |                   +--DQ404165
+|  |  |     |  |     |  |     +**| (0/53)
+|  |  |     |  |     |  |     |  |     +-------EF552697
+|  |  |     |  |     |  |     |  |  +**| (0/24)
+|  |  |     |  |     |  |     |  |  |  +-----EU214601
+|  |  |     |  |     |  |     |  +--| (85.3/92)
+|  |  |     |  |     |  |     |     |       +**DQ404169
+|  |  |     |  |     |  |     |     |  +----| (98.7/100)
+|  |  |     |  |     |  |     |     |  |    +--EF552690
+|  |  |     |  |     |  |     |     +**| (0/27)
+|  |  |     |  |     |  |     |        |     +--EF552691
+|  |  |     |  |     |  |     |        +-----| (99.4/100)
+|  |  |     |  |     |  |     |              +**EF552695
+|  |  |     |  |     |  |  +--| (88/92)
+|  |  |     |  |     |  |  |  +---EF552689
+|  |  |     |  |     |  +--| (86.4/92)
+|  |  |     |  |     |     |      +--DQ404168
+|  |  |     |  |     |     |  +---| (95.4/98)
+|  |  |     |  |     |     |  |   +------------------------DQ404162
+|  |  |     |  |     |     +--| (90.7/95)
+|  |  |     |  |     |        |                  +---------DQ404161
+|  |  |     |  |     |        +------------------| (100/100)
+|  |  |     |  |     |                           |              +-----DQ404160
+|  |  |     |  |     |                           +--------------| (99.4/100)
+|  |  |     |  |     |                                          |      +**KM257065
+|  |  |     |  |     |                                          |  +---| (97.4/100)
+|  |  |     |  |     |                                          |  |   +--DQ404159
+|  |  |     |  |     |                                          +**| (0/87)
+|  |  |     |  |     |                                             +---------------DQ404158
+|  |  |     |  |  +**| (0/30)
+|  |  |     |  |  |  |     +--KM257061
+|  |  |     |  |  |  |  +**| (0/50)
+|  |  |     |  |  |  |  |  +**FJ542365
+|  |  |     |  |  |  +--| (92.5/87)
+|  |  |     |  |  |     |     +--FJ542369
+|  |  |     |  |  |     |  +--| (90.2/93)
+|  |  |     |  |  |     |  |  +--FJ542372
+|  |  |     |  |  |     +**| (0/50)
+|  |  |     |  |  |        +-------FJ542371
+|  |  |     |  +**| (0/8)
+|  |  |     |     |  +--DQ404174
+|  |  |     |     +**| (0/40)
+|  |  |     |        +---KM257063
+|  |  |  +--| (78.4/85)
+|  |  |  |  +-----------------------DQ404164
+|  |  +--| (88.8/93)
+|  |     +---KM257062
++**| (0/41)
+|  |  +--DQ404176
+|  +**| (0/54)
+|     |         +**EF552688
+|     +---------| (99.9/100)
+|               +----EF552696
+|
++---FJ542370
+
+Tree in newick format:
+
+(DQ404180:0.0001220126,((((DQ404177:0.0002440457,DQ404178:0.0001220126)0/86:0.0000009999,DQ404179:0.0000009999)75/89:0.0001220126,((((DQ404175:0.0001220126,DQ404171:0.0006102671)0/36:0.0000009999,((((DQ404173:0.0000009999,(DQ404172:0.0002460381,DQ404163:0.0039422117)77.1/85:0.0001202114)93.4/98:0.0002440456,((((EF552693:0.0001220126,((KM257064:0.0003677566,EF552692:0.0007340511)96.2/100:0.0004881729,(DQ404170:0.0003660991,(DQ404167:0.0000009999,(DQ404166:0.0000009999,DQ404165:0.0002440457)91.1/97:0.0002440456)99.8/100:0.0008565612)75.4/79:0.0001220126)0/68:0.0000009999)90.7/99:0.0002440456,((EF552697:0.0008555528,EU214601:0.0007323817)0/24:0.0000009999,((DQ404169:0.0000009999,EF552690:0.0001220126)98.7/100:0.0006102671,(EF552691:0.0002440457,EF552695:0.0000009999)99.4/100:0.0007334555)0/27:0.0000009999)85.3/92:0.0001220126)0/53:0.0000009999,EF552689:0.0004881729)88/92:0.0002440456,((DQ404168:0.0003660991,DQ404162:0.0027099580)95.4/98:0.0004908010,(DQ404161:0.0011067321,(DQ404160:0.0007335872,((KM257065:0.0000009999,DQ404159:0.0001220126)97.4/100:0.0005024171,DQ404158:0.0017170673)0/87:0.0000009999)99.4/100:0.0016426239)100/100:0.0020294490)90.7/95:0.0003660990)86.4/92:0.0002440456)0/41:0.0000009999,((KM257061:0.0001220126,FJ542365:0.0000009999)0/50:0.0000009999,((FJ542369:0.0001220126,FJ542372:0.0002440457)90.2/93:0.0002440456,FJ542371:0.0008545168)0/50:0.0000009999)92.5/87:0.0001220126)0/30:0.0000009999,(DQ404174:0.0002440457,KM257063:0.0004881729)0/40:0.0000009999)0/8:0.0000009999)0/23:0.0000009999,DQ404164:0.0025786360)78.4/85:0.0001220126,KM257062:0.0004894813)88.8/93:0.0002440456)0/36:0.0000009999,(DQ404176:0.0001220126,(EF552688:0.0001208613,EF552696:0.0006118601)99.9/100:0.0011026639)0/54:0.0000009999)0/41:0.0000009999,FJ542370:0.0004881729);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13631.442249
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--DQ404180
+|
+|           +--DQ404177
+|        +--| (86)
+|        |  +--DQ404178
+|     +--| (89)
+|     |  +--DQ404179
+|  +--| (36)
+|  |  |        +--DQ404175
+|  |  |     +--| (42)
+|  |  |     |  +-----------------------DQ404164
+|  |  |  +--| (85)
+|  |  |  |  |              +--DQ404173
+|  |  |  |  |           +--| (98)
+|  |  |  |  |           |  |  +--DQ404172
+|  |  |  |  |           |  +--| (85)
+|  |  |  |  |           |     +------------------------------------DQ404163
+|  |  |  |  |        +--| (41)
+|  |  |  |  |        |  |           +--EF552693
+|  |  |  |  |        |  |        +--| (99)
+|  |  |  |  |        |  |        |  |      +--KM257064
+|  |  |  |  |        |  |        |  |  +---| (100)
+|  |  |  |  |        |  |        |  |  |   +-----EF552692
+|  |  |  |  |        |  |        |  +--| (68)
+|  |  |  |  |        |  |        |     |  +--DQ404170
+|  |  |  |  |        |  |        |     +--| (79)
+|  |  |  |  |        |  |        |        |       +--DQ404167
+|  |  |  |  |        |  |        |        +-------| (100)
+|  |  |  |  |        |  |        |                |  +--DQ404166
+|  |  |  |  |        |  |        |                +--| (97)
+|  |  |  |  |        |  |        |                   +--DQ404165
+|  |  |  |  |        |  |     +--| (53)
+|  |  |  |  |        |  |     |  |     +-------EF552697
+|  |  |  |  |        |  |     |  |  +--| (28)
+|  |  |  |  |        |  |     |  |  |  |     +--EF552691
+|  |  |  |  |        |  |     |  |  |  +-----| (100)
+|  |  |  |  |        |  |     |  |  |        +--EF552695
+|  |  |  |  |        |  |     |  +--| (92)
+|  |  |  |  |        |  |     |     |       +--DQ404169
+|  |  |  |  |        |  |     |     |  +----| (100)
+|  |  |  |  |        |  |     |     |  |    +--EF552690
+|  |  |  |  |        |  |     |     +--| (38)
+|  |  |  |  |        |  |     |        +-----EU214601
+|  |  |  |  |        |  |  +--| (92)
+|  |  |  |  |        |  |  |  +---EF552689
+|  |  |  |  |        |  +--| (92)
+|  |  |  |  |        |     |      +--DQ404168
+|  |  |  |  |        |     |  +---| (98)
+|  |  |  |  |        |     |  |   +------------------------DQ404162
+|  |  |  |  |        |     +--| (95)
+|  |  |  |  |        |        |                  +---------DQ404161
+|  |  |  |  |        |        +------------------| (100)
+|  |  |  |  |        |                           |              +-----DQ404160
+|  |  |  |  |        |                           +--------------| (100)
+|  |  |  |  |        |                                          |      +--KM257065
+|  |  |  |  |        |                                          |  +---| (100)
+|  |  |  |  |        |                                          |  |   +--DQ404159
+|  |  |  |  |        |                                          +--| (87)
+|  |  |  |  |        |                                             +---------------DQ404158
+|  |  |  |  |     +--| (30)
+|  |  |  |  |     |  |     +--KM257061
+|  |  |  |  |     |  |  +--| (50)
+|  |  |  |  |     |  |  |  +--FJ542365
+|  |  |  |  |     |  +--| (87)
+|  |  |  |  |     |     |     +--FJ542369
+|  |  |  |  |     |     |  +--| (93)
+|  |  |  |  |     |     |  |  +--FJ542372
+|  |  |  |  |     |     +--| (50)
+|  |  |  |  |     |        +-------FJ542371
+|  |  |  |  |  +--| (12)
+|  |  |  |  |  |  +----DQ404171
+|  |  |  |  +--| (22)
+|  |  |  |     |  +--DQ404174
+|  |  |  |     +--| (40)
+|  |  |  |        +---KM257063
+|  |  +--| (93)
+|  |     +---KM257062
++--| (41)
+|  |  +--DQ404176
+|  +--| (54)
+|     |         +--EF552688
+|     +---------| (100)
+|               +----EF552696
+|
++---FJ542370
+
+
+Consensus tree in newick format: 
+
+(DQ404180:0.0001220209,((((DQ404177:0.0002440622,DQ404178:0.0001220209)86:0.0000028910,DQ404179:0.0000028910)89:0.0001220209,(((DQ404175:0.0001220209,DQ404164:0.0025791211)42:0.0000028910,(((((DQ404173:0.0000028910,(DQ404172:0.0002465974,DQ404163:0.0039431044)85:0.0001205050)98:0.0002440622,((((EF552693:0.0001220209,((KM257064:0.0003678827,EF552692:0.0007342960)100:0.0004891676,(DQ404170:0.0003671317,(DQ404167:0.0000028910,(DQ404166:0.0000028910,DQ404165:0.0002451073)97:0.0002440622)100:0.0008568650)79:0.0001220209)68:0.0000028910)99:0.0002450762,((EF552697:0.0008558319,(EF552691:0.0002440622,EF552695:0.0000028910)100:0.0007336926)28:0.0000028910,((DQ404169:0.0000028910,EF552690:0.0001220209)100:0.0006110210,EU214601:0.0007334165)38:0.0000028910)92:0.0001220209)53:0.0000028910,EF552689:0.0004887465)92:0.0002440622,((DQ404168:0.0003668775,DQ404162:0.0027108772)98:0.0004909196,(DQ404161:0.0011069774,(DQ404160:0.0007337597,((KM257065:0.0000028910,DQ404159:0.0001220209)100:0.0005029057,DQ404158:0.0017175156)87:0.0000028910)100:0.0016437581)100:0.0020288984)95:0.0003661240)92:0.0002440622)41:0.0000028910,((KM257061:0.0001220209,FJ542365:0.0000028910)50:0.0000028910,((FJ542369:0.0001220209,FJ542372:0.0002440622)93:0.0002440622,FJ542371:0.0008554599)50:0.0000028910)87:0.0001220209)30:0.0000028910,DQ404171:0.0006116001)12:0.0000028910,(DQ404174:0.0002440622,KM257063:0.0004895720)40:0.0000028910)22:0.0000028910)85:0.0001220209,KM257062:0.0004899552)93:0.0002440622)36:0.0000028910,(DQ404176:0.0001220209,(EF552688:0.0001208875,EF552696:0.0006119926)100:0.0011029093)54:0.0000028910)41:0.0000028910,FJ542370:0.0004882061);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/fmdv_uk_2001/fmdv_uk_2001_mlgtr.treefile -m "GTR{1.58157,18.019,2.30397,1.51668,37.7831}+F{0.247499,0.279237,0.257851,0.215414}+I{0.537531}+G4{41.8285}" --length 8196
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/fmdv_uk_2001/analysis.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /workspaces/maximum_likelihood_vs_bayesian_20260908_230005_3f2f2099/datasets/fmdv_uk_2001/analysis.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep  9 00:42:13 2026
+Total CPU time used: 15.633824 seconds (0h:0m:15s)
+Total wall-clock time used: 9.348177474 seconds (0h:0m:9s)
+
